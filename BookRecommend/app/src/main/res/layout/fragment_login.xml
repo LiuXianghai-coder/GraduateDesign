@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.login.LoginFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="20"
+            android:orientation="vertical"
+            tools:ignore="UselessLeaf">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="5"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:orientation="horizontal"
+                android:weightSum="5"
+                android:layout_margin="4dp"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:id="@+id/loginAccountHint"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.5"
+                    android:text="@string/login_account"
+                    android:gravity="center"
+                    android:theme="@style/LoginTextHintStyle"
+                    tools:ignore="NestedWeights" />
+
+                <EditText
+                    android:id="@+id/loginAccount"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3.5"
+                    android:hint="@string/email_phone_string"
+                    android:importantForAutofill="no"
+                    android:theme="@style/LoginEditTextStyle"
+                    android:inputType="text" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:orientation="horizontal"
+                android:weightSum="5"
+                android:layout_margin="4dp">
+
+                <TextView
+                    android:id="@+id/loginPasswordHint"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.5"
+                    android:text="@string/login_password_string"
+                    android:gravity="center"
+                    android:theme="@style/LoginTextHintStyle"
+                    tools:ignore="NestedWeights" />
+
+                <EditText
+                    android:id="@+id/loginPassword"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3.5"
+                    android:importantForAutofill="no"
+                    android:theme="@style/LoginEditTextStyle"
+                    android:inputType="textPassword"
+                    tools:ignore="LabelFor" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2.5"
+                android:weightSum="10"
+                android:layout_marginTop="16dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.5"
+                    tools:ignore="NestedWeights" />
+
+                <Button
+                    android:id="@+id/loginButton"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3.5"
+                    android:theme="@style/LoginButtonStyle"
+                    android:text="@string/login_string"
+                    android:layout_marginEnd="8dp"/>
+
+                <Button
+                    android:id="@+id/registerButton"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3.5"
+                    android:text="@string/register_string"
+                    android:theme="@style/LoginButtonStyle"
+                    android:layout_marginStart="8dp"/>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.5"
+                    tools:ignore="NestedWeights" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/verifyCodeButton"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="4"
+                android:text="@string/verify_code_login_string"
+                android:layout_margin="4dp"
+                style="@style/LoginButtonColorLess">
+            </Button>
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

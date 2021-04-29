@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.login.RegisterFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="20"
+            android:orientation="vertical"
+            tools:ignore="UselessLeaf">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="6"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:orientation="horizontal"
+                android:weightSum="5"
+                android:layout_margin="4dp"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:id="@+id/registerAccountHint"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.5"
+                    android:text="@string/login_account"
+                    android:gravity="center"
+                    android:theme="@style/LoginTextHintStyle"
+                    tools:ignore="NestedWeights" />
+
+                <EditText
+                    android:id="@+id/registerAccount"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3.5"
+                    android:hint="@string/email_phone_string"
+                    android:importantForAutofill="no"
+                    android:theme="@style/LoginEditTextStyle"
+                    android:inputType="text" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:orientation="horizontal"
+                android:weightSum="5"
+                android:layout_margin="4dp">
+
+                <TextView
+                    android:id="@+id/registerCodeHint"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.5"
+                    android:text="@string/verify_code_string"
+                    android:gravity="center"
+                    android:theme="@style/LoginTextHintStyle"
+                    tools:ignore="NestedWeights" />
+
+                <EditText
+                    android:id="@+id/registerCode"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.8"
+                    android:importantForAutofill="no"
+                    android:theme="@style/LoginEditTextStyle"
+                    android:inputType="number"
+                    tools:ignore="LabelFor" />
+
+                <Button
+                    android:id="@+id/sendCodeButton"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.7"
+                    android:textSize="16sp"
+                    android:text="@string/get_code_string"
+                    style="@style/LoginButtonColorLess"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2.5"
+                android:weightSum="10"
+                android:layout_marginTop="16dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    tools:ignore="NestedWeights" />
+
+                <Button
+                    android:id="@+id/registerButton"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:text="@string/register_string"
+                    android:theme="@style/LoginButtonStyle" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    tools:ignore="NestedWeights" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

@@ -1,0 +1,255 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:postgresql://39.99.129.90:5432/recommend_system
+    username: postgres
+    password: 17358870357yi
+    driver-class-name: org.postgresql.Driver
+#    配置 Kafka 的基本属性
+  kafka:
+    bootstrap-servers:
+      -
+        127.0.0.1:9092
+#    生产者的键和值的序列化对象
+    producer:
+      key-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+#    消费者的键和值的反序列化对象
+    consumer:
+      key-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
+      value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
+      group-id: test-consumer-group
+#      默认的主题名称
+    template:
+      default-topic: graduate
+
+
+# 数据文件的配置信息
+myData:
+  path: /var/tmp/
+#  写入文件的缓冲区大小
+  bufferSize: 4096
+  elementsFileName: "elements"
+  tempFileName: "temp.txt"
+#  存储第一次请求得到的DOM内容， 以及经过浏览器解析得到的 Dom 内容
+  htmlFileName: "data.html"
+#  嵌入第一次解析到的 DOM 的 JS 脚本文件
+  scriptFileName: "script.js"
+  charsetName: "UTF-8"
+
+myConfiguration:
+  securityHttpProtocol: "https"
+  defaultHttpProtocol: "http:"
+  httpPrefixRegex: "^http[s]?:"
+  hrefRegex: "^http[s]?://[^.]+.[^.]+.[^/]+.+"
+  fileProtocolPrefix: "file://"
+  fileProtocolRegex: "^file://.+"
+#  匹配那些没有协议前缀的 URL
+  urlRegex: "//[^.]+.[^.]+.[a-z|A-Z]+"
+#  note: 确保设置了对应的浏览器程序的环境变量
+  browser: "chrome"
+  trustableRemoteAddr:
+    - 127.0.0.1
+    - 192.168.0.104
+
+# 出版社
+publisher:
+  pageSize: 20
+
+getdata:
+    platformList:
+      - platform:
+        platformid: 1
+        name: "京东"
+        urls:
+          -
+            https://search.jd.com/Search?keyword=
+        keyWord: "出版社"
+        bookDetail:
+          useReplaceFlag: true
+          httpProtocol: "https:"
+          urlRegex: "//"
+#          书籍的ISBN信息，我很想知道为什么会有非 978 开头的国内的书籍？？？？ 这种书还是不要了
+          isbn:
+            isbnRegex: "(978\\d+)"
+            useRegex: true
+            tags:
+              -
+                priority: 1
+                selectName: "div@class=p-parameter"
+              -
+                priority: 2
+                selectName: "li"
+#          书籍的书名信息
+          bookName:
+            bookNameRegex: ""
+            useRegex: false
+            tags:
+              -
+                priority: 1
+                selectName: "div@id=name"
+              -
+                priority: 2
+                selectName: "div@class=sku-name"
+          bookIntro:
+            introRegex: ""
+            useRegex: false
+            tags:
+              -
+                priority: 1
+                selectName: "div@id=detail-tag-id-3"
+              -
+                priority: 2
+                selectName: "div@class=item-mc"
+              -
+                priority: 3
+                selectName: "div@class=book-detail-content"
+          bookImage:
+            useRegex: true
+            urlRegex: "\"(https://[^\"]+)\""
+            tags:
+              -
+                priority: 1
+                selectName: "div@id=product-intro"
+              -
+                priority: 2
+                selectName: "div@class=preview"
+              -
+                priority: 3
+                selectName: "div@id=spec-n1"
+              -
+                priority: 4
+                selectName: "img"
+          bookKind:
+            bookKindRegex: ""
+            useRegex: false
+            tags:
+              - priority: 1
+                selectName: "div@class=crumb-wrap"
+              -
+                priority: 2
+                selectName: "div@class=w"
+              -
+                priority: 3
+                selectName: "div@class=crumb fl clearfix"
+              -
+                priority: 4
+                selectName: "div@class=item"
+              -
+                priority: 5
+                selectName: "a"
+          authorName:
+            useRegex: false
+            authorRegex: ""
+            tags:
+              - priority: 1
+                selectName: "div@id=p-author"
+              - priority: 2
+                selectName: "a"
+          authorIntro:
+            useRegex: false
+            authorIntroRegex: ""
+            tags:
+              - priority: 1
+                selectName: "div@id=detail-tag-id-4"
+              - priority: 2
+                selectName: "div@class=item-mc"
+              - priority: 3
+                selectName: "div@class=book-detail-content"
+              - priority: 4
+                selectName: "p"
+          bookChapterTag:
+            useRegex: false
+            bookChapterRegex: ""
+            tags:
+              -
+                priority: 1
+                selectName: "div@id=detail-tag-id-6"
+              -
+                priority: 2
+                selectName: "div@class=item-mc"
+              -
+                priority: 3
+                selectName: "div@class=book-detail-content"
+          publisherName:
+            bookNameRegex: ""
+            useRegex: true
+            tags:
+              - priority: 1
+                selectName: "div@class=p-parameter"
+              - priority: 2
+                selectName: "li"
+          publisherDate:
+            publisherDateRegex: ""
+            useRegex: true
+            tags:
+              - priority: 1
+                selectName: "div@class=p-parameter"
+              - priority: 2
+                selectName: "li"
+#        根据得到的出版社查找对应的出版社图书
+        bookList:
+          nextPageStrategy: Page
+          maxPageTags:
+            -
+              priority: 1
+              selectName: "div@id=J_searchWrap"
+            -
+              priority: 2
+              selectName: "div@id=J_container"
+            -
+              priority: 3
+              selectName: "div@id=J_main"
+            -
+              priority: 4
+              selectName: "div@id=J_topPage"
+            -
+              priority: 5
+              selectName: "span@class=fp-text"
+            -
+              priority: 6
+              selectName: "i"
+          tags:
+            -
+              priority: 1
+              selectName: "div@class=w"
+            -
+              priority: 2
+              selectName: "div@class=container"
+            -
+              priority: 3
+              selectName: "div@class=g-main2"
+            -
+              priority: 4
+              selectName: "div@class=goods-list-v2 gl-type-4 J-goods-list"
+            -
+              priotity: 5
+              selectName: "ul@class=gl-warp clearfix"
+            -
+              priority: 6
+              selectName: "div@class=p-img"
+            -
+              priotity: 7
+              selectName: "a"
+#       第一次查找出版社信息的标签选择顺序
+        tags:
+          -
+            priority : 1
+            selectName : "div@class=J_selectorLine s-line"
+          -
+            priority: 2
+            selectName: "div@class=sl-wrap"
+          -
+            priority: 3
+            selectName: "div@class=sl-value"
+          -
+            priority: 4
+            selectName: "div@class=sl-v-list"
+          -
+            priority: 5
+            selectName: "ul@class=J_valueList"
+          -
+            priority: 6
+            selectName: "a@href~=search.*"

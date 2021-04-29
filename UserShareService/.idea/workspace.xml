@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="edeafa42-2e3b-437c-8ada-a3c3987aacf4" name="Default Changelist" comment="2021/3/22">
+      <change afterPath="$PROJECT_DIR$/../user_service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BookService" beforeDir="false" afterPath="$PROJECT_DIR$/../BookService" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ElasticSearchService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ElasticSearchService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ElasticSearchService/src/main/java/org/graduate/elastic_search_service/controller/BookSearchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ElasticSearchService/src/main/java/org/graduate/elastic_search_service/controller/BookSearchController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ElasticSearchService/target/classes/org/graduate/elastic_search_service/controller/BookSearchController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ElasticSearchService/target/classes/org/graduate/elastic_search_service/controller/BookSearchController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user_service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../user_service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user_service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../user_service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="recommend_system@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1orTODDAmDiLfcgG6b3RqLuTzbA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="JPA.DatabaseSchemaImportDialog" value="31152032-7e87-4fb2-b5c7-40ec319005ac" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="ToolWindowDatabase Changes.ShowToolbar" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="E:/Android" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last.edited.regexp" value="src=&quot;http://www.baidu.com&quot;" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/org/graduate/usershare/entity" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/org/graduate/usershare/entity" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.graduate.usershare.tools" />
+      <recent name="org.graduate.usershare.component" />
+      <recent name="org.graduate.usershare.controller" />
+    </key>
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="org.graduate.usershare.data" />
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:9040" />
+          <option name="urlPath" value="/shareContent/saveUserShareContent" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{   &quot;userId&quot; : 1900327840,   &quot;shareContent&quot; : &quot; Hello World!&lt;br&gt;&lt;br&gt;1 + 1 = 1, 2 + 2 &amp;gt; 3; 4 * 4 &amp;lt; 3;&lt;br&gt;&lt;br&gt;&lt;img src=\&quot;http://39.99.129.90:9050/file/JPEG_20210309_093136_8986407165612973472.jpg?userId=1900327840\&quot; alt=\&quot;Image\&quot; width=\&quot;320\&quot;&gt;&lt;br&gt;&lt;br&gt;I can swallow glass&quot; }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:9040" />
+          <option name="urlPath" value="/shareContent/saveUserShareContent" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{   &quot;userId&quot; : 1900327840,   &quot;shareContent&quot; : &quot;Hello World!&quot; }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:9040" />
+          <option name="urlPath" value="/shareContent/saveShareContent" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{   &quot;userId&quot; : 1900327840,   &quot;shareContent&quot; : &quot;Hello World!&quot; }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:9040" />
+          <option name="urlPath" value="/userShare/createShare" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="123456" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="[ {   &quot;contentId&quot; : 1,   &quot;contentType&quot; : 1,   &quot;fontSize&quot; : 2,   &quot;fontKind&quot; : 1,   &quot;content&quot; : &quot;Hello World&quot; }, {   &quot;contentId&quot; : 2,   &quot;contentType&quot; : 2,   &quot;fontSize&quot; : 3,   &quot;fontKind&quot; : 2,   &quot;content&quot; : &quot;Good Better&quot; } ]" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:9040" />
+          <option name="urlPath" value="/createShare" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="123456" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="[ {   &quot;contentId&quot; : 1,   &quot;contentType&quot; : 1,   &quot;fontSize&quot; : 2,   &quot;fontKind&quot; : 1,   &quot;content&quot; : &quot;Hello World&quot; }, {   &quot;contentId&quot; : 2,   &quot;contentType&quot; : 2,   &quot;fontSize&quot; : 3,   &quot;fontKind&quot; : 2,   &quot;content&quot; : &quot;Good Better&quot; } ]" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:9040" />
+          <option name="urlPath" value="/createShare" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="123456" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="[ {   &quot;contentId&quot; : 1,   &quot;contentType&quot; : 1,   &quot;fontSize&quot; : 2,   &quot;fontKind&quot; : 1,   &quot;content&quot; : &quot;Hello World&quot; }, {   &quot;contentId&quot; : 2,   &quot;contentType&quot; : 2,   &quot;fontSize&quot; : 3,   &quot;fontKind&quot; : 2,   &quot;content&quot; : &quot;Good Better&quot; } ]" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.UsershareApplication">
+    <configuration name="ShareContentController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.graduate.usershare.controller.ShareContentController" />
+      <module name="usershare" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.graduate.usershare.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsershareApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="usershare" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.graduate.usershare.UsershareApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ShareContentController" />
+      <item itemvalue="Spring Boot.UsershareApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ShareContentController" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:recommend_system@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:recommend_system@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@7b0692b5" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="edeafa42-2e3b-437c-8ada-a3c3987aacf4" name="Default Changelist" comment="" />
+      <created>1614043676478</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614043676478</updated>
+      <workItem from="1614043681535" duration="4991000" />
+      <workItem from="1614058560959" duration="1453000" />
+      <workItem from="1614060227075" duration="7883000" />
+      <workItem from="1614131076265" duration="8519000" />
+      <workItem from="1614482972872" duration="1268000" />
+      <workItem from="1615258125287" duration="4192000" />
+      <workItem from="1615265493215" duration="16218000" />
+      <workItem from="1615646716482" duration="2712000" />
+      <workItem from="1616160163988" duration="7903000" />
+      <workItem from="1616225093338" duration="1730000" />
+      <workItem from="1616309110636" duration="3224000" />
+      <workItem from="1616325768692" duration="1155000" />
+      <workItem from="1616461696054" duration="1355000" />
+      <workItem from="1616463150039" duration="2627000" />
+      <workItem from="1616910129076" duration="1552000" />
+      <workItem from="1617624290305" duration="4019000" />
+      <workItem from="1619232336875" duration="526000" />
+      <workItem from="1619530849632" duration="1445000" />
+      <workItem from="1619595869923" duration="439000" />
+      <workItem from="1619598635546" duration="1441000" />
+      <workItem from="1619619682372" duration="2662000" />
+      <workItem from="1619672683893" duration="333000" />
+    </task>
+    <task id="LOCAL-00001" summary="2021/3/9">
+      <created>1615281632888</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1615281632888</updated>
+    </task>
+    <task id="LOCAL-00002" summary="2021/3/20">
+      <created>1616198187264</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1616198187264</updated>
+    </task>
+    <task id="LOCAL-00003" summary="2021/3/20">
+      <created>1616206776192</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1616206776192</updated>
+    </task>
+    <task id="LOCAL-00004" summary="2021/3/20">
+      <created>1616225668240</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1616225668240</updated>
+    </task>
+    <task id="LOCAL-00005" summary="2021/3/22">
+      <created>1616462968111</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1616462968111</updated>
+    </task>
+    <task id="LOCAL-00006" summary="2021/3/22">
+      <created>1616465542182</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1616465542182</updated>
+    </task>
+    <task id="LOCAL-00007" summary="2021/3/22">
+      <created>1619532227757</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1619532227757</updated>
+    </task>
+    <task id="LOCAL-00008" summary="2021/3/22">
+      <created>1619596301188</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1619596301188</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2021/3/9" />
+    <MESSAGE value="2021/3/20" />
+    <MESSAGE value="2021/3/22" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021/3/22" />
+  </component>
+</project>

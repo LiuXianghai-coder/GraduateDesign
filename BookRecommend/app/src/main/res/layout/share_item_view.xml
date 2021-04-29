@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="shareEntity"
+            type="com.example.bookrecommend.pojo.ShareEntity" />
+
+        <variable
+            name="userShareClick"
+            type="com.example.bookrecommend.item.UserShareClick" />
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:onClick="@{()-> userShareClick.userShareClick(shareEntity)}"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="10"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/shareImage"
+                android:layout_width="0dp"
+                android:layout_weight="4"
+                android:layout_height="120dp"
+                android:contentDescription="@string/user_share_string"
+                app:srcCompat="@drawable/ic_head_image" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="6"
+                android:weightSum="5"
+                android:layout_marginStart="4dp"
+                tools:ignore="UselessLeaf">
+
+                <TextView
+                    android:id="@+id/shareHead"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:text='@{shareEntity.shareHead.toString(), default=""}'
+                    android:textAlignment="viewStart"
+                    tools:ignore="NestedWeights" />
+
+                <TextView
+                    android:id="@+id/shareDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1.5"
+                    android:text="@{shareEntity.shareDate.toString()}"
+                    android:textAlignment="viewEnd" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1.5"
+                    android:orientation="horizontal"
+                    tools:ignore="DisableBaselineAlignment">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        tools:ignore="NestedWeights,UseCompoundDrawables">
+
+                        <ImageView
+                            android:id="@+id/starImage"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="match_parent"
+                            app:srcCompat="@drawable/ic_good"
+                            android:contentDescription="@string/star_icon_string" />
+
+                        <TextView
+                            android:id="@+id/starNum"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:textAlignment="center"
+                            android:gravity="center"
+                            android:text="@{String.valueOf(shareEntity.starNum)}"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        tools:ignore="NestedWeights,UseCompoundDrawables">
+
+                        <ImageView
+                            android:id="@+id/commentImage"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.5"
+                            app:srcCompat="@drawable/ic_comment"
+                            android:contentDescription="@string/star_icon_string" />
+
+                        <TextView
+                            android:id="@+id/commentNum"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:textAlignment="center"
+                            android:gravity="center"
+                            android:text="@{String.valueOf(shareEntity.commentNum)}"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        tools:ignore="NestedWeights,UseCompoundDrawables">
+
+                        <ImageView
+                            android:id="@+id/collectionImage"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.5"
+                            app:srcCompat="@drawable/ic_no_mark_star"
+                            android:contentDescription="@string/star_icon_string" />
+
+                        <TextView
+                            android:id="@+id/collectionNum"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:textAlignment="center"
+                            android:gravity="center"
+                            android:text="@{String.valueOf(shareEntity.commentNum)}"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</layout>

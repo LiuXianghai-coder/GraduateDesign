@@ -1,0 +1,1880 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="recommend_system@localhost">
+  <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.17">
+    <root id="1">
+      <ServerVersion>13.2</ServerVersion>
+      <StartupTime>1616818164</StartupTime>
+    </root>
+    <database id="2" parent="1" name="postgres">
+      <ObjectId>13442</ObjectId>
+      <Comment>default administrative connection database</Comment>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="3" parent="1" name="recommend_system">
+      <ObjectId>16736</ObjectId>
+      <Owner>postgres</Owner>
+      <IntrospectionStateNumber>1031</IntrospectionStateNumber>
+      <Current>1</Current>
+      <Relations>sequence|table|16743|16737|1
+sequence|table|16769|16763|1
+sequence|table|16761|16758|2
+sequence|table|16774|16771|1
+sequence|table|16787|16784|1
+sequence|table|16798|16795|1
+sequence|table|40987|40989|1
+sequence|table|16821|16816|1
+sequence|table|16806|16800|1
+sequence|table|16814|16808|1
+sequence|table|16845|16839|1
+</Relations>
+    </database>
+    <role id="4" parent="1" name="pg_execute_server_program">
+      <ObjectId>4571</ObjectId>
+    </role>
+    <role id="5" parent="1" name="pg_monitor">
+      <ObjectId>3373</ObjectId>
+    </role>
+    <role id="6" parent="1" name="pg_read_all_settings">
+      <ObjectId>3374</ObjectId>
+    </role>
+    <role id="7" parent="1" name="pg_read_all_stats">
+      <ObjectId>3375</ObjectId>
+    </role>
+    <role id="8" parent="1" name="pg_read_server_files">
+      <ObjectId>4569</ObjectId>
+    </role>
+    <role id="9" parent="1" name="pg_signal_backend">
+      <ObjectId>4200</ObjectId>
+    </role>
+    <role id="10" parent="1" name="pg_stat_scan_tables">
+      <ObjectId>3377</ObjectId>
+    </role>
+    <role id="11" parent="1" name="pg_write_server_files">
+      <ObjectId>4570</ObjectId>
+    </role>
+    <role id="12" parent="1" name="postgres">
+      <ObjectId>10</ObjectId>
+      <SuperRole>1</SuperRole>
+      <CreateRole>1</CreateRole>
+      <CreateDb>1</CreateDb>
+      <CanLogin>1</CanLogin>
+      <Replication>1</Replication>
+      <BypassRls>1</BypassRls>
+    </role>
+    <schema id="13" parent="3" name="information_schema">
+      <ObjectId>13158</ObjectId>
+      <StateNumber>292</StateNumber>
+      <Owner>postgres</Owner>
+    </schema>
+    <schema id="14" parent="3" name="pg_catalog">
+      <ObjectId>11</ObjectId>
+      <Comment>system catalog schema</Comment>
+      <StateNumber>285</StateNumber>
+      <Owner>postgres</Owner>
+    </schema>
+    <schema id="15" parent="3" name="public">
+      <ObjectId>2200</ObjectId>
+      <Comment>standard public schema</Comment>
+      <StateNumber>286</StateNumber>
+      <Owner>postgres</Owner>
+      <IntrospectionStateNumber>1032</IntrospectionStateNumber>
+      <Current>1</Current>
+    </schema>
+    <access-method id="16" parent="3" name="heap">
+      <ObjectId>2</ObjectId>
+      <Comment>heap table access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.heap_tableam_handler</Handler>
+      <HandlerId>3</HandlerId>
+    </access-method>
+    <access-method id="17" parent="3" name="btree">
+      <ObjectId>403</ObjectId>
+      <Comment>b-tree index access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.bthandler</Handler>
+      <HandlerId>330</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="18" parent="3" name="hash">
+      <ObjectId>405</ObjectId>
+      <Comment>hash index access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.hashhandler</Handler>
+      <HandlerId>331</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="19" parent="3" name="gist">
+      <ObjectId>783</ObjectId>
+      <Comment>GiST index access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.gisthandler</Handler>
+      <HandlerId>332</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="20" parent="3" name="gin">
+      <ObjectId>2742</ObjectId>
+      <Comment>GIN index access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.ginhandler</Handler>
+      <HandlerId>333</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="21" parent="3" name="spgist">
+      <ObjectId>4000</ObjectId>
+      <Comment>SP-GiST index access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.spghandler</Handler>
+      <HandlerId>334</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="22" parent="3" name="brin">
+      <ObjectId>3580</ObjectId>
+      <Comment>block range index (BRIN) access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.brinhandler</Handler>
+      <HandlerId>335</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <extension id="23" parent="3" name="plpgsql">
+      <ObjectId>13428</ObjectId>
+      <Comment>PL/pgSQL procedural language</Comment>
+      <StateNumber>438</StateNumber>
+      <Version>1.0</Version>
+      <SchemaName>pg_catalog</SchemaName>
+      <SchemaId>11</SchemaId>
+    </extension>
+    <sequence id="24" parent="15" name="author_author_id_seq">
+      <ObjectId>16743</ObjectId>
+      <StateNumber>712</StateNumber>
+      <Owner>postgres</Owner>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>1</CacheSize>
+      <DataType>bigint</DataType>
+    </sequence>
+    <sequence id="25" parent="15" name="book_holding_kind_book_kind_id_seq">
+      <ObjectId>16761</ObjectId>
+      <StateNumber>724</StateNumber>
+      <Owner>postgres</Owner>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>1</CacheSize>
+      <DataType>integer</DataType>
+    </sequence>
+    <sequence id="26" parent="15" name="book_image_book_image_id_seq">
+      <ObjectId>16769</ObjectId>
+      <StateNumber>730</StateNumber>
+      <Owner>postgres</Owner>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>1</CacheSize>
+      <DataType>bigint</DataType>
+    </sequence>
+    <sequence id="27" parent="15" name="book_kind_book_kind_id_seq">
+      <ObjectId>16774</ObjectId>
+      <StateNumber>736</StateNumber>
+      <Owner>postgres</Owner>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>1</CacheSize>
+      <DataType>integer</DataType>
+    </sequence>
+    <sequence id="28" parent="15" name="book_store_store_id_seq">
+      <ObjectId>16787</ObjectId>
+      <StateNumber>747</StateNumber>
+      <Owner>postgres</Owner>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>1</CacheSize>
+      <DataType>bigint</DataType>
+    </sequence>
+    <sequence id="29" parent="15" name="book_url_url_id_seq">
+      <ObjectId>40987</ObjectId>
+      <StateNumber>1030</StateNumber>
+      <Owner>postgres</Owner>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>1</CacheSize>
+      <DataType>bigint</DataType>
+    </sequence>
+    <sequence id="30" parent="15" name="publisher_publisher_id_seq">
+      <ObjectId>16798</ObjectId>
+      <StateNumber>759</StateNumber>
+      <Owner>postgres</Owner>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>1</CacheSize>
+      <DataType>bigint</DataType>
+    </sequence>
+    <sequence id="31" parent="15" name="store_selling_store_id_seq">
+      <ObjectId>16806</ObjectId>
+      <StateNumber>764</StateNumber>
+      <Owner>postgres</Owner>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>1</CacheSize>
+      <DataType>bigint</DataType>
+    </sequence>
+    <sequence id="32" parent="15" name="user_book_mark_user_id_seq">
+      <ObjectId>16814</ObjectId>
+      <StateNumber>770</StateNumber>
+      <Owner>postgres</Owner>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>1</CacheSize>
+      <DataType>bigint</DataType>
+    </sequence>
+    <sequence id="33" parent="15" name="user_book_review_book_review_id_seq">
+      <ObjectId>16821</ObjectId>
+      <StateNumber>778</StateNumber>
+      <Owner>postgres</Owner>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>1</CacheSize>
+      <DataType>bigint</DataType>
+    </sequence>
+    <sequence id="34" parent="15" name="user_info_user_id_seq">
+      <ObjectId>16845</ObjectId>
+      <StateNumber>797</StateNumber>
+      <Owner>postgres</Owner>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>1</CacheSize>
+      <DataType>bigint</DataType>
+    </sequence>
+    <table id="35" parent="15" name="author">
+      <ObjectId>16737</ObjectId>
+      <Comment>书籍的作者信息表</Comment>
+      <Owner>postgres</Owner>
+      <StateNumber>882</StateNumber>
+    </table>
+    <table id="36" parent="15" name="book">
+      <ObjectId>16745</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>876</StateNumber>
+    </table>
+    <table id="37" parent="15" name="book_chapter">
+      <ObjectId>16752</ObjectId>
+      <Comment>书籍的章节目录信息&#xd;
+“isbn”：书籍的isbn号&#xd;
+“chapter_id”：书籍的章节Id&#xd;
+“chapter_kind”：书籍章节的类型&#xd;
+      1：正标题    2：副标题    3：子标题&#xd;
+“chapter_name”：章节名称</Comment>
+      <Owner>postgres</Owner>
+      <StateNumber>876</StateNumber>
+    </table>
+    <table id="38" parent="15" name="book_holding_kind">
+      <ObjectId>16758</ObjectId>
+      <Comment>书籍拥有的类别信息表</Comment>
+      <Owner>postgres</Owner>
+      <StateNumber>878</StateNumber>
+    </table>
+    <table id="39" parent="15" name="book_image">
+      <ObjectId>16763</ObjectId>
+      <Comment>书籍图像的信息表</Comment>
+      <Owner>postgres</Owner>
+      <StateNumber>727</StateNumber>
+    </table>
+    <table id="40" parent="15" name="book_kind">
+      <ObjectId>16771</ObjectId>
+      <Comment>书籍的类别信息表；通过某种算法， 可以得到书籍的所属类别， 得到的结果应当是存在这个表内的，也就是说， 这里是书籍类别的来源</Comment>
+      <Owner>postgres</Owner>
+      <StateNumber>880</StateNumber>
+    </table>
+    <table id="41" parent="15" name="book_store">
+      <ObjectId>16784</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>893</StateNumber>
+    </table>
+    <table id="42" parent="15" name="book_url">
+      <ObjectId>40989</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>1030</StateNumber>
+    </table>
+    <table id="43" parent="15" name="created_book">
+      <ObjectId>16789</ObjectId>
+      <Comment>已经存在的作者创建的书籍信息表</Comment>
+      <Owner>postgres</Owner>
+      <StateNumber>882</StateNumber>
+    </table>
+    <table id="44" parent="15" name="js_content">
+      <ObjectId>40968</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>1018</StateNumber>
+    </table>
+    <table id="45" parent="15" name="published_book">
+      <ObjectId>16792</ObjectId>
+      <Comment>已经出版的书籍信息表</Comment>
+      <Owner>postgres</Owner>
+      <StateNumber>886</StateNumber>
+    </table>
+    <table id="46" parent="15" name="publisher">
+      <ObjectId>16795</ObjectId>
+      <Comment>&quot;出版社&quot;表</Comment>
+      <Owner>postgres</Owner>
+      <StateNumber>888</StateNumber>
+    </table>
+    <table id="47" parent="15" name="store_selling">
+      <ObjectId>16800</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>891</StateNumber>
+    </table>
+    <table id="48" parent="15" name="user_book_browse">
+      <ObjectId>32768</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>1013</StateNumber>
+    </table>
+    <table id="49" parent="15" name="user_book_mark">
+      <ObjectId>16808</ObjectId>
+      <Comment>用户对于书籍打分的信息表</Comment>
+      <Owner>postgres</Owner>
+      <StateNumber>1010</StateNumber>
+    </table>
+    <table id="50" parent="15" name="user_book_review">
+      <ObjectId>16816</ObjectId>
+      <Comment>用户地书评信息表</Comment>
+      <Owner>postgres</Owner>
+      <StateNumber>981</StateNumber>
+    </table>
+    <table id="51" parent="15" name="user_book_review_comment">
+      <ObjectId>16823</ObjectId>
+      <Comment>用户对于书评的评论信息表</Comment>
+      <Owner>postgres</Owner>
+      <StateNumber>901</StateNumber>
+    </table>
+    <table id="52" parent="15" name="user_book_review_star">
+      <ObjectId>16829</ObjectId>
+      <Comment>用户对于书评的点赞信息记录表。&#xd;
+主要用于记录用户的点赞信息</Comment>
+      <Owner>postgres</Owner>
+      <StateNumber>899</StateNumber>
+    </table>
+    <table id="53" parent="15" name="user_feature">
+      <ObjectId>16833</ObjectId>
+      <Comment>用户的种类信息， 使用某种算法对用户进行分类时， 用户分类的结果将是存在于这个表中的。</Comment>
+      <Owner>postgres</Owner>
+      <StateNumber>911</StateNumber>
+    </table>
+    <table id="54" parent="15" name="user_feature_holding">
+      <ObjectId>16836</ObjectId>
+      <Comment>用户所属的类型</Comment>
+      <Owner>postgres</Owner>
+      <StateNumber>911</StateNumber>
+    </table>
+    <table id="55" parent="15" name="user_info">
+      <ObjectId>16839</ObjectId>
+      <Comment>用户信息表</Comment>
+      <Owner>postgres</Owner>
+      <StateNumber>890</StateNumber>
+    </table>
+    <table id="56" parent="15" name="user_share">
+      <ObjectId>16847</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>988</StateNumber>
+    </table>
+    <table id="57" parent="15" name="user_share_browse">
+      <ObjectId>32783</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>1014</StateNumber>
+    </table>
+    <table id="58" parent="15" name="user_share_collections">
+      <ObjectId>24576</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>969</StateNumber>
+    </table>
+    <table id="59" parent="15" name="user_share_comment">
+      <ObjectId>24592</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>975</StateNumber>
+    </table>
+    <table id="60" parent="15" name="user_share_star">
+      <ObjectId>16865</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>917</StateNumber>
+    </table>
+    <routine id="61" parent="15" name="update_user_book_review">
+      <ObjectId>24613</ObjectId>
+      <Owner>postgres</Owner>
+      <SourceTextLength>422</SourceTextLength>
+      <StateNumber>984</StateNumber>
+      <VolatilityKind>volatile</VolatilityKind>
+      <ArgumentsDefinition>review_id bigint</ArgumentsDefinition>
+      <ResultsDefinition>void</ResultsDefinition>
+      <LanguageName>plpgsql</LanguageName>
+      <RoutineKind>function</RoutineKind>
+      <Cost>100.0</Cost>
+    </routine>
+    <routine id="62" parent="15" name="update_user_share">
+      <ObjectId>24615</ObjectId>
+      <Owner>postgres</Owner>
+      <SourceTextLength>547</SourceTextLength>
+      <StateNumber>989</StateNumber>
+      <VolatilityKind>volatile</VolatilityKind>
+      <ArgumentsDefinition>s_id bigint</ArgumentsDefinition>
+      <ResultsDefinition>void</ResultsDefinition>
+      <LanguageName>plpgsql</LanguageName>
+      <RoutineKind>function</RoutineKind>
+      <Cost>100.0</Cost>
+    </routine>
+    <column id="63" parent="35" name="author_id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>808</StateNumber>
+      <DefaultExpression>nextval(&apos;author_author_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="64" parent="35" name="author_name">
+      <Position>2</Position>
+      <DataType>varchar(50)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>709</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="65" parent="35" name="author_introduction">
+      <Position>3</Position>
+      <DataType>text|0s</DataType>
+      <StateNumber>709</StateNumber>
+      <TypeId>25</TypeId>
+    </column>
+    <index id="66" parent="35" name="author_pkey">
+      <ObjectId>16890</ObjectId>
+      <StateNumber>840</StateNumber>
+      <ColNames>author_id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <key id="67" parent="35" name="author_pkey">
+      <ObjectId>16891</ObjectId>
+      <StateNumber>840</StateNumber>
+      <ColNames>author_id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>author_pkey</UnderlyingIndexName>
+    </key>
+    <column id="68" parent="36" name="isbn">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>715</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="69" parent="36" name="book_name">
+      <Position>2</Position>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>715</StateNumber>
+      <TypeId>25</TypeId>
+    </column>
+    <column id="70" parent="36" name="introduction">
+      <Position>3</Position>
+      <DataType>text|0s</DataType>
+      <StateNumber>715</StateNumber>
+      <TypeId>25</TypeId>
+    </column>
+    <column id="71" parent="36" name="book_score">
+      <Position>4</Position>
+      <Comment>该书籍的综合评分</Comment>
+      <DataType>smallint|0s</DataType>
+      <StateNumber>715</StateNumber>
+      <DefaultExpression>0</DefaultExpression>
+      <TypeId>21</TypeId>
+    </column>
+    <index id="72" parent="36" name="book_pkey">
+      <ObjectId>16900</ObjectId>
+      <StateNumber>845</StateNumber>
+      <ColNames>isbn</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <key id="73" parent="36" name="book_pkey">
+      <ObjectId>16901</ObjectId>
+      <StateNumber>845</StateNumber>
+      <ColNames>isbn</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>book_pkey</UnderlyingIndexName>
+    </key>
+    <column id="74" parent="37" name="isbn">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>718</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="75" parent="37" name="chapter_id">
+      <Position>2</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>718</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="76" parent="37" name="chapter_kind">
+      <Position>3</Position>
+      <DataType>smallint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>718</StateNumber>
+      <TypeId>21</TypeId>
+    </column>
+    <column id="77" parent="37" name="chapter_name">
+      <Position>4</Position>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>718</StateNumber>
+      <TypeId>25</TypeId>
+    </column>
+    <index id="78" parent="37" name="book_chapter_pkey">
+      <ObjectId>16892</ObjectId>
+      <StateNumber>841</StateNumber>
+      <ColNames>isbn
+chapter_id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <index id="79" parent="37" name="fki_book_chapter_isbn_foreign_key">
+      <ObjectId>16936</ObjectId>
+      <StateNumber>863</StateNumber>
+      <ColNames>isbn</ColNames>
+    </index>
+    <key id="80" parent="37" name="book_chapter_pkey">
+      <ObjectId>16893</ObjectId>
+      <StateNumber>841</StateNumber>
+      <ColNames>isbn
+chapter_id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>book_chapter_pkey</UnderlyingIndexName>
+    </key>
+    <foreign-key id="81" parent="37" name="book_chapter_isbn_foreign_key">
+      <ObjectId>16949</ObjectId>
+      <Comment>书籍的章节的isbn必定是来源已经存在的书籍的isbn</Comment>
+      <StateNumber>876</StateNumber>
+      <ColNames>isbn</ColNames>
+      <RefTableId>16745</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>book</RefTableName>
+      <RefKeyName>book_pkey</RefKeyName>
+      <RefColNames>isbn</RefColNames>
+    </foreign-key>
+    <column id="82" parent="38" name="isbn">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>721</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="83" parent="38" name="book_kind_id">
+      <Position>2</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>809</StateNumber>
+      <DefaultExpression>nextval(&apos;book_holding_kind_book_kind_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>23</TypeId>
+    </column>
+    <index id="84" parent="38" name="book_holding_kind_pkey">
+      <ObjectId>16894</ObjectId>
+      <StateNumber>842</StateNumber>
+      <ColNames>isbn
+book_kind_id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <index id="85" parent="38" name="fki_book_holding_kind_isbn_foreign_key">
+      <ObjectId>16937</ObjectId>
+      <StateNumber>864</StateNumber>
+      <ColNames>isbn</ColNames>
+    </index>
+    <index id="86" parent="38" name="fki_book_holding_kind_kind_id_foreign_key">
+      <ObjectId>16938</ObjectId>
+      <StateNumber>865</StateNumber>
+      <ColNames>book_kind_id</ColNames>
+    </index>
+    <key id="87" parent="38" name="book_holding_kind_pkey">
+      <ObjectId>16895</ObjectId>
+      <StateNumber>842</StateNumber>
+      <ColNames>isbn
+book_kind_id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>book_holding_kind_pkey</UnderlyingIndexName>
+    </key>
+    <foreign-key id="88" parent="38" name="book_holding_kind_isbn_foreign_key">
+      <ObjectId>16954</ObjectId>
+      <Comment>书籍拥有的类别的isbn号， 用于指定特定的书籍。</Comment>
+      <StateNumber>878</StateNumber>
+      <ColNames>isbn</ColNames>
+      <RefTableId>16745</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>book</RefTableName>
+      <RefKeyName>book_pkey</RefKeyName>
+      <RefColNames>isbn</RefColNames>
+    </foreign-key>
+    <foreign-key id="89" parent="38" name="book_holding_kind_kind_id_foreign_key">
+      <ObjectId>16959</ObjectId>
+      <Comment>书籍拥有的种类的种类ID， 它应当存在于book_kind表中</Comment>
+      <StateNumber>880</StateNumber>
+      <ColNames>book_kind_id</ColNames>
+      <RefTableId>16771</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>book_kind</RefTableName>
+      <RefKeyName>book_kind_pkey</RefKeyName>
+      <RefColNames>book_kind_id</RefColNames>
+    </foreign-key>
+    <column id="90" parent="39" name="book_image_id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>810</StateNumber>
+      <DefaultExpression>nextval(&apos;book_image_book_image_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="91" parent="39" name="isbn">
+      <Position>2</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>727</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="92" parent="39" name="image_url">
+      <Position>3</Position>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>727</StateNumber>
+      <TypeId>25</TypeId>
+    </column>
+    <index id="93" parent="39" name="book_image_pkey">
+      <ObjectId>16896</ObjectId>
+      <StateNumber>843</StateNumber>
+      <ColNames>book_image_id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <key id="94" parent="39" name="book_image_pkey">
+      <ObjectId>16897</ObjectId>
+      <StateNumber>843</StateNumber>
+      <ColNames>book_image_id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>book_image_pkey</UnderlyingIndexName>
+    </key>
+    <column id="95" parent="40" name="book_kind_id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>811</StateNumber>
+      <DefaultExpression>nextval(&apos;book_kind_book_kind_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="96" parent="40" name="book_kind_name">
+      <Position>2</Position>
+      <DataType>varchar(60)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>733</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="97" parent="40" name="book_kind_pkey">
+      <ObjectId>16898</ObjectId>
+      <StateNumber>844</StateNumber>
+      <ColNames>book_kind_id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <key id="98" parent="40" name="book_kind_pkey">
+      <ObjectId>16899</ObjectId>
+      <StateNumber>844</StateNumber>
+      <ColNames>book_kind_id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>book_kind_pkey</UnderlyingIndexName>
+    </key>
+    <column id="99" parent="41" name="store_id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>813</StateNumber>
+      <DefaultExpression>nextval(&apos;book_store_store_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="100" parent="41" name="store_name">
+      <Position>2</Position>
+      <DataType>varchar(60)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>745</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="101" parent="41" name="platform">
+      <Position>3</Position>
+      <DataType>varchar(10)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>745</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="102" parent="41" name="book_store_pkey">
+      <ObjectId>16904</ObjectId>
+      <StateNumber>847</StateNumber>
+      <ColNames>store_id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <key id="103" parent="41" name="book_store_pkey">
+      <ObjectId>16905</ObjectId>
+      <StateNumber>847</StateNumber>
+      <ColNames>store_id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>book_store_pkey</UnderlyingIndexName>
+    </key>
+    <column id="104" parent="42" name="url_id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1030</StateNumber>
+      <DefaultExpression>nextval(&apos;book_url_url_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="105" parent="42" name="url">
+      <Position>2</Position>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1030</StateNumber>
+      <TypeId>25</TypeId>
+    </column>
+    <column id="106" parent="42" name="hash_book_detail">
+      <Position>3</Position>
+      <DataType>smallint|0s</DataType>
+      <StateNumber>1030</StateNumber>
+      <TypeId>21</TypeId>
+    </column>
+    <index id="107" parent="42" name="book_url_pkey">
+      <ObjectId>40996</ObjectId>
+      <StateNumber>1030</StateNumber>
+      <ColNames>url_id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <key id="108" parent="42" name="book_url_pkey">
+      <ObjectId>40997</ObjectId>
+      <StateNumber>1030</StateNumber>
+      <ColNames>url_id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>book_url_pkey</UnderlyingIndexName>
+    </key>
+    <column id="109" parent="43" name="isbn">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>750</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="110" parent="43" name="author_id">
+      <Position>2</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>750</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <index id="111" parent="43" name="created_book_pkey">
+      <ObjectId>16906</ObjectId>
+      <StateNumber>848</StateNumber>
+      <ColNames>isbn
+author_id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <index id="112" parent="43" name="fki_created_book_isbn_foreign_key">
+      <ObjectId>16940</ObjectId>
+      <StateNumber>867</StateNumber>
+      <ColNames>isbn</ColNames>
+    </index>
+    <index id="113" parent="43" name="fki_created_book_author_id_foreign_key">
+      <ObjectId>16939</ObjectId>
+      <StateNumber>866</StateNumber>
+      <ColNames>author_id</ColNames>
+    </index>
+    <key id="114" parent="43" name="created_book_pkey">
+      <ObjectId>16907</ObjectId>
+      <StateNumber>848</StateNumber>
+      <ColNames>isbn
+author_id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>created_book_pkey</UnderlyingIndexName>
+    </key>
+    <foreign-key id="115" parent="43" name="created_book_isbn_foreign_key">
+      <ObjectId>16969</ObjectId>
+      <Comment>已经创建的书籍的isbn一定来源于已经存在的书籍</Comment>
+      <StateNumber>884</StateNumber>
+      <ColNames>isbn</ColNames>
+      <RefTableId>16745</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>book</RefTableName>
+      <RefKeyName>book_pkey</RefKeyName>
+      <RefColNames>isbn</RefColNames>
+    </foreign-key>
+    <foreign-key id="116" parent="43" name="created_book_author_id_foreign_key">
+      <ObjectId>16964</ObjectId>
+      <Comment>已经创建的书籍的作者一定来源已经存在的作者</Comment>
+      <StateNumber>882</StateNumber>
+      <ColNames>author_id</ColNames>
+      <RefTableId>16737</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>author</RefTableName>
+      <RefKeyName>author_pkey</RefKeyName>
+      <RefColNames>author_id</RefColNames>
+    </foreign-key>
+    <column id="117" parent="44" name="content_id">
+      <Position>1</Position>
+      <DataType>smallint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1018</StateNumber>
+      <TypeId>21</TypeId>
+    </column>
+    <column id="118" parent="44" name="content">
+      <Position>2</Position>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1018</StateNumber>
+      <TypeId>25</TypeId>
+    </column>
+    <column id="119" parent="44" name="update_time">
+      <Position>3</Position>
+      <DataType>time with time zone|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1018</StateNumber>
+      <TypeId>1266</TypeId>
+    </column>
+    <index id="120" parent="44" name="js_content_pkey">
+      <ObjectId>40974</ObjectId>
+      <StateNumber>1018</StateNumber>
+      <ColNames>content_id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <key id="121" parent="44" name="js_content_pkey">
+      <ObjectId>40975</ObjectId>
+      <StateNumber>1018</StateNumber>
+      <ColNames>content_id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>js_content_pkey</UnderlyingIndexName>
+    </key>
+    <column id="122" parent="45" name="isbn">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>753</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="123" parent="45" name="publisher_id">
+      <Position>2</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>753</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="124" parent="45" name="published_date">
+      <Position>3</Position>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>753</StateNumber>
+      <TypeId>1082</TypeId>
+    </column>
+    <index id="125" parent="45" name="published_book_pkey">
+      <ObjectId>16908</ObjectId>
+      <StateNumber>849</StateNumber>
+      <ColNames>isbn
+publisher_id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <index id="126" parent="45" name="fki_published_book_isbn_foreign_key">
+      <ObjectId>16941</ObjectId>
+      <StateNumber>868</StateNumber>
+      <ColNames>isbn</ColNames>
+    </index>
+    <index id="127" parent="45" name="fki_published_book_publisher_id_foreign_key">
+      <ObjectId>16942</ObjectId>
+      <StateNumber>869</StateNumber>
+      <ColNames>publisher_id</ColNames>
+    </index>
+    <key id="128" parent="45" name="published_book_pkey">
+      <ObjectId>16909</ObjectId>
+      <StateNumber>849</StateNumber>
+      <ColNames>isbn
+publisher_id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>published_book_pkey</UnderlyingIndexName>
+    </key>
+    <foreign-key id="129" parent="45" name="published_book_isbn_foreign_key">
+      <ObjectId>16974</ObjectId>
+      <Comment>出版的书籍必定是来源于已经存在的书籍</Comment>
+      <StateNumber>886</StateNumber>
+      <ColNames>isbn</ColNames>
+      <RefTableId>16745</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>book</RefTableName>
+      <RefKeyName>book_pkey</RefKeyName>
+      <RefColNames>isbn</RefColNames>
+    </foreign-key>
+    <foreign-key id="130" parent="45" name="published_book_publisher_id_fk">
+      <ObjectId>16979</ObjectId>
+      <StateNumber>888</StateNumber>
+      <ColNames>publisher_id</ColNames>
+      <RefTableId>16795</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>publisher</RefTableName>
+      <RefKeyName>publisher_pkey</RefKeyName>
+      <RefColNames>publisher_id</RefColNames>
+    </foreign-key>
+    <column id="131" parent="46" name="publisher_id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>814</StateNumber>
+      <DefaultExpression>nextval(&apos;publisher_publisher_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="132" parent="46" name="publisher_name">
+      <Position>2</Position>
+      <DataType>varchar(60)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>756</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="133" parent="46" name="publisher_pkey">
+      <ObjectId>16910</ObjectId>
+      <StateNumber>850</StateNumber>
+      <ColNames>publisher_id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <key id="134" parent="46" name="publisher_pkey">
+      <ObjectId>16911</ObjectId>
+      <StateNumber>850</StateNumber>
+      <ColNames>publisher_id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>publisher_pkey</UnderlyingIndexName>
+    </key>
+    <column id="135" parent="47" name="store_id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>815</StateNumber>
+      <DefaultExpression>nextval(&apos;store_selling_store_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="136" parent="47" name="isbn">
+      <Position>2</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>762</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="137" parent="47" name="book_price">
+      <Position>3</Position>
+      <DataType>double precision|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>762</StateNumber>
+      <TypeId>701</TypeId>
+    </column>
+    <column id="138" parent="47" name="buying_url">
+      <Position>4</Position>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>762</StateNumber>
+      <TypeId>25</TypeId>
+    </column>
+    <index id="139" parent="47" name="store_selling_pkey">
+      <ObjectId>16912</ObjectId>
+      <StateNumber>851</StateNumber>
+      <ColNames>store_id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <index id="140" parent="47" name="fki_s">
+      <ObjectId>16943</ObjectId>
+      <StateNumber>870</StateNumber>
+      <ColNames>isbn</ColNames>
+    </index>
+    <key id="141" parent="47" name="store_selling_pkey">
+      <ObjectId>16913</ObjectId>
+      <StateNumber>851</StateNumber>
+      <ColNames>store_id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>store_selling_pkey</UnderlyingIndexName>
+    </key>
+    <foreign-key id="142" parent="47" name="store_selling_store_id_foreign_key">
+      <ObjectId>16999</ObjectId>
+      <Comment>“store_selling”  的 “store_id” 源自 “book_store”表中的 &quot;store_id&quot;。用于保证所卖的书籍有一个明确的店铺</Comment>
+      <StateNumber>893</StateNumber>
+      <ColNames>store_id</ColNames>
+      <RefTableId>16784</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>book_store</RefTableName>
+      <RefKeyName>book_store_pkey</RefKeyName>
+      <RefColNames>store_id</RefColNames>
+    </foreign-key>
+    <foreign-key id="143" parent="47" name="store_selling_book_isbn_foreign_key">
+      <ObjectId>16994</ObjectId>
+      <Comment>&quot;store_selling&quot; 的&quot;isbn&quot;列来源于 &quot;book&quot; 的&quot;isbn&quot;， 确保所卖的书籍确实存在</Comment>
+      <StateNumber>891</StateNumber>
+      <ColNames>isbn</ColNames>
+      <RefTableId>16745</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>book</RefTableName>
+      <RefKeyName>book_pkey</RefKeyName>
+      <RefColNames>isbn</RefColNames>
+    </foreign-key>
+    <column id="144" parent="48" name="user_id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1013</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="145" parent="48" name="isbn">
+      <Position>2</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1013</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="146" parent="48" name="browse_time">
+      <Position>3</Position>
+      <DataType>time with time zone|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1013</StateNumber>
+      <TypeId>1266</TypeId>
+    </column>
+    <index id="147" parent="48" name="user_book_browse_pkey">
+      <ObjectId>32771</ObjectId>
+      <StateNumber>1013</StateNumber>
+      <ColNames>user_id
+isbn</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <key id="148" parent="48" name="user_book_browse_pkey">
+      <ObjectId>32772</ObjectId>
+      <StateNumber>1013</StateNumber>
+      <ColNames>user_id
+isbn</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>user_book_browse_pkey</UnderlyingIndexName>
+    </key>
+    <foreign-key id="149" parent="48" name="ubb_uid_fky">
+      <ObjectId>32773</ObjectId>
+      <StateNumber>1013</StateNumber>
+      <ColNames>user_id</ColNames>
+      <RefTableId>16839</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>user_info</RefTableName>
+      <RefKeyName>user_info_pkey</RefKeyName>
+      <RefColNames>user_id</RefColNames>
+    </foreign-key>
+    <foreign-key id="150" parent="48" name="ubb_isbn_fky">
+      <ObjectId>32778</ObjectId>
+      <StateNumber>1013</StateNumber>
+      <ColNames>isbn</ColNames>
+      <RefTableId>16745</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>book</RefTableName>
+      <RefKeyName>book_pkey</RefKeyName>
+      <RefColNames>isbn</RefColNames>
+    </foreign-key>
+    <column id="151" parent="49" name="user_id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>816</StateNumber>
+      <DefaultExpression>nextval(&apos;user_book_mark_user_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="152" parent="49" name="isbn">
+      <Position>2</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>767</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="153" parent="49" name="score">
+      <Position>3</Position>
+      <DataType>smallint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>767</StateNumber>
+      <TypeId>21</TypeId>
+    </column>
+    <column id="154" parent="49" name="comment">
+      <Position>4</Position>
+      <DataType>text|0s</DataType>
+      <StateNumber>767</StateNumber>
+      <TypeId>25</TypeId>
+    </column>
+    <column id="155" parent="49" name="mark_date">
+      <Position>5</Position>
+      <DataType>time with time zone|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1010</StateNumber>
+      <TypeId>1266</TypeId>
+    </column>
+    <index id="156" parent="49" name="user_book_mark_pkey">
+      <ObjectId>16914</ObjectId>
+      <StateNumber>1010</StateNumber>
+      <ColNames>user_id
+isbn</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <index id="157" parent="49" name="fki_user_book_mark_user_id_foreign_key">
+      <ObjectId>16945</ObjectId>
+      <StateNumber>1010</StateNumber>
+      <ColNames>user_id</ColNames>
+    </index>
+    <index id="158" parent="49" name="fki_user_book_mark_isbn_foreign_key">
+      <ObjectId>16944</ObjectId>
+      <StateNumber>1010</StateNumber>
+      <ColNames>isbn</ColNames>
+    </index>
+    <key id="159" parent="49" name="user_book_mark_pkey">
+      <ObjectId>16915</ObjectId>
+      <StateNumber>852</StateNumber>
+      <ColNames>user_id
+isbn</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>user_book_mark_pkey</UnderlyingIndexName>
+    </key>
+    <foreign-key id="160" parent="49" name="user_book_mark_user_id_foreign_key">
+      <ObjectId>17009</ObjectId>
+      <Comment>用户评分表的用户ID关联外键名；&#xd;
+用户评分一定是用户参与的</Comment>
+      <StateNumber>897</StateNumber>
+      <ColNames>user_id</ColNames>
+      <RefTableId>16839</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>user_info</RefTableName>
+      <RefKeyName>user_info_pkey</RefKeyName>
+      <RefColNames>user_id</RefColNames>
+    </foreign-key>
+    <foreign-key id="161" parent="49" name="user_book_mark_isbn_foreign_key">
+      <ObjectId>17004</ObjectId>
+      <Comment>用户打分的书籍的isbn， 用户打分的书籍必定是已经存在的</Comment>
+      <StateNumber>895</StateNumber>
+      <ColNames>isbn</ColNames>
+      <RefTableId>16745</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>book</RefTableName>
+      <RefKeyName>book_pkey</RefKeyName>
+      <RefColNames>isbn</RefColNames>
+    </foreign-key>
+    <column id="162" parent="50" name="book_review_id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>817</StateNumber>
+      <DefaultExpression>nextval(&apos;user_book_review_book_review_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="163" parent="50" name="isbn">
+      <Position>2</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>773</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="164" parent="50" name="user_id">
+      <Position>3</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>773</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="165" parent="50" name="write_date">
+      <Position>4</Position>
+      <DataType>timestamp with time zone|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>773</StateNumber>
+      <TypeId>1184</TypeId>
+    </column>
+    <column id="166" parent="50" name="star_num">
+      <Position>5</Position>
+      <Comment>该书评的点赞量</Comment>
+      <DataType>integer|0s</DataType>
+      <StateNumber>773</StateNumber>
+      <DefaultExpression>0</DefaultExpression>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="167" parent="50" name="comment_num">
+      <Position>6</Position>
+      <Comment>该书评的评论数</Comment>
+      <DataType>integer|0s</DataType>
+      <StateNumber>773</StateNumber>
+      <DefaultExpression>0</DefaultExpression>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="168" parent="50" name="content">
+      <Position>7</Position>
+      <DataType>text|0s</DataType>
+      <StateNumber>981</StateNumber>
+      <TypeId>25</TypeId>
+    </column>
+    <index id="169" parent="50" name="user_book_review_pkey">
+      <ObjectId>16918</ObjectId>
+      <StateNumber>854</StateNumber>
+      <ColNames>book_review_id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <index id="170" parent="50" name="fki_user_book_review_isbn_foreign_key">
+      <ObjectId>16947</ObjectId>
+      <StateNumber>874</StateNumber>
+      <ColNames>isbn</ColNames>
+    </index>
+    <index id="171" parent="50" name="fki_user_book_review_user_id_fky">
+      <ObjectId>16948</ObjectId>
+      <StateNumber>875</StateNumber>
+      <ColNames>user_id</ColNames>
+    </index>
+    <key id="172" parent="50" name="user_book_review_pkey">
+      <ObjectId>16919</ObjectId>
+      <StateNumber>854</StateNumber>
+      <ColNames>book_review_id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>user_book_review_pkey</UnderlyingIndexName>
+    </key>
+    <foreign-key id="173" parent="50" name="user_book_review_isbn_foreign_key">
+      <ObjectId>17029</ObjectId>
+      <Comment>用户编写书评时指定的书籍应当已经存在于book表中</Comment>
+      <StateNumber>905</StateNumber>
+      <ColNames>isbn</ColNames>
+      <RefTableId>16745</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>book</RefTableName>
+      <RefKeyName>book_pkey</RefKeyName>
+      <RefColNames>isbn</RefColNames>
+    </foreign-key>
+    <foreign-key id="174" parent="50" name="user_book_review_user_id_fky">
+      <ObjectId>17034</ObjectId>
+      <Comment>用户编写的书评时用户的信息是已经存在于user_info表内的</Comment>
+      <StateNumber>907</StateNumber>
+      <ColNames>user_id</ColNames>
+      <RefTableId>16839</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>user_info</RefTableName>
+      <RefKeyName>user_info_pkey</RefKeyName>
+      <RefColNames>user_id</RefColNames>
+    </foreign-key>
+    <column id="175" parent="51" name="user_id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>781</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="176" parent="51" name="book_review_id">
+      <Position>2</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>781</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="177" parent="51" name="comment_content">
+      <Position>3</Position>
+      <DataType>text|0s</DataType>
+      <StateNumber>781</StateNumber>
+      <TypeId>25</TypeId>
+    </column>
+    <column id="178" parent="51" name="comment_date">
+      <Position>4</Position>
+      <DataType>timestamp with time zone|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>781</StateNumber>
+      <TypeId>1184</TypeId>
+    </column>
+    <index id="179" parent="51" name="user_book_review_comment_pkey">
+      <ObjectId>16916</ObjectId>
+      <StateNumber>853</StateNumber>
+      <ColNames>user_id
+book_review_id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <index id="180" parent="51" name="fki_user_book_review_book_review_id_fky">
+      <ObjectId>16946</ObjectId>
+      <StateNumber>873</StateNumber>
+      <ColNames>book_review_id</ColNames>
+    </index>
+    <key id="181" parent="51" name="user_book_review_comment_pkey">
+      <ObjectId>16917</ObjectId>
+      <StateNumber>853</StateNumber>
+      <ColNames>user_id
+book_review_id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>user_book_review_comment_pkey</UnderlyingIndexName>
+    </key>
+    <foreign-key id="182" parent="51" name="user_book_review_comment_user_id_fky">
+      <ObjectId>17024</ObjectId>
+      <Comment>用户评论书评是用户一定是已经存在的</Comment>
+      <StateNumber>903</StateNumber>
+      <ColNames>user_id</ColNames>
+      <RefTableId>16839</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>user_info</RefTableName>
+      <RefKeyName>user_info_pkey</RefKeyName>
+      <RefColNames>user_id</RefColNames>
+    </foreign-key>
+    <foreign-key id="183" parent="51" name="user_book_review_book_review_id_fky">
+      <ObjectId>17019</ObjectId>
+      <Comment>用户评论书评时该书评一定是已经存在的</Comment>
+      <StateNumber>901</StateNumber>
+      <ColNames>book_review_id</ColNames>
+      <RefTableId>16816</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>user_book_review</RefTableName>
+      <RefKeyName>user_book_review_pkey</RefKeyName>
+      <RefColNames>book_review_id</RefColNames>
+    </foreign-key>
+    <column id="184" parent="52" name="user_id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>784</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="185" parent="52" name="book_review_id">
+      <Position>2</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>784</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="186" parent="52" name="star_date">
+      <Position>3</Position>
+      <DataType>timestamp with time zone|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>784</StateNumber>
+      <TypeId>1184</TypeId>
+    </column>
+    <column id="187" parent="52" name="star_flag">
+      <Position>4</Position>
+      <Comment>记录当前的用户的点赞状态</Comment>
+      <DataType>boolean|0s</DataType>
+      <StateNumber>784</StateNumber>
+      <DefaultExpression>false</DefaultExpression>
+      <TypeId>16</TypeId>
+    </column>
+    <index id="188" parent="52" name="user_book_review_star_pkey">
+      <ObjectId>16920</ObjectId>
+      <StateNumber>855</StateNumber>
+      <ColNames>user_id
+book_review_id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <key id="189" parent="52" name="user_book_review_star_pkey">
+      <ObjectId>16921</ObjectId>
+      <StateNumber>855</StateNumber>
+      <ColNames>user_id
+book_review_id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>user_book_review_star_pkey</UnderlyingIndexName>
+    </key>
+    <foreign-key id="190" parent="52" name="user_book_review_user_id_fky">
+      <ObjectId>17039</ObjectId>
+      <Comment>用户点赞时用户一定是已经存在的</Comment>
+      <StateNumber>909</StateNumber>
+      <ColNames>user_id</ColNames>
+      <RefTableId>16839</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>user_info</RefTableName>
+      <RefKeyName>user_info_pkey</RefKeyName>
+      <RefColNames>user_id</RefColNames>
+    </foreign-key>
+    <foreign-key id="191" parent="52" name="user_book_review_book_review_id_fky">
+      <ObjectId>17014</ObjectId>
+      <Comment>用户点赞时书评一定是已经存在的</Comment>
+      <StateNumber>899</StateNumber>
+      <ColNames>book_review_id</ColNames>
+      <RefTableId>16816</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>user_book_review</RefTableName>
+      <RefKeyName>user_book_review_pkey</RefKeyName>
+      <RefColNames>book_review_id</RefColNames>
+    </foreign-key>
+    <column id="192" parent="53" name="feature_id">
+      <Position>1</Position>
+      <DataType>smallint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>788</StateNumber>
+      <TypeId>21</TypeId>
+    </column>
+    <column id="193" parent="53" name="feature_name">
+      <Position>2</Position>
+      <DataType>varchar(10)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>788</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="194" parent="53" name="user_feature_pkey">
+      <ObjectId>16924</ObjectId>
+      <StateNumber>857</StateNumber>
+      <ColNames>feature_id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <key id="195" parent="53" name="user_feature_pkey">
+      <ObjectId>16925</ObjectId>
+      <StateNumber>857</StateNumber>
+      <ColNames>feature_id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>user_feature_pkey</UnderlyingIndexName>
+    </key>
+    <column id="196" parent="54" name="user_id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>791</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="197" parent="54" name="feature_id">
+      <Position>2</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>791</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <index id="198" parent="54" name="user_feature_holding_pkey">
+      <ObjectId>16922</ObjectId>
+      <StateNumber>856</StateNumber>
+      <ColNames>user_id
+feature_id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <key id="199" parent="54" name="user_feature_holding_pkey">
+      <ObjectId>16923</ObjectId>
+      <StateNumber>856</StateNumber>
+      <ColNames>user_id
+feature_id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>user_feature_holding_pkey</UnderlyingIndexName>
+    </key>
+    <foreign-key id="200" parent="54" name="user_feature_user_id_fky">
+      <ObjectId>17049</ObjectId>
+      <Comment>用户所属类型的用户ID， 用户应当是已经存在的</Comment>
+      <StateNumber>913</StateNumber>
+      <ColNames>user_id</ColNames>
+      <RefTableId>16839</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>user_info</RefTableName>
+      <RefKeyName>user_info_pkey</RefKeyName>
+      <RefColNames>user_id</RefColNames>
+    </foreign-key>
+    <foreign-key id="201" parent="54" name="user_feature_feature_id_fky">
+      <ObjectId>17044</ObjectId>
+      <Comment>用户所属类型的类型ID， 应当已经存在</Comment>
+      <StateNumber>911</StateNumber>
+      <ColNames>feature_id</ColNames>
+      <RefTableId>16833</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>user_feature</RefTableName>
+      <RefKeyName>user_feature_pkey</RefKeyName>
+      <RefColNames>feature_id</RefColNames>
+    </foreign-key>
+    <column id="202" parent="55" name="user_id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>818</StateNumber>
+      <DefaultExpression>nextval(&apos;user_info_user_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="203" parent="55" name="user_phone">
+      <Position>2</Position>
+      <DataType>varchar(16)|0s</DataType>
+      <StateNumber>794</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="204" parent="55" name="user_email">
+      <Position>3</Position>
+      <DataType>varchar(256)|0s</DataType>
+      <StateNumber>794</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="205" parent="55" name="user_name">
+      <Position>4</Position>
+      <DataType>varchar(30)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>794</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="206" parent="55" name="user_sex">
+      <Position>5</Position>
+      <DataType>varchar(4)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>794</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="207" parent="55" name="head_image">
+      <Position>6</Position>
+      <DataType>text|0s</DataType>
+      <StateNumber>794</StateNumber>
+      <TypeId>25</TypeId>
+    </column>
+    <column id="208" parent="55" name="user_password">
+      <Position>7</Position>
+      <DataType>char(128)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>794</StateNumber>
+      <TypeId>1042</TypeId>
+    </column>
+    <index id="209" parent="55" name="user_info_pkey">
+      <ObjectId>16926</ObjectId>
+      <StateNumber>858</StateNumber>
+      <ColNames>user_id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <key id="210" parent="55" name="user_info_pkey">
+      <ObjectId>16927</ObjectId>
+      <StateNumber>858</StateNumber>
+      <ColNames>user_id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>user_info_pkey</UnderlyingIndexName>
+    </key>
+    <column id="211" parent="56" name="user_id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>800</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="212" parent="56" name="share_id">
+      <Position>2</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>800</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="213" parent="56" name="share_head">
+      <Position>3</Position>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>800</StateNumber>
+      <TypeId>25</TypeId>
+    </column>
+    <column id="214" parent="56" name="star_num">
+      <Position>4</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>800</StateNumber>
+      <DefaultExpression>0</DefaultExpression>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="215" parent="56" name="comment_num">
+      <Position>5</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>800</StateNumber>
+      <DefaultExpression>0</DefaultExpression>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="216" parent="56" name="share_date">
+      <Position>6</Position>
+      <DataType>timestamp with time zone|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>800</StateNumber>
+      <TypeId>1184</TypeId>
+    </column>
+    <column id="217" parent="56" name="share_content">
+      <Position>7</Position>
+      <DataType>text|0s</DataType>
+      <StateNumber>800</StateNumber>
+      <DefaultExpression>&apos;&apos;::text</DefaultExpression>
+      <TypeId>25</TypeId>
+    </column>
+    <column id="218" parent="56" name="collections_num">
+      <Position>8</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>988</StateNumber>
+      <DefaultExpression>0</DefaultExpression>
+      <TypeId>23</TypeId>
+    </column>
+    <index id="219" parent="56" name="user_share_pkey">
+      <ObjectId>16932</ObjectId>
+      <StateNumber>861</StateNumber>
+      <ColNames>share_id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <key id="220" parent="56" name="user_share_pkey">
+      <ObjectId>16933</ObjectId>
+      <StateNumber>861</StateNumber>
+      <ColNames>share_id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>user_share_pkey</UnderlyingIndexName>
+    </key>
+    <foreign-key id="221" parent="56" name="user_share_uid_fky">
+      <ObjectId>17074</ObjectId>
+      <StateNumber>919</StateNumber>
+      <ColNames>user_id</ColNames>
+      <RefTableId>16839</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>user_info</RefTableName>
+      <RefKeyName>user_info_pkey</RefKeyName>
+      <RefColNames>user_id</RefColNames>
+    </foreign-key>
+    <column id="222" parent="57" name="user_id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1014</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="223" parent="57" name="share_id">
+      <Position>2</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1014</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="224" parent="57" name="browse_time">
+      <Position>3</Position>
+      <DataType>time with time zone|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1014</StateNumber>
+      <TypeId>1266</TypeId>
+    </column>
+    <index id="225" parent="57" name="user_share_browse_pkey">
+      <ObjectId>32786</ObjectId>
+      <StateNumber>1014</StateNumber>
+      <ColNames>user_id
+share_id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <key id="226" parent="57" name="user_share_browse_pkey">
+      <ObjectId>32787</ObjectId>
+      <StateNumber>1014</StateNumber>
+      <ColNames>user_id
+share_id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>user_share_browse_pkey</UnderlyingIndexName>
+    </key>
+    <foreign-key id="227" parent="57" name="usb_uid_fky">
+      <ObjectId>32788</ObjectId>
+      <StateNumber>1014</StateNumber>
+      <ColNames>user_id</ColNames>
+      <RefTableId>16839</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>user_info</RefTableName>
+      <RefKeyName>user_info_pkey</RefKeyName>
+      <RefColNames>user_id</RefColNames>
+    </foreign-key>
+    <foreign-key id="228" parent="57" name="usd_sid_fky">
+      <ObjectId>32793</ObjectId>
+      <StateNumber>1014</StateNumber>
+      <ColNames>share_id</ColNames>
+      <RefTableId>16847</RefTableId>
+      <RefColPositions>2</RefColPositions>
+      <RefTableName>user_share</RefTableName>
+      <RefKeyName>user_share_pkey</RefKeyName>
+      <RefColNames>share_id</RefColNames>
+    </foreign-key>
+    <column id="229" parent="58" name="user_id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>969</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="230" parent="58" name="share_id">
+      <Position>2</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>969</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="231" parent="58" name="collection_flag">
+      <Position>3</Position>
+      <DataType>boolean|0s</DataType>
+      <StateNumber>969</StateNumber>
+      <DefaultExpression>false</DefaultExpression>
+      <TypeId>16</TypeId>
+    </column>
+    <column id="232" parent="58" name="collection_date">
+      <Position>4</Position>
+      <DataType>timestamp with time zone|0s</DataType>
+      <StateNumber>969</StateNumber>
+      <TypeId>1184</TypeId>
+    </column>
+    <index id="233" parent="58" name="user_share_collections_pkey">
+      <ObjectId>24580</ObjectId>
+      <StateNumber>969</StateNumber>
+      <ColNames>user_id
+share_id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <key id="234" parent="58" name="user_share_collections_pkey">
+      <ObjectId>24581</ObjectId>
+      <StateNumber>969</StateNumber>
+      <ColNames>user_id
+share_id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>user_share_collections_pkey</UnderlyingIndexName>
+    </key>
+    <foreign-key id="235" parent="58" name="share_collection_uid_fky">
+      <ObjectId>24582</ObjectId>
+      <StateNumber>969</StateNumber>
+      <ColNames>user_id</ColNames>
+      <RefTableId>16839</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>user_info</RefTableName>
+      <RefKeyName>user_info_pkey</RefKeyName>
+      <RefColNames>user_id</RefColNames>
+    </foreign-key>
+    <foreign-key id="236" parent="58" name="share_collection_shid_fky">
+      <ObjectId>24587</ObjectId>
+      <StateNumber>969</StateNumber>
+      <ColNames>share_id</ColNames>
+      <RefTableId>16847</RefTableId>
+      <RefColPositions>2</RefColPositions>
+      <RefTableName>user_share</RefTableName>
+      <RefKeyName>user_share_pkey</RefKeyName>
+      <RefColNames>share_id</RefColNames>
+    </foreign-key>
+    <column id="237" parent="59" name="user_id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>975</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="238" parent="59" name="share_id">
+      <Position>2</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>975</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="239" parent="59" name="comment_id">
+      <Position>3</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>975</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="240" parent="59" name="comment_content">
+      <Position>4</Position>
+      <DataType>text|0s</DataType>
+      <StateNumber>975</StateNumber>
+      <TypeId>25</TypeId>
+    </column>
+    <column id="241" parent="59" name="comment_date">
+      <Position>5</Position>
+      <DataType>timestamp with time zone|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>975</StateNumber>
+      <TypeId>1184</TypeId>
+    </column>
+    <index id="242" parent="59" name="user_share_comment_pkey">
+      <ObjectId>24598</ObjectId>
+      <StateNumber>975</StateNumber>
+      <ColNames>user_id
+share_id
+comment_id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <key id="243" parent="59" name="user_share_comment_pkey">
+      <ObjectId>24599</ObjectId>
+      <StateNumber>975</StateNumber>
+      <ColNames>user_id
+share_id
+comment_id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>user_share_comment_pkey</UnderlyingIndexName>
+    </key>
+    <foreign-key id="244" parent="59" name="user_share_comment_uid_fky">
+      <ObjectId>24600</ObjectId>
+      <StateNumber>975</StateNumber>
+      <ColNames>user_id</ColNames>
+      <RefTableId>16839</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>user_info</RefTableName>
+      <RefKeyName>user_info_pkey</RefKeyName>
+      <RefColNames>user_id</RefColNames>
+    </foreign-key>
+    <foreign-key id="245" parent="59" name="user_share_share_id_fky">
+      <ObjectId>24605</ObjectId>
+      <StateNumber>975</StateNumber>
+      <ColNames>share_id</ColNames>
+      <RefTableId>16847</RefTableId>
+      <RefColPositions>2</RefColPositions>
+      <RefTableName>user_share</RefTableName>
+      <RefKeyName>user_share_pkey</RefKeyName>
+      <RefColNames>share_id</RefColNames>
+    </foreign-key>
+    <column id="246" parent="60" name="user_id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>806</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="247" parent="60" name="share_id">
+      <Position>2</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>806</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="248" parent="60" name="star_flag">
+      <Position>3</Position>
+      <DataType>boolean|0s</DataType>
+      <StateNumber>806</StateNumber>
+      <DefaultExpression>false</DefaultExpression>
+      <TypeId>16</TypeId>
+    </column>
+    <column id="249" parent="60" name="star_date">
+      <Position>4</Position>
+      <DataType>timestamp with time zone|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>806</StateNumber>
+      <TypeId>1184</TypeId>
+    </column>
+    <index id="250" parent="60" name="user_share_star_pkey">
+      <ObjectId>16934</ObjectId>
+      <StateNumber>862</StateNumber>
+      <ColNames>user_id
+share_id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <key id="251" parent="60" name="user_share_star_pkey">
+      <ObjectId>16935</ObjectId>
+      <StateNumber>862</StateNumber>
+      <ColNames>user_id
+share_id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>user_share_star_pkey</UnderlyingIndexName>
+    </key>
+    <foreign-key id="252" parent="60" name="user_share_star_uid_fky">
+      <ObjectId>17069</ObjectId>
+      <StateNumber>918</StateNumber>
+      <ColNames>user_id</ColNames>
+      <RefTableId>16839</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>user_info</RefTableName>
+      <RefKeyName>user_info_pkey</RefKeyName>
+      <RefColNames>user_id</RefColNames>
+    </foreign-key>
+    <foreign-key id="253" parent="60" name="user_share_star_shid_fky">
+      <ObjectId>17064</ObjectId>
+      <StateNumber>917</StateNumber>
+      <ColNames>share_id</ColNames>
+      <RefTableId>16847</RefTableId>
+      <RefColPositions>2</RefColPositions>
+      <RefTableName>user_share</RefTableName>
+      <RefKeyName>user_share_pkey</RefKeyName>
+      <RefColNames>share_id</RefColNames>
+    </foreign-key>
+    <argument id="254" parent="61" name="review_id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+    </argument>
+    <argument id="255" parent="61">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>void|0s</DataType>
+    </argument>
+    <argument id="256" parent="62" name="s_id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+    </argument>
+    <argument id="257" parent="62">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>void|0s</DataType>
+    </argument>
+  </database-model>
+</dataSource>

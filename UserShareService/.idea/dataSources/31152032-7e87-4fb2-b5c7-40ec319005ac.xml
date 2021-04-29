@@ -1,0 +1,3613 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="recommend_system@localhost">
+  <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.20">
+    <root id="1">
+      <ServerVersion>13.1</ServerVersion>
+      <DateStyle>ymd</DateStyle>
+      <TimeZones>true ACDT
+true ACSST
+false ACST
+false ACT
+false ACWST
+true ADT
+true AEDT
+true AESST
+false AEST
+false AFT
+true AKDT
+false AKST
+true ALMST
+false ALMT
+false AMST
+false AMT
+false ANAST
+false ANAT
+false ARST
+false ART
+false AST
+true AWSST
+false AWST
+true AZOST
+false AZOT
+false AZST
+false AZT
+false Africa/Abidjan
+false Africa/Accra
+false Africa/Addis_Ababa
+false Africa/Algiers
+false Africa/Asmara
+false Africa/Asmera
+false Africa/Bamako
+false Africa/Bangui
+false Africa/Banjul
+false Africa/Bissau
+false Africa/Blantyre
+false Africa/Brazzaville
+false Africa/Bujumbura
+false Africa/Cairo
+false Africa/Casablanca
+true Africa/Ceuta
+false Africa/Conakry
+false Africa/Dakar
+false Africa/Dar_es_Salaam
+false Africa/Djibouti
+false Africa/Douala
+false Africa/El_Aaiun
+false Africa/Freetown
+false Africa/Gaborone
+false Africa/Harare
+false Africa/Johannesburg
+false Africa/Juba
+false Africa/Kampala
+false Africa/Khartoum
+false Africa/Kigali
+false Africa/Kinshasa
+false Africa/Lagos
+false Africa/Libreville
+false Africa/Lome
+false Africa/Luanda
+false Africa/Lubumbashi
+false Africa/Lusaka
+false Africa/Malabo
+false Africa/Maputo
+false Africa/Maseru
+false Africa/Mbabane
+false Africa/Mogadishu
+false Africa/Monrovia
+false Africa/Nairobi
+false Africa/Ndjamena
+false Africa/Niamey
+false Africa/Nouakchott
+false Africa/Ouagadougou
+false Africa/Porto-Novo
+false Africa/Sao_Tome
+false Africa/Timbuktu
+false Africa/Tripoli
+false Africa/Tunis
+false Africa/Windhoek
+true America/Adak
+true America/Anchorage
+false America/Anguilla
+false America/Antigua
+false America/Araguaina
+false America/Argentina/Buenos_Aires
+false America/Argentina/Catamarca
+false America/Argentina/ComodRivadavia
+false America/Argentina/Cordoba
+false America/Argentina/Jujuy
+false America/Argentina/La_Rioja
+false America/Argentina/Mendoza
+false America/Argentina/Rio_Gallegos
+false America/Argentina/Salta
+false America/Argentina/San_Juan
+false America/Argentina/San_Luis
+false America/Argentina/Tucuman
+false America/Argentina/Ushuaia
+false America/Aruba
+false America/Asuncion
+false America/Atikokan
+true America/Atka
+false America/Bahia
+true America/Bahia_Banderas
+false America/Barbados
+false America/Belem
+false America/Belize
+false America/Blanc-Sablon
+false America/Boa_Vista
+false America/Bogota
+true America/Boise
+false America/Buenos_Aires
+true America/Cambridge_Bay
+false America/Campo_Grande
+false America/Cancun
+false America/Caracas
+false America/Catamarca
+false America/Cayenne
+false America/Cayman
+true America/Chicago
+true America/Chihuahua
+false America/Coral_Harbour
+false America/Cordoba
+false America/Costa_Rica
+false America/Creston
+false America/Cuiaba
+false America/Curacao
+false America/Danmarkshavn
+false America/Dawson
+false America/Dawson_Creek
+true America/Denver
+true America/Detroit
+false America/Dominica
+true America/Edmonton
+false America/Eirunepe
+false America/El_Salvador
+true America/Ensenada
+false America/Fort_Nelson
+true America/Fort_Wayne
+false America/Fortaleza
+true America/Glace_Bay
+true America/Godthab
+true America/Goose_Bay
+true America/Grand_Turk
+false America/Grenada
+false America/Guadeloupe
+false America/Guatemala
+false America/Guayaquil
+false America/Guyana
+true America/Halifax
+true America/Havana
+false America/Hermosillo
+true America/Indiana/Indianapolis
+true America/Indiana/Knox
+true America/Indiana/Marengo
+true America/Indiana/Petersburg
+true America/Indiana/Tell_City
+true America/Indiana/Vevay
+true America/Indiana/Vincennes
+true America/Indiana/Winamac
+true America/Indianapolis
+true America/Inuvik
+true America/Iqaluit
+false America/Jamaica
+false America/Jujuy
+true America/Juneau
+true America/Kentucky/Louisville
+true America/Kentucky/Monticello
+true America/Knox_IN
+false America/Kralendijk
+false America/La_Paz
+false America/Lima
+true America/Los_Angeles
+true America/Louisville
+false America/Lower_Princes
+false America/Maceio
+false America/Managua
+false America/Manaus
+false America/Marigot
+false America/Martinique
+true America/Matamoros
+true America/Mazatlan
+false America/Mendoza
+true America/Menominee
+true America/Merida
+true America/Metlakatla
+true America/Mexico_City
+true America/Miquelon
+true America/Moncton
+true America/Monterrey
+false America/Montevideo
+true America/Montreal
+false America/Montserrat
+true America/Nassau
+true America/New_York
+true America/Nipigon
+true America/Nome
+false America/Noronha
+true America/North_Dakota/Beulah
+true America/North_Dakota/Center
+true America/North_Dakota/New_Salem
+true America/Nuuk
+true America/Ojinaga
+false America/Panama
+true America/Pangnirtung
+false America/Paramaribo
+false America/Phoenix
+true America/Port-au-Prince
+false America/Port_of_Spain
+false America/Porto_Acre
+false America/Porto_Velho
+false America/Puerto_Rico
+false America/Punta_Arenas
+true America/Rainy_River
+true America/Rankin_Inlet
+false America/Recife
+false America/Regina
+true America/Resolute
+false America/Rio_Branco
+false America/Rosario
+true America/Santa_Isabel
+false America/Santarem
+false America/Santiago
+false America/Santo_Domingo
+false America/Sao_Paulo
+true America/Scoresbysund
+true America/Shiprock
+true America/Sitka
+false America/St_Barthelemy
+true America/St_Johns
+false America/St_Kitts
+false America/St_Lucia
+false America/St_Thomas
+false America/St_Vincent
+false America/Swift_Current
+false America/Tegucigalpa
+true America/Thule
+true America/Thunder_Bay
+true America/Tijuana
+true America/Toronto
+false America/Tortola
+true America/Vancouver
+false America/Virgin
+false America/Whitehorse
+true America/Winnipeg
+true America/Yakutat
+true America/Yellowknife
+false Antarctica/Casey
+false Antarctica/Davis
+false Antarctica/DumontDUrville
+false Antarctica/Macquarie
+false Antarctica/Mawson
+false Antarctica/McMurdo
+false Antarctica/Palmer
+false Antarctica/Rothera
+false Antarctica/South_Pole
+false Antarctica/Syowa
+true Antarctica/Troll
+false Antarctica/Vostok
+true Arctic/Longyearbyen
+false Asia/Aden
+false Asia/Almaty
+true Asia/Amman
+false Asia/Anadyr
+false Asia/Aqtau
+false Asia/Aqtobe
+false Asia/Ashgabat
+false Asia/Ashkhabad
+false Asia/Atyrau
+false Asia/Baghdad
+false Asia/Bahrain
+false Asia/Baku
+false Asia/Bangkok
+false Asia/Barnaul
+true Asia/Beirut
+false Asia/Bishkek
+false Asia/Brunei
+false Asia/Calcutta
+false Asia/Chita
+false Asia/Choibalsan
+false Asia/Chongqing
+false Asia/Chungking
+false Asia/Colombo
+false Asia/Dacca
+true Asia/Damascus
+false Asia/Dhaka
+false Asia/Dili
+false Asia/Dubai
+false Asia/Dushanbe
+true Asia/Famagusta
+true Asia/Gaza
+false Asia/Harbin
+true Asia/Hebron
+false Asia/Ho_Chi_Minh
+false Asia/Hong_Kong
+false Asia/Hovd
+false Asia/Irkutsk
+false Asia/Istanbul
+false Asia/Jakarta
+false Asia/Jayapura
+true Asia/Jerusalem
+false Asia/Kabul
+false Asia/Kamchatka
+false Asia/Karachi
+false Asia/Kashgar
+false Asia/Kathmandu
+false Asia/Katmandu
+false Asia/Khandyga
+false Asia/Kolkata
+false Asia/Krasnoyarsk
+false Asia/Kuala_Lumpur
+false Asia/Kuching
+false Asia/Kuwait
+false Asia/Macao
+false Asia/Macau
+false Asia/Magadan
+false Asia/Makassar
+false Asia/Manila
+false Asia/Muscat
+true Asia/Nicosia
+false Asia/Novokuznetsk
+false Asia/Novosibirsk
+false Asia/Omsk
+false Asia/Oral
+false Asia/Phnom_Penh
+false Asia/Pontianak
+false Asia/Pyongyang
+false Asia/Qatar
+false Asia/Qostanay
+false Asia/Qyzylorda
+false Asia/Rangoon
+false Asia/Riyadh
+false Asia/Saigon
+false Asia/Sakhalin
+false Asia/Samarkand
+false Asia/Seoul
+false Asia/Shanghai
+false Asia/Singapore
+false Asia/Srednekolymsk
+false Asia/Taipei
+false Asia/Tashkent
+false Asia/Tbilisi
+true Asia/Tehran
+true Asia/Tel_Aviv
+false Asia/Thimbu
+false Asia/Thimphu
+false Asia/Tokyo
+false Asia/Tomsk
+false Asia/Ujung_Pandang
+false Asia/Ulaanbaatar
+false Asia/Ulan_Bator
+false Asia/Urumqi
+false Asia/Ust-Nera
+false Asia/Vientiane
+false Asia/Vladivostok
+false Asia/Yakutsk
+false Asia/Yangon
+false Asia/Yekaterinburg
+false Asia/Yerevan
+true Atlantic/Azores
+true Atlantic/Bermuda
+true Atlantic/Canary
+false Atlantic/Cape_Verde
+true Atlantic/Faeroe
+true Atlantic/Faroe
+true Atlantic/Jan_Mayen
+true Atlantic/Madeira
+false Atlantic/Reykjavik
+false Atlantic/South_Georgia
+false Atlantic/St_Helena
+false Atlantic/Stanley
+false Australia/ACT
+false Australia/Adelaide
+false Australia/Brisbane
+false Australia/Broken_Hill
+false Australia/Canberra
+false Australia/Currie
+false Australia/Darwin
+false Australia/Eucla
+false Australia/Hobart
+false Australia/LHI
+false Australia/Lindeman
+false Australia/Lord_Howe
+false Australia/Melbourne
+false Australia/NSW
+false Australia/North
+false Australia/Perth
+false Australia/Queensland
+false Australia/South
+false Australia/Sydney
+false Australia/Tasmania
+false Australia/Victoria
+false Australia/West
+false Australia/Yancowinna
+true BDST
+false BDT
+false BNT
+false BORT
+false BOT
+false BRA
+true BRST
+false BRT
+true BST
+false BTT
+false Brazil/Acre
+false Brazil/DeNoronha
+false Brazil/East
+false Brazil/West
+true CADT
+false CAST
+false CCT
+true CDT
+true CEST
+false CET
+true CETDST
+true CHADT
+false CHAST
+false CHUT
+false CKT
+true CLST
+false CLT
+false COT
+false CST
+true CST6CDT
+false CXT
+true Canada/Atlantic
+true Canada/Central
+true Canada/Eastern
+true Canada/Mountain
+true Canada/Newfoundland
+true Canada/Pacific
+false Canada/Saskatchewan
+false Canada/Yukon
+false Chile/Continental
+false Chile/EasterIsland
+true Cuba
+false DAVT
+false DDUT
+false EASST
+false EAST
+false EAT
+true EDT
+true EEST
+false EET
+true EETDST
+true EGST
+false EGT
+false EST
+true EST5EDT
+false Egypt
+false Eire
+false Etc/GMT
+false Etc/GMT+0
+false Etc/GMT+1
+false Etc/GMT+10
+false Etc/GMT+11
+false Etc/GMT+12
+false Etc/GMT+2
+false Etc/GMT+3
+false Etc/GMT+4
+false Etc/GMT+5
+false Etc/GMT+6
+false Etc/GMT+7
+false Etc/GMT+8
+false Etc/GMT+9
+false Etc/GMT-0
+false Etc/GMT-1
+false Etc/GMT-10
+false Etc/GMT-11
+false Etc/GMT-12
+false Etc/GMT-13
+false Etc/GMT-14
+false Etc/GMT-2
+false Etc/GMT-3
+false Etc/GMT-4
+false Etc/GMT-5
+false Etc/GMT-6
+false Etc/GMT-7
+false Etc/GMT-8
+false Etc/GMT-9
+false Etc/GMT0
+false Etc/Greenwich
+false Etc/UCT
+false Etc/UTC
+false Etc/Universal
+false Etc/Zulu
+true Europe/Amsterdam
+true Europe/Andorra
+false Europe/Astrakhan
+true Europe/Athens
+true Europe/Belfast
+true Europe/Belgrade
+true Europe/Berlin
+true Europe/Bratislava
+true Europe/Brussels
+true Europe/Bucharest
+true Europe/Budapest
+true Europe/Busingen
+true Europe/Chisinau
+true Europe/Copenhagen
+false Europe/Dublin
+true Europe/Gibraltar
+true Europe/Guernsey
+true Europe/Helsinki
+true Europe/Isle_of_Man
+false Europe/Istanbul
+true Europe/Jersey
+false Europe/Kaliningrad
+true Europe/Kiev
+false Europe/Kirov
+true Europe/Lisbon
+true Europe/Ljubljana
+true Europe/London
+true Europe/Luxembourg
+true Europe/Madrid
+true Europe/Malta
+true Europe/Mariehamn
+false Europe/Minsk
+true Europe/Monaco
+false Europe/Moscow
+true Europe/Nicosia
+true Europe/Oslo
+true Europe/Paris
+true Europe/Podgorica
+true Europe/Prague
+true Europe/Riga
+true Europe/Rome
+false Europe/Samara
+true Europe/San_Marino
+true Europe/Sarajevo
+false Europe/Saratov
+false Europe/Simferopol
+true Europe/Skopje
+true Europe/Sofia
+true Europe/Stockholm
+true Europe/Tallinn
+true Europe/Tirane
+true Europe/Tiraspol
+false Europe/Ulyanovsk
+true Europe/Uzhgorod
+true Europe/Vaduz
+true Europe/Vatican
+true Europe/Vienna
+true Europe/Vilnius
+false Europe/Volgograd
+true Europe/Warsaw
+true Europe/Zagreb
+true Europe/Zaporozhye
+true Europe/Zurich
+false FET
+true FJST
+false FJT
+false FKST
+false FKT
+true FNST
+false FNT
+false Factory
+false GALT
+false GAMT
+true GB
+true GB-Eire
+false GEST
+false GET
+false GFT
+false GILT
+false GMT
+false GMT+0
+false GMT-0
+false GMT0
+false GYT
+false Greenwich
+false HKT
+false HST
+false Hongkong
+false ICT
+true IDT
+false IOT
+false IRKST
+false IRKT
+false IRT
+false IST
+false Iceland
+false Indian/Antananarivo
+false Indian/Chagos
+false Indian/Christmas
+false Indian/Cocos
+false Indian/Comoro
+false Indian/Kerguelen
+false Indian/Mahe
+false Indian/Maldives
+false Indian/Mauritius
+false Indian/Mayotte
+false Indian/Reunion
+true Iran
+true Israel
+false JAYT
+false JST
+false Jamaica
+false Japan
+true KDT
+true KGST
+false KGT
+false KOST
+false KRAST
+false KRAT
+false KST
+false Kwajalein
+false LHDT
+false LHST
+false LIGT
+false LINT
+false LKT
+false Libya
+false MAGST
+false MAGT
+false MART
+false MAWT
+true MDT
+true MEST
+true MESZ
+true MET
+true METDST
+false MEZ
+false MHT
+false MMT
+false MPT
+true MSD
+false MSK
+false MST
+true MST7MDT
+true MUST
+false MUT
+false MVT
+false MYT
+true Mexico/BajaNorte
+true Mexico/BajaSur
+true Mexico/General
+true NDT
+false NFT
+false NOVST
+false NOVT
+false NPT
+false NST
+false NUT
+false NZ
+false NZ-CHAT
+true NZDT
+false NZST
+false NZT
+true Navajo
+false OMSST
+false OMST
+true PDT
+false PET
+false PETST
+false PETT
+false PGT
+false PHOT
+false PHT
+true PKST
+false PKT
+true PMDT
+false PMST
+false PONT
+false PRC
+false PST
+true PST8PDT
+false PWT
+true PYST
+false PYT
+false Pacific/Apia
+false Pacific/Auckland
+false Pacific/Bougainville
+false Pacific/Chatham
+false Pacific/Chuuk
+false Pacific/Easter
+false Pacific/Efate
+false Pacific/Enderbury
+false Pacific/Fakaofo
+false Pacific/Fiji
+false Pacific/Funafuti
+false Pacific/Galapagos
+false Pacific/Gambier
+false Pacific/Guadalcanal
+false Pacific/Guam
+false Pacific/Honolulu
+false Pacific/Johnston
+false Pacific/Kiritimati
+false Pacific/Kosrae
+false Pacific/Kwajalein
+false Pacific/Majuro
+false Pacific/Marquesas
+false Pacific/Midway
+false Pacific/Nauru
+false Pacific/Niue
+false Pacific/Norfolk
+false Pacific/Noumea
+false Pacific/Pago_Pago
+false Pacific/Palau
+false Pacific/Pitcairn
+false Pacific/Pohnpei
+false Pacific/Ponape
+false Pacific/Port_Moresby
+false Pacific/Rarotonga
+false Pacific/Saipan
+false Pacific/Samoa
+false Pacific/Tahiti
+false Pacific/Tarawa
+false Pacific/Tongatapu
+false Pacific/Truk
+false Pacific/Wake
+false Pacific/Wallis
+false Pacific/Yap
+true Poland
+true Portugal
+false RET
+false ROC
+false ROK
+true SADT
+false SAST
+false SCT
+false SGT
+false Singapore
+false TAHT
+false TFT
+false TJT
+false TKT
+false TMT
+false TOT
+false TRUT
+false TVT
+false Turkey
+false UCT
+true ULAST
+false ULAT
+true US/Alaska
+true US/Aleutian
+false US/Arizona
+true US/Central
+true US/East-Indiana
+true US/Eastern
+false US/Hawaii
+true US/Indiana-Starke
+true US/Michigan
+true US/Mountain
+true US/Pacific
+false US/Samoa
+false UT
+false UTC
+true UYST
+false UYT
+true UZST
+false UZT
+false Universal
+false VET
+false VLAST
+false VLAT
+false VOLT
+false VUT
+false W-SU
+true WADT
+false WAKT
+false WAST
+false WAT
+true WDT
+true WET
+true WETDST
+false WFT
+true WGST
+false WGT
+false XJT
+false YAKST
+false YAKT
+false YAPT
+true YEKST
+false YEKT
+false Z
+false Zulu
+false localtime
+false posix/Africa/Abidjan
+false posix/Africa/Accra
+false posix/Africa/Addis_Ababa
+false posix/Africa/Algiers
+false posix/Africa/Asmara
+false posix/Africa/Asmera
+false posix/Africa/Bamako
+false posix/Africa/Bangui
+false posix/Africa/Banjul
+false posix/Africa/Bissau
+false posix/Africa/Blantyre
+false posix/Africa/Brazzaville
+false posix/Africa/Bujumbura
+false posix/Africa/Cairo
+false posix/Africa/Casablanca
+true posix/Africa/Ceuta
+false posix/Africa/Conakry
+false posix/Africa/Dakar
+false posix/Africa/Dar_es_Salaam
+false posix/Africa/Djibouti
+false posix/Africa/Douala
+false posix/Africa/El_Aaiun
+false posix/Africa/Freetown
+false posix/Africa/Gaborone
+false posix/Africa/Harare
+false posix/Africa/Johannesburg
+false posix/Africa/Juba
+false posix/Africa/Kampala
+false posix/Africa/Khartoum
+false posix/Africa/Kigali
+false posix/Africa/Kinshasa
+false posix/Africa/Lagos
+false posix/Africa/Libreville
+false posix/Africa/Lome
+false posix/Africa/Luanda
+false posix/Africa/Lubumbashi
+false posix/Africa/Lusaka
+false posix/Africa/Malabo
+false posix/Africa/Maputo
+false posix/Africa/Maseru
+false posix/Africa/Mbabane
+false posix/Africa/Mogadishu
+false posix/Africa/Monrovia
+false posix/Africa/Nairobi
+false posix/Africa/Ndjamena
+false posix/Africa/Niamey
+false posix/Africa/Nouakchott
+false posix/Africa/Ouagadougou
+false posix/Africa/Porto-Novo
+false posix/Africa/Sao_Tome
+false posix/Africa/Timbuktu
+false posix/Africa/Tripoli
+false posix/Africa/Tunis
+false posix/Africa/Windhoek
+true posix/America/Adak
+true posix/America/Anchorage
+false posix/America/Anguilla
+false posix/America/Antigua
+false posix/America/Araguaina
+false posix/America/Argentina/Buenos_Aires
+false posix/America/Argentina/Catamarca
+false posix/America/Argentina/ComodRivadavia
+false posix/America/Argentina/Cordoba
+false posix/America/Argentina/Jujuy
+false posix/America/Argentina/La_Rioja
+false posix/America/Argentina/Mendoza
+false posix/America/Argentina/Rio_Gallegos
+false posix/America/Argentina/Salta
+false posix/America/Argentina/San_Juan
+false posix/America/Argentina/San_Luis
+false posix/America/Argentina/Tucuman
+false posix/America/Argentina/Ushuaia
+false posix/America/Aruba
+false posix/America/Asuncion
+false posix/America/Atikokan
+true posix/America/Atka
+false posix/America/Bahia
+true posix/America/Bahia_Banderas
+false posix/America/Barbados
+false posix/America/Belem
+false posix/America/Belize
+false posix/America/Blanc-Sablon
+false posix/America/Boa_Vista
+false posix/America/Bogota
+true posix/America/Boise
+false posix/America/Buenos_Aires
+true posix/America/Cambridge_Bay
+false posix/America/Campo_Grande
+false posix/America/Cancun
+false posix/America/Caracas
+false posix/America/Catamarca
+false posix/America/Cayenne
+false posix/America/Cayman
+true posix/America/Chicago
+true posix/America/Chihuahua
+false posix/America/Coral_Harbour
+false posix/America/Cordoba
+false posix/America/Costa_Rica
+false posix/America/Creston
+false posix/America/Cuiaba
+false posix/America/Curacao
+false posix/America/Danmarkshavn
+false posix/America/Dawson
+false posix/America/Dawson_Creek
+true posix/America/Denver
+true posix/America/Detroit
+false posix/America/Dominica
+true posix/America/Edmonton
+false posix/America/Eirunepe
+false posix/America/El_Salvador
+true posix/America/Ensenada
+false posix/America/Fort_Nelson
+true posix/America/Fort_Wayne
+false posix/America/Fortaleza
+true posix/America/Glace_Bay
+true posix/America/Godthab
+true posix/America/Goose_Bay
+true posix/America/Grand_Turk
+false posix/America/Grenada
+false posix/America/Guadeloupe
+false posix/America/Guatemala
+false posix/America/Guayaquil
+false posix/America/Guyana
+true posix/America/Halifax
+true posix/America/Havana
+false posix/America/Hermosillo
+true posix/America/Indiana/Indianapolis
+true posix/America/Indiana/Knox
+true posix/America/Indiana/Marengo
+true posix/America/Indiana/Petersburg
+true posix/America/Indiana/Tell_City
+true posix/America/Indiana/Vevay
+true posix/America/Indiana/Vincennes
+true posix/America/Indiana/Winamac
+true posix/America/Indianapolis
+true posix/America/Inuvik
+true posix/America/Iqaluit
+false posix/America/Jamaica
+false posix/America/Jujuy
+true posix/America/Juneau
+true posix/America/Kentucky/Louisville
+true posix/America/Kentucky/Monticello
+true posix/America/Knox_IN
+false posix/America/Kralendijk
+false posix/America/La_Paz
+false posix/America/Lima
+true posix/America/Los_Angeles
+true posix/America/Louisville
+false posix/America/Lower_Princes
+false posix/America/Maceio
+false posix/America/Managua
+false posix/America/Manaus
+false posix/America/Marigot
+false posix/America/Martinique
+true posix/America/Matamoros
+true posix/America/Mazatlan
+false posix/America/Mendoza
+true posix/America/Menominee
+true posix/America/Merida
+true posix/America/Metlakatla
+true posix/America/Mexico_City
+true posix/America/Miquelon
+true posix/America/Moncton
+true posix/America/Monterrey
+false posix/America/Montevideo
+true posix/America/Montreal
+false posix/America/Montserrat
+true posix/America/Nassau
+true posix/America/New_York
+true posix/America/Nipigon
+true posix/America/Nome
+false posix/America/Noronha
+true posix/America/North_Dakota/Beulah
+true posix/America/North_Dakota/Center
+true posix/America/North_Dakota/New_Salem
+true posix/America/Nuuk
+true posix/America/Ojinaga
+false posix/America/Panama
+true posix/America/Pangnirtung
+false posix/America/Paramaribo
+false posix/America/Phoenix
+true posix/America/Port-au-Prince
+false posix/America/Port_of_Spain
+false posix/America/Porto_Acre
+false posix/America/Porto_Velho
+false posix/America/Puerto_Rico
+false posix/America/Punta_Arenas
+true posix/America/Rainy_River
+true posix/America/Rankin_Inlet
+false posix/America/Recife
+false posix/America/Regina
+true posix/America/Resolute
+false posix/America/Rio_Branco
+false posix/America/Rosario
+true posix/America/Santa_Isabel
+false posix/America/Santarem
+false posix/America/Santiago
+false posix/America/Santo_Domingo
+false posix/America/Sao_Paulo
+true posix/America/Scoresbysund
+true posix/America/Shiprock
+true posix/America/Sitka
+false posix/America/St_Barthelemy
+true posix/America/St_Johns
+false posix/America/St_Kitts
+false posix/America/St_Lucia
+false posix/America/St_Thomas
+false posix/America/St_Vincent
+false posix/America/Swift_Current
+false posix/America/Tegucigalpa
+true posix/America/Thule
+true posix/America/Thunder_Bay
+true posix/America/Tijuana
+true posix/America/Toronto
+false posix/America/Tortola
+true posix/America/Vancouver
+false posix/America/Virgin
+false posix/America/Whitehorse
+true posix/America/Winnipeg
+true posix/America/Yakutat
+true posix/America/Yellowknife
+false posix/Antarctica/Casey
+false posix/Antarctica/Davis
+false posix/Antarctica/DumontDUrville
+false posix/Antarctica/Macquarie
+false posix/Antarctica/Mawson
+false posix/Antarctica/McMurdo
+false posix/Antarctica/Palmer
+false posix/Antarctica/Rothera
+false posix/Antarctica/South_Pole
+false posix/Antarctica/Syowa
+true posix/Antarctica/Troll
+false posix/Antarctica/Vostok
+true posix/Arctic/Longyearbyen
+false posix/Asia/Aden
+false posix/Asia/Almaty
+true posix/Asia/Amman
+false posix/Asia/Anadyr
+false posix/Asia/Aqtau
+false posix/Asia/Aqtobe
+false posix/Asia/Ashgabat
+false posix/Asia/Ashkhabad
+false posix/Asia/Atyrau
+false posix/Asia/Baghdad
+false posix/Asia/Bahrain
+false posix/Asia/Baku
+false posix/Asia/Bangkok
+false posix/Asia/Barnaul
+true posix/Asia/Beirut
+false posix/Asia/Bishkek
+false posix/Asia/Brunei
+false posix/Asia/Calcutta
+false posix/Asia/Chita
+false posix/Asia/Choibalsan
+false posix/Asia/Chongqing
+false posix/Asia/Chungking
+false posix/Asia/Colombo
+false posix/Asia/Dacca
+true posix/Asia/Damascus
+false posix/Asia/Dhaka
+false posix/Asia/Dili
+false posix/Asia/Dubai
+false posix/Asia/Dushanbe
+true posix/Asia/Famagusta
+true posix/Asia/Gaza
+false posix/Asia/Harbin
+true posix/Asia/Hebron
+false posix/Asia/Ho_Chi_Minh
+false posix/Asia/Hong_Kong
+false posix/Asia/Hovd
+false posix/Asia/Irkutsk
+false posix/Asia/Istanbul
+false posix/Asia/Jakarta
+false posix/Asia/Jayapura
+true posix/Asia/Jerusalem
+false posix/Asia/Kabul
+false posix/Asia/Kamchatka
+false posix/Asia/Karachi
+false posix/Asia/Kashgar
+false posix/Asia/Kathmandu
+false posix/Asia/Katmandu
+false posix/Asia/Khandyga
+false posix/Asia/Kolkata
+false posix/Asia/Krasnoyarsk
+false posix/Asia/Kuala_Lumpur
+false posix/Asia/Kuching
+false posix/Asia/Kuwait
+false posix/Asia/Macao
+false posix/Asia/Macau
+false posix/Asia/Magadan
+false posix/Asia/Makassar
+false posix/Asia/Manila
+false posix/Asia/Muscat
+true posix/Asia/Nicosia
+false posix/Asia/Novokuznetsk
+false posix/Asia/Novosibirsk
+false posix/Asia/Omsk
+false posix/Asia/Oral
+false posix/Asia/Phnom_Penh
+false posix/Asia/Pontianak
+false posix/Asia/Pyongyang
+false posix/Asia/Qatar
+false posix/Asia/Qostanay
+false posix/Asia/Qyzylorda
+false posix/Asia/Rangoon
+false posix/Asia/Riyadh
+false posix/Asia/Saigon
+false posix/Asia/Sakhalin
+false posix/Asia/Samarkand
+false posix/Asia/Seoul
+false posix/Asia/Shanghai
+false posix/Asia/Singapore
+false posix/Asia/Srednekolymsk
+false posix/Asia/Taipei
+false posix/Asia/Tashkent
+false posix/Asia/Tbilisi
+true posix/Asia/Tehran
+true posix/Asia/Tel_Aviv
+false posix/Asia/Thimbu
+false posix/Asia/Thimphu
+false posix/Asia/Tokyo
+false posix/Asia/Tomsk
+false posix/Asia/Ujung_Pandang
+false posix/Asia/Ulaanbaatar
+false posix/Asia/Ulan_Bator
+false posix/Asia/Urumqi
+false posix/Asia/Ust-Nera
+false posix/Asia/Vientiane
+false posix/Asia/Vladivostok
+false posix/Asia/Yakutsk
+false posix/Asia/Yangon
+false posix/Asia/Yekaterinburg
+false posix/Asia/Yerevan
+true posix/Atlantic/Azores
+true posix/Atlantic/Bermuda
+true posix/Atlantic/Canary
+false posix/Atlantic/Cape_Verde
+true posix/Atlantic/Faeroe
+true posix/Atlantic/Faroe
+true posix/Atlantic/Jan_Mayen
+true posix/Atlantic/Madeira
+false posix/Atlantic/Reykjavik
+false posix/Atlantic/South_Georgia
+false posix/Atlantic/St_Helena
+false posix/Atlantic/Stanley
+false posix/Australia/ACT
+false posix/Australia/Adelaide
+false posix/Australia/Brisbane
+false posix/Australia/Broken_Hill
+false posix/Australia/Canberra
+false posix/Australia/Currie
+false posix/Australia/Darwin
+false posix/Australia/Eucla
+false posix/Australia/Hobart
+false posix/Australia/LHI
+false posix/Australia/Lindeman
+false posix/Australia/Lord_Howe
+false posix/Australia/Melbourne
+false posix/Australia/NSW
+false posix/Australia/North
+false posix/Australia/Perth
+false posix/Australia/Queensland
+false posix/Australia/South
+false posix/Australia/Sydney
+false posix/Australia/Tasmania
+false posix/Australia/Victoria
+false posix/Australia/West
+false posix/Australia/Yancowinna
+false posix/Brazil/Acre
+false posix/Brazil/DeNoronha
+false posix/Brazil/East
+false posix/Brazil/West
+true posix/CET
+true posix/CST6CDT
+true posix/Canada/Atlantic
+true posix/Canada/Central
+true posix/Canada/Eastern
+true posix/Canada/Mountain
+true posix/Canada/Newfoundland
+true posix/Canada/Pacific
+false posix/Canada/Saskatchewan
+false posix/Canada/Yukon
+false posix/Chile/Continental
+false posix/Chile/EasterIsland
+true posix/Cuba
+true posix/EET
+false posix/EST
+true posix/EST5EDT
+false posix/Egypt
+false posix/Eire
+false posix/Etc/GMT
+false posix/Etc/GMT+0
+false posix/Etc/GMT+1
+false posix/Etc/GMT+10
+false posix/Etc/GMT+11
+false posix/Etc/GMT+12
+false posix/Etc/GMT+2
+false posix/Etc/GMT+3
+false posix/Etc/GMT+4
+false posix/Etc/GMT+5
+false posix/Etc/GMT+6
+false posix/Etc/GMT+7
+false posix/Etc/GMT+8
+false posix/Etc/GMT+9
+false posix/Etc/GMT-0
+false posix/Etc/GMT-1
+false posix/Etc/GMT-10
+false posix/Etc/GMT-11
+false posix/Etc/GMT-12
+false posix/Etc/GMT-13
+false posix/Etc/GMT-14
+false posix/Etc/GMT-2
+false posix/Etc/GMT-3
+false posix/Etc/GMT-4
+false posix/Etc/GMT-5
+false posix/Etc/GMT-6
+false posix/Etc/GMT-7
+false posix/Etc/GMT-8
+false posix/Etc/GMT-9
+false posix/Etc/GMT0
+false posix/Etc/Greenwich
+false posix/Etc/UCT
+false posix/Etc/UTC
+false posix/Etc/Universal
+false posix/Etc/Zulu
+true posix/Europe/Amsterdam
+true posix/Europe/Andorra
+false posix/Europe/Astrakhan
+true posix/Europe/Athens
+true posix/Europe/Belfast
+true posix/Europe/Belgrade
+true posix/Europe/Berlin
+true posix/Europe/Bratislava
+true posix/Europe/Brussels
+true posix/Europe/Bucharest
+true posix/Europe/Budapest
+true posix/Europe/Busingen
+true posix/Europe/Chisinau
+true posix/Europe/Copenhagen
+false posix/Europe/Dublin
+true posix/Europe/Gibraltar
+true posix/Europe/Guernsey
+true posix/Europe/Helsinki
+true posix/Europe/Isle_of_Man
+false posix/Europe/Istanbul
+true posix/Europe/Jersey
+false posix/Europe/Kaliningrad
+true posix/Europe/Kiev
+false posix/Europe/Kirov
+true posix/Europe/Lisbon
+true posix/Europe/Ljubljana
+true posix/Europe/London
+true posix/Europe/Luxembourg
+true posix/Europe/Madrid
+true posix/Europe/Malta
+true posix/Europe/Mariehamn
+false posix/Europe/Minsk
+true posix/Europe/Monaco
+false posix/Europe/Moscow
+true posix/Europe/Nicosia
+true posix/Europe/Oslo
+true posix/Europe/Paris
+true posix/Europe/Podgorica
+true posix/Europe/Prague
+true posix/Europe/Riga
+true posix/Europe/Rome
+false posix/Europe/Samara
+true posix/Europe/San_Marino
+true posix/Europe/Sarajevo
+false posix/Europe/Saratov
+false posix/Europe/Simferopol
+true posix/Europe/Skopje
+true posix/Europe/Sofia
+true posix/Europe/Stockholm
+true posix/Europe/Tallinn
+true posix/Europe/Tirane
+true posix/Europe/Tiraspol
+false posix/Europe/Ulyanovsk
+true posix/Europe/Uzhgorod
+true posix/Europe/Vaduz
+true posix/Europe/Vatican
+true posix/Europe/Vienna
+true posix/Europe/Vilnius
+false posix/Europe/Volgograd
+true posix/Europe/Warsaw
+true posix/Europe/Zagreb
+true posix/Europe/Zaporozhye
+true posix/Europe/Zurich
+false posix/Factory
+true posix/GB
+true posix/GB-Eire
+false posix/GMT
+false posix/GMT+0
+false posix/GMT-0
+false posix/GMT0
+false posix/Greenwich
+false posix/HST
+false posix/Hongkong
+false posix/Iceland
+false posix/Indian/Antananarivo
+false posix/Indian/Chagos
+false posix/Indian/Christmas
+false posix/Indian/Cocos
+false posix/Indian/Comoro
+false posix/Indian/Kerguelen
+false posix/Indian/Mahe
+false posix/Indian/Maldives
+false posix/Indian/Mauritius
+false posix/Indian/Mayotte
+false posix/Indian/Reunion
+true posix/Iran
+true posix/Israel
+false posix/Jamaica
+false posix/Japan
+false posix/Kwajalein
+false posix/Libya
+true posix/MET
+false posix/MST
+true posix/MST7MDT
+true posix/Mexico/BajaNorte
+true posix/Mexico/BajaSur
+true posix/Mexico/General
+false posix/NZ
+false posix/NZ-CHAT
+true posix/Navajo
+false posix/PRC
+true posix/PST8PDT
+false posix/Pacific/Apia
+false posix/Pacific/Auckland
+false posix/Pacific/Bougainville
+false posix/Pacific/Chatham
+false posix/Pacific/Chuuk
+false posix/Pacific/Easter
+false posix/Pacific/Efate
+false posix/Pacific/Enderbury
+false posix/Pacific/Fakaofo
+false posix/Pacific/Fiji
+false posix/Pacific/Funafuti
+false posix/Pacific/Galapagos
+false posix/Pacific/Gambier
+false posix/Pacific/Guadalcanal
+false posix/Pacific/Guam
+false posix/Pacific/Honolulu
+false posix/Pacific/Johnston
+false posix/Pacific/Kiritimati
+false posix/Pacific/Kosrae
+false posix/Pacific/Kwajalein
+false posix/Pacific/Majuro
+false posix/Pacific/Marquesas
+false posix/Pacific/Midway
+false posix/Pacific/Nauru
+false posix/Pacific/Niue
+false posix/Pacific/Norfolk
+false posix/Pacific/Noumea
+false posix/Pacific/Pago_Pago
+false posix/Pacific/Palau
+false posix/Pacific/Pitcairn
+false posix/Pacific/Pohnpei
+false posix/Pacific/Ponape
+false posix/Pacific/Port_Moresby
+false posix/Pacific/Rarotonga
+false posix/Pacific/Saipan
+false posix/Pacific/Samoa
+false posix/Pacific/Tahiti
+false posix/Pacific/Tarawa
+false posix/Pacific/Tongatapu
+false posix/Pacific/Truk
+false posix/Pacific/Wake
+false posix/Pacific/Wallis
+false posix/Pacific/Yap
+true posix/Poland
+true posix/Portugal
+false posix/ROC
+false posix/ROK
+false posix/Singapore
+false posix/Turkey
+false posix/UCT
+true posix/US/Alaska
+true posix/US/Aleutian
+false posix/US/Arizona
+true posix/US/Central
+true posix/US/East-Indiana
+true posix/US/Eastern
+false posix/US/Hawaii
+true posix/US/Indiana-Starke
+true posix/US/Michigan
+true posix/US/Mountain
+true posix/US/Pacific
+false posix/US/Samoa
+false posix/UTC
+false posix/Universal
+false posix/W-SU
+true posix/WET
+false posix/Zulu
+true posixrules
+</TimeZones>
+      <StartupTime>1617582042</StartupTime>
+    </root>
+    <database id="2" parent="1" name="postgres">
+      <ObjectId>13483</ObjectId>
+      <Comment>default administrative connection database</Comment>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="3" parent="1" name="recommend_system">
+      <ObjectId>18929</ObjectId>
+      <Owner>postgres</Owner>
+      <IntrospectionStateNumber>100834</IntrospectionStateNumber>
+      <Current>1</Current>
+      <Relations>sequence|table|18938|18932|1
+sequence|table|18956|18953|2
+sequence|table|18964|18958|1
+sequence|table|18969|18966|1
+sequence|table|18974|18971|1
+sequence|table|18982|18976|1
+sequence|table|18999|18996|1
+sequence|table|19007|19001|1
+sequence|table|19018|19012|1
+sequence|table|19028|19020|1
+sequence|table|19052|19046|1
+</Relations>
+    </database>
+    <database id="4" parent="1" name="test">
+      <ObjectId>16722</ObjectId>
+      <Owner>postgres</Owner>
+    </database>
+    <role id="5" parent="1" name="pg_execute_server_program">
+      <ObjectId>4571</ObjectId>
+    </role>
+    <role id="6" parent="1" name="pg_monitor">
+      <ObjectId>3373</ObjectId>
+    </role>
+    <role id="7" parent="1" name="pg_read_all_settings">
+      <ObjectId>3374</ObjectId>
+    </role>
+    <role id="8" parent="1" name="pg_read_all_stats">
+      <ObjectId>3375</ObjectId>
+    </role>
+    <role id="9" parent="1" name="pg_read_server_files">
+      <ObjectId>4569</ObjectId>
+    </role>
+    <role id="10" parent="1" name="pg_signal_backend">
+      <ObjectId>4200</ObjectId>
+    </role>
+    <role id="11" parent="1" name="pg_stat_scan_tables">
+      <ObjectId>3377</ObjectId>
+    </role>
+    <role id="12" parent="1" name="pg_write_server_files">
+      <ObjectId>4570</ObjectId>
+    </role>
+    <role id="13" parent="1" name="postgres">
+      <ObjectId>10</ObjectId>
+      <SuperRole>1</SuperRole>
+      <CreateDb>1</CreateDb>
+      <CreateRole>1</CreateRole>
+      <CanLogin>1</CanLogin>
+      <Replication>1</Replication>
+      <BypassRls>1</BypassRls>
+    </role>
+    <tablespace id="14" parent="1" name="pg_default">
+      <ObjectId>1663</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>1</StateNumber>
+    </tablespace>
+    <tablespace id="15" parent="1" name="pg_global">
+      <ObjectId>1664</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>1</StateNumber>
+    </tablespace>
+    <schema id="16" parent="3" name="information_schema">
+      <ObjectId>13199</ObjectId>
+      <Acl>10=UC/10
+U/10
+</Acl>
+      <StateNumber>292</StateNumber>
+      <Owner>postgres</Owner>
+    </schema>
+    <schema id="17" parent="3" name="pg_catalog">
+      <ObjectId>11</ObjectId>
+      <Comment>system catalog schema</Comment>
+      <Acl>10=UC/10
+U/10
+</Acl>
+      <StateNumber>285</StateNumber>
+      <Owner>postgres</Owner>
+    </schema>
+    <schema id="18" parent="3" name="public">
+      <ObjectId>2200</ObjectId>
+      <Comment>standard public schema</Comment>
+      <Acl>10=UC/10
+UC/10
+</Acl>
+      <StateNumber>286</StateNumber>
+      <Owner>postgres</Owner>
+      <IntrospectionStateNumber>100835</IntrospectionStateNumber>
+      <Current>1</Current>
+    </schema>
+    <extension id="19" parent="3" name="plpgsql">
+      <ObjectId>13469</ObjectId>
+      <Comment>PL/pgSQL procedural language</Comment>
+      <StateNumber>438</StateNumber>
+      <Version>1.0</Version>
+      <SchemaName>pg_catalog</SchemaName>
+      <SchemaId>11</SchemaId>
+    </extension>
+    <language id="20" parent="3" name="c">
+      <ObjectId>13</ObjectId>
+      <Comment>dynamically-loaded C functions</Comment>
+      <StateNumber>1</StateNumber>
+      <ValidatorName>fmgr_c_validator</ValidatorName>
+      <ValidatorSchema>pg_catalog</ValidatorSchema>
+    </language>
+    <language id="21" parent="3" name="internal">
+      <ObjectId>12</ObjectId>
+      <Comment>built-in functions</Comment>
+      <StateNumber>1</StateNumber>
+      <ValidatorName>fmgr_internal_validator</ValidatorName>
+      <ValidatorSchema>pg_catalog</ValidatorSchema>
+    </language>
+    <language id="22" parent="3" name="plpgsql">
+      <ObjectId>13473</ObjectId>
+      <Comment>PL/pgSQL procedural language</Comment>
+      <StateNumber>438</StateNumber>
+      <Trusted>1</Trusted>
+      <HandlerName>plpgsql_call_handler</HandlerName>
+      <HandlerSchema>pg_catalog</HandlerSchema>
+      <InlineHandlerName>plpgsql_inline_handler</InlineHandlerName>
+      <InlineHandlerSchema>pg_catalog</InlineHandlerSchema>
+      <ValidatorName>plpgsql_validator</ValidatorName>
+      <ValidatorSchema>pg_catalog</ValidatorSchema>
+    </language>
+    <language id="23" parent="3" name="sql">
+      <ObjectId>14</ObjectId>
+      <Comment>SQL-language functions</Comment>
+      <StateNumber>1</StateNumber>
+      <Trusted>1</Trusted>
+      <ValidatorName>fmgr_sql_validator</ValidatorName>
+      <ValidatorSchema>pg_catalog</ValidatorSchema>
+    </language>
+    <access-method id="24" parent="3" name="heap">
+      <ObjectId>2</ObjectId>
+      <Comment>heap table access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.heap_tableam_handler</Handler>
+      <HandlerId>3</HandlerId>
+    </access-method>
+    <access-method id="25" parent="3" name="btree">
+      <ObjectId>403</ObjectId>
+      <Comment>b-tree index access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.bthandler</Handler>
+      <HandlerId>330</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="26" parent="3" name="hash">
+      <ObjectId>405</ObjectId>
+      <Comment>hash index access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.hashhandler</Handler>
+      <HandlerId>331</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="27" parent="3" name="gist">
+      <ObjectId>783</ObjectId>
+      <Comment>GiST index access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.gisthandler</Handler>
+      <HandlerId>332</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="28" parent="3" name="gin">
+      <ObjectId>2742</ObjectId>
+      <Comment>GIN index access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.ginhandler</Handler>
+      <HandlerId>333</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="29" parent="3" name="spgist">
+      <ObjectId>4000</ObjectId>
+      <Comment>SP-GiST index access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.spghandler</Handler>
+      <HandlerId>334</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="30" parent="3" name="brin">
+      <ObjectId>3580</ObjectId>
+      <Comment>block range index (BRIN) access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.brinhandler</Handler>
+      <HandlerId>335</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <sequence id="31" parent="18" name="author_author_id_seq">
+      <ObjectId>18938</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>100485</StateNumber>
+      <DataType>bigint|0s</DataType>
+    </sequence>
+    <sequence id="32" parent="18" name="book_holding_kind_book_kind_id_seq">
+      <ObjectId>18956</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>100497</StateNumber>
+      <DataType>integer|0s</DataType>
+    </sequence>
+    <sequence id="33" parent="18" name="book_image_book_image_id_seq">
+      <ObjectId>18964</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>100503</StateNumber>
+      <DataType>bigint|0s</DataType>
+    </sequence>
+    <sequence id="34" parent="18" name="book_kind_book_kind_id_seq">
+      <ObjectId>18969</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>100509</StateNumber>
+      <DataType>integer|0s</DataType>
+    </sequence>
+    <sequence id="35" parent="18" name="book_store_store_id_seq">
+      <ObjectId>18974</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>100514</StateNumber>
+      <DataType>bigint|0s</DataType>
+    </sequence>
+    <sequence id="36" parent="18" name="book_url_url_id_seq">
+      <ObjectId>18982</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>100519</StateNumber>
+      <DataType>bigint|0s</DataType>
+    </sequence>
+    <sequence id="37" parent="18" name="publisher_publisher_id_seq">
+      <ObjectId>18999</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>100533</StateNumber>
+      <DataType>bigint|0s</DataType>
+    </sequence>
+    <sequence id="38" parent="18" name="store_selling_store_id_seq">
+      <ObjectId>19007</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>100538</StateNumber>
+      <DataType>bigint|0s</DataType>
+    </sequence>
+    <sequence id="39" parent="18" name="user_book_mark_user_id_seq">
+      <ObjectId>19018</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>100546</StateNumber>
+      <DataType>bigint|0s</DataType>
+    </sequence>
+    <sequence id="40" parent="18" name="user_book_review_book_review_id_seq">
+      <ObjectId>19028</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>100554</StateNumber>
+      <DataType>bigint|0s</DataType>
+    </sequence>
+    <sequence id="41" parent="18" name="user_info_user_id_seq">
+      <ObjectId>19052</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>100822</StateNumber>
+      <DataType>bigint|0s</DataType>
+    </sequence>
+    <table id="42" parent="18" name="author">
+      <ObjectId>18932</ObjectId>
+      <Comment>书籍的作者信息表</Comment>
+      <Owner>postgres</Owner>
+      <StateNumber>100666</StateNumber>
+    </table>
+    <table id="43" parent="18" name="book">
+      <ObjectId>18940</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>100778</StateNumber>
+    </table>
+    <table id="44" parent="18" name="book_chapter">
+      <ObjectId>18947</ObjectId>
+      <Comment>书籍的章节目录信息&#xd;&#xd;
+“isbn”：书籍的isbn号&#xd;&#xd;
+“chapter_id”：书籍的章节Id&#xd;&#xd;
+“chapter_kind”：书籍章节的类型&#xd;&#xd;
+      1：正标题    2：副标题    3：子标题&#xd;&#xd;
+“chapter_name”：章节名称</Comment>
+      <Owner>postgres</Owner>
+      <StateNumber>100660</StateNumber>
+    </table>
+    <table id="45" parent="18" name="book_holding_kind">
+      <ObjectId>18953</ObjectId>
+      <Comment>书籍拥有的类别信息表</Comment>
+      <Owner>postgres</Owner>
+      <StateNumber>100662</StateNumber>
+    </table>
+    <table id="46" parent="18" name="book_image">
+      <ObjectId>18958</ObjectId>
+      <Comment>书籍图像的信息表</Comment>
+      <Owner>postgres</Owner>
+      <StateNumber>100500</StateNumber>
+    </table>
+    <table id="47" parent="18" name="book_kind">
+      <ObjectId>18966</ObjectId>
+      <Comment>书籍的类别信息表；通过某种算法， 可以得到书籍的所属类别， 得到的结果应当是存在这个表内的，也就是说， 这里是书籍类别的来源</Comment>
+      <Owner>postgres</Owner>
+      <StateNumber>100664</StateNumber>
+    </table>
+    <table id="48" parent="18" name="book_store">
+      <ObjectId>18971</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>100677</StateNumber>
+    </table>
+    <table id="49" parent="18" name="book_url">
+      <ObjectId>18976</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>100517</StateNumber>
+    </table>
+    <table id="50" parent="18" name="created_book">
+      <ObjectId>18984</ObjectId>
+      <Comment>已经存在的作者创建的书籍信息表</Comment>
+      <Owner>postgres</Owner>
+      <StateNumber>100666</StateNumber>
+    </table>
+    <table id="51" parent="18" name="js_content">
+      <ObjectId>18987</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>100525</StateNumber>
+    </table>
+    <table id="52" parent="18" name="published_book">
+      <ObjectId>18993</ObjectId>
+      <Comment>已经出版的书籍信息表</Comment>
+      <Owner>postgres</Owner>
+      <StateNumber>100670</StateNumber>
+    </table>
+    <table id="53" parent="18" name="publisher">
+      <ObjectId>18996</ObjectId>
+      <Comment>&quot;出版社&quot;表</Comment>
+      <Owner>postgres</Owner>
+      <StateNumber>100672</StateNumber>
+    </table>
+    <table id="54" parent="18" name="store_selling">
+      <ObjectId>19001</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>100675</StateNumber>
+    </table>
+    <table id="55" parent="18" name="user_book_browse">
+      <ObjectId>19009</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>100679</StateNumber>
+    </table>
+    <table id="56" parent="18" name="user_book_collection">
+      <ObjectId>19363</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>100769</StateNumber>
+    </table>
+    <table id="57" parent="18" name="user_book_comment">
+      <ObjectId>19343</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>100768</StateNumber>
+    </table>
+    <table id="58" parent="18" name="user_book_mark">
+      <ObjectId>19012</ObjectId>
+      <Comment>用户对于书籍打分的信息表</Comment>
+      <Owner>postgres</Owner>
+      <StateNumber>100683</StateNumber>
+    </table>
+    <table id="59" parent="18" name="user_book_review">
+      <ObjectId>19020</ObjectId>
+      <Comment>用户地书评信息表</Comment>
+      <Owner>postgres</Owner>
+      <StateNumber>100687</StateNumber>
+    </table>
+    <table id="60" parent="18" name="user_book_review_comment">
+      <ObjectId>19030</ObjectId>
+      <Comment>用户对于书评的评论信息表</Comment>
+      <Owner>postgres</Owner>
+      <StateNumber>100689</StateNumber>
+    </table>
+    <table id="61" parent="18" name="user_book_review_star">
+      <ObjectId>19036</ObjectId>
+      <Comment>用户对于书评的点赞信息记录表。&#xd;&#xd;
+主要用于记录用户的点赞信息</Comment>
+      <Owner>postgres</Owner>
+      <StateNumber>100687</StateNumber>
+    </table>
+    <table id="62" parent="18" name="user_book_star">
+      <ObjectId>19326</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>100767</StateNumber>
+    </table>
+    <table id="63" parent="18" name="user_feature">
+      <ObjectId>19040</ObjectId>
+      <Comment>用户的种类信息， 使用某种算法对用户进行分类时， 用户分类的结果将是存在于这个表中的。</Comment>
+      <Owner>postgres</Owner>
+      <StateNumber>100699</StateNumber>
+    </table>
+    <table id="64" parent="18" name="user_feature_holding">
+      <ObjectId>19043</ObjectId>
+      <Comment>用户所属的类型</Comment>
+      <Owner>postgres</Owner>
+      <StateNumber>100699</StateNumber>
+    </table>
+    <table id="65" parent="18" name="user_info">
+      <ObjectId>19046</ObjectId>
+      <Comment>用户信息表</Comment>
+      <Owner>postgres</Owner>
+      <StateNumber>100674</StateNumber>
+    </table>
+    <table id="66" parent="18" name="user_share">
+      <ObjectId>19054</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>100673</StateNumber>
+    </table>
+    <table id="67" parent="18" name="user_share_browse">
+      <ObjectId>19064</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>100681</StateNumber>
+    </table>
+    <table id="68" parent="18" name="user_share_collections">
+      <ObjectId>19067</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>100673</StateNumber>
+    </table>
+    <table id="69" parent="18" name="user_share_comment">
+      <ObjectId>19071</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>100703</StateNumber>
+    </table>
+    <table id="70" parent="18" name="user_share_star">
+      <ObjectId>19077</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>100705</StateNumber>
+    </table>
+    <routine id="71" parent="18" name="update_user_book_review">
+      <ObjectId>18930</ObjectId>
+      <Owner>postgres</Owner>
+      <SourceTextLength>440</SourceTextLength>
+      <StateNumber>100480</StateNumber>
+      <ArgumentsDefinition>review_id bigint</ArgumentsDefinition>
+      <ResultsDefinition>void</ResultsDefinition>
+      <LanguageName>plpgsql</LanguageName>
+      <RoutineKind>function</RoutineKind>
+      <Rows>0.0</Rows>
+    </routine>
+    <routine id="72" parent="18" name="update_user_share">
+      <ObjectId>18931</ObjectId>
+      <Owner>postgres</Owner>
+      <SourceTextLength>570</SourceTextLength>
+      <StateNumber>100481</StateNumber>
+      <ArgumentsDefinition>s_id bigint</ArgumentsDefinition>
+      <ResultsDefinition>void</ResultsDefinition>
+      <LanguageName>plpgsql</LanguageName>
+      <RoutineKind>function</RoutineKind>
+      <Rows>0.0</Rows>
+    </routine>
+    <column id="73" parent="42" name="author_id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100586</StateNumber>
+      <DefaultExpression>nextval(&apos;author_author_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="74" parent="42" name="author_name">
+      <Position>2</Position>
+      <DataType>varchar(50)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100482</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="75" parent="42" name="author_introduction">
+      <Position>3</Position>
+      <DataType>text|0s</DataType>
+      <StateNumber>100482</StateNumber>
+      <TypeId>25</TypeId>
+    </column>
+    <index id="76" parent="42" name="author_pkey">
+      <ObjectId>19102</ObjectId>
+      <StateNumber>100621</StateNumber>
+      <ColNames>author_id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationIds>0</CollationIds>
+      <ClassIds>3124</ClassIds>
+    </index>
+    <key id="77" parent="42" name="author_pkey">
+      <ObjectId>19103</ObjectId>
+      <StateNumber>100621</StateNumber>
+      <ColNames>author_id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>author_pkey</UnderlyingIndexName>
+    </key>
+    <column id="78" parent="43" name="isbn">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100488</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="79" parent="43" name="book_name">
+      <Position>2</Position>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100488</StateNumber>
+      <TypeId>25</TypeId>
+    </column>
+    <column id="80" parent="43" name="introduction">
+      <Position>3</Position>
+      <DataType>text|0s</DataType>
+      <StateNumber>100488</StateNumber>
+      <TypeId>25</TypeId>
+    </column>
+    <column id="81" parent="43" name="book_score">
+      <Position>4</Position>
+      <Comment>该书籍的综合评分</Comment>
+      <DataType>double precision|0s</DataType>
+      <StateNumber>100781</StateNumber>
+      <DefaultExpression>0.0</DefaultExpression>
+      <TypeId>701</TypeId>
+    </column>
+    <index id="82" parent="43" name="book_pkey">
+      <ObjectId>19112</ObjectId>
+      <StateNumber>100778</StateNumber>
+      <ColNames>isbn</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationIds>0</CollationIds>
+      <ClassIds>3124</ClassIds>
+    </index>
+    <key id="83" parent="43" name="book_pkey">
+      <ObjectId>19113</ObjectId>
+      <StateNumber>100626</StateNumber>
+      <ColNames>isbn</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>book_pkey</UnderlyingIndexName>
+    </key>
+    <column id="84" parent="44" name="isbn">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100491</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="85" parent="44" name="chapter_id">
+      <Position>2</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100491</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="86" parent="44" name="chapter_kind">
+      <Position>3</Position>
+      <DataType>smallint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100491</StateNumber>
+      <TypeId>21</TypeId>
+    </column>
+    <column id="87" parent="44" name="chapter_name">
+      <Position>4</Position>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100491</StateNumber>
+      <TypeId>25</TypeId>
+    </column>
+    <index id="88" parent="44" name="book_chapter_pkey">
+      <ObjectId>19104</ObjectId>
+      <StateNumber>100622</StateNumber>
+      <ColNames>isbn
+chapter_id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationIds>0,0</CollationIds>
+      <ClassIds>3124,1978</ClassIds>
+    </index>
+    <index id="89" parent="44" name="fki_book_chapter_isbn_foreign_key">
+      <ObjectId>19154</ObjectId>
+      <StateNumber>100647</StateNumber>
+      <ColNames>isbn</ColNames>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationIds>0</CollationIds>
+      <ClassIds>3124</ClassIds>
+    </index>
+    <key id="90" parent="44" name="book_chapter_pkey">
+      <ObjectId>19105</ObjectId>
+      <StateNumber>100622</StateNumber>
+      <ColNames>isbn
+chapter_id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>book_chapter_pkey</UnderlyingIndexName>
+    </key>
+    <foreign-key id="91" parent="44" name="book_chapter_isbn_foreign_key">
+      <ObjectId>19167</ObjectId>
+      <Comment>书籍的章节的isbn必定是来源已经存在的书籍的isbn</Comment>
+      <StateNumber>100660</StateNumber>
+      <ColNames>isbn</ColNames>
+      <RefTableId>18940</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>book</RefTableName>
+      <RefKeyName>book_pkey</RefKeyName>
+      <RefColNames>isbn</RefColNames>
+    </foreign-key>
+    <column id="92" parent="45" name="isbn">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100494</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="93" parent="45" name="book_kind_id">
+      <Position>2</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100587</StateNumber>
+      <DefaultExpression>nextval(&apos;book_holding_kind_book_kind_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>23</TypeId>
+    </column>
+    <index id="94" parent="45" name="book_holding_kind_pkey">
+      <ObjectId>19106</ObjectId>
+      <StateNumber>100623</StateNumber>
+      <ColNames>isbn
+book_kind_id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationIds>0,0</CollationIds>
+      <ClassIds>3124,1978</ClassIds>
+    </index>
+    <index id="95" parent="45" name="fki_book_holding_kind_isbn_foreign_key">
+      <ObjectId>19155</ObjectId>
+      <StateNumber>100648</StateNumber>
+      <ColNames>isbn</ColNames>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationIds>0</CollationIds>
+      <ClassIds>3124</ClassIds>
+    </index>
+    <index id="96" parent="45" name="fki_book_holding_kind_kind_id_foreign_key">
+      <ObjectId>19156</ObjectId>
+      <StateNumber>100649</StateNumber>
+      <ColNames>book_kind_id</ColNames>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationIds>0</CollationIds>
+      <ClassIds>1978</ClassIds>
+    </index>
+    <key id="97" parent="45" name="book_holding_kind_pkey">
+      <ObjectId>19107</ObjectId>
+      <StateNumber>100623</StateNumber>
+      <ColNames>isbn
+book_kind_id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>book_holding_kind_pkey</UnderlyingIndexName>
+    </key>
+    <foreign-key id="98" parent="45" name="book_holding_kind_isbn_foreign_key">
+      <ObjectId>19172</ObjectId>
+      <Comment>书籍拥有的类别的isbn号， 用于指定特定的书籍。</Comment>
+      <StateNumber>100662</StateNumber>
+      <ColNames>isbn</ColNames>
+      <RefTableId>18940</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>book</RefTableName>
+      <RefKeyName>book_pkey</RefKeyName>
+      <RefColNames>isbn</RefColNames>
+    </foreign-key>
+    <foreign-key id="99" parent="45" name="book_holding_kind_kind_id_foreign_key">
+      <ObjectId>19177</ObjectId>
+      <Comment>书籍拥有的种类的种类ID， 它应当存在于book_kind表中</Comment>
+      <StateNumber>100664</StateNumber>
+      <ColNames>book_kind_id</ColNames>
+      <RefTableId>18966</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>book_kind</RefTableName>
+      <RefKeyName>book_kind_pkey</RefKeyName>
+      <RefColNames>book_kind_id</RefColNames>
+    </foreign-key>
+    <column id="100" parent="46" name="book_image_id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100588</StateNumber>
+      <DefaultExpression>nextval(&apos;book_image_book_image_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="101" parent="46" name="isbn">
+      <Position>2</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100500</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="102" parent="46" name="image_url">
+      <Position>3</Position>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100500</StateNumber>
+      <TypeId>25</TypeId>
+    </column>
+    <index id="103" parent="46" name="book_image_pkey">
+      <ObjectId>19108</ObjectId>
+      <StateNumber>100624</StateNumber>
+      <ColNames>book_image_id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationIds>0</CollationIds>
+      <ClassIds>3124</ClassIds>
+    </index>
+    <key id="104" parent="46" name="book_image_pkey">
+      <ObjectId>19109</ObjectId>
+      <StateNumber>100624</StateNumber>
+      <ColNames>book_image_id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>book_image_pkey</UnderlyingIndexName>
+    </key>
+    <column id="105" parent="47" name="book_kind_id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100589</StateNumber>
+      <DefaultExpression>nextval(&apos;book_kind_book_kind_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="106" parent="47" name="book_kind_name">
+      <Position>2</Position>
+      <DataType>varchar(60)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100506</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="107" parent="47" name="book_kind_pkey">
+      <ObjectId>19110</ObjectId>
+      <StateNumber>100625</StateNumber>
+      <ColNames>book_kind_id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationIds>0</CollationIds>
+      <ClassIds>1978</ClassIds>
+    </index>
+    <key id="108" parent="47" name="book_kind_pkey">
+      <ObjectId>19111</ObjectId>
+      <StateNumber>100625</StateNumber>
+      <ColNames>book_kind_id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>book_kind_pkey</UnderlyingIndexName>
+    </key>
+    <column id="109" parent="48" name="store_id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100590</StateNumber>
+      <DefaultExpression>nextval(&apos;book_store_store_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="110" parent="48" name="store_name">
+      <Position>2</Position>
+      <DataType>varchar(60)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100512</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="111" parent="48" name="platform">
+      <Position>3</Position>
+      <DataType>varchar(10)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100512</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="112" parent="48" name="book_store_pkey">
+      <ObjectId>19114</ObjectId>
+      <StateNumber>100627</StateNumber>
+      <ColNames>store_id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationIds>0</CollationIds>
+      <ClassIds>3124</ClassIds>
+    </index>
+    <key id="113" parent="48" name="book_store_pkey">
+      <ObjectId>19115</ObjectId>
+      <StateNumber>100627</StateNumber>
+      <ColNames>store_id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>book_store_pkey</UnderlyingIndexName>
+    </key>
+    <column id="114" parent="49" name="url_id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100591</StateNumber>
+      <DefaultExpression>nextval(&apos;book_url_url_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="115" parent="49" name="url">
+      <Position>2</Position>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100517</StateNumber>
+      <TypeId>25</TypeId>
+    </column>
+    <column id="116" parent="49" name="hash_book_detail">
+      <Position>3</Position>
+      <DataType>smallint|0s</DataType>
+      <StateNumber>100517</StateNumber>
+      <TypeId>21</TypeId>
+    </column>
+    <index id="117" parent="49" name="book_url_pkey">
+      <ObjectId>19116</ObjectId>
+      <StateNumber>100628</StateNumber>
+      <ColNames>url_id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationIds>0</CollationIds>
+      <ClassIds>3124</ClassIds>
+    </index>
+    <key id="118" parent="49" name="book_url_pkey">
+      <ObjectId>19117</ObjectId>
+      <StateNumber>100628</StateNumber>
+      <ColNames>url_id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>book_url_pkey</UnderlyingIndexName>
+    </key>
+    <column id="119" parent="50" name="isbn">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100522</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="120" parent="50" name="author_id">
+      <Position>2</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100522</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <index id="121" parent="50" name="created_book_pkey">
+      <ObjectId>19118</ObjectId>
+      <StateNumber>100629</StateNumber>
+      <ColNames>isbn
+author_id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationIds>0,0</CollationIds>
+      <ClassIds>3124,3124</ClassIds>
+    </index>
+    <index id="122" parent="50" name="fki_created_book_isbn_foreign_key">
+      <ObjectId>19158</ObjectId>
+      <StateNumber>100651</StateNumber>
+      <ColNames>isbn</ColNames>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationIds>0</CollationIds>
+      <ClassIds>3124</ClassIds>
+    </index>
+    <index id="123" parent="50" name="fki_created_book_author_id_foreign_key">
+      <ObjectId>19157</ObjectId>
+      <StateNumber>100650</StateNumber>
+      <ColNames>author_id</ColNames>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationIds>0</CollationIds>
+      <ClassIds>3124</ClassIds>
+    </index>
+    <key id="124" parent="50" name="created_book_pkey">
+      <ObjectId>19119</ObjectId>
+      <StateNumber>100629</StateNumber>
+      <ColNames>isbn
+author_id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>created_book_pkey</UnderlyingIndexName>
+    </key>
+    <foreign-key id="125" parent="50" name="created_book_isbn_foreign_key">
+      <ObjectId>19187</ObjectId>
+      <Comment>已经创建的书籍的isbn一定来源于已经存在的书籍</Comment>
+      <StateNumber>100668</StateNumber>
+      <ColNames>isbn</ColNames>
+      <RefTableId>18940</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>book</RefTableName>
+      <RefKeyName>book_pkey</RefKeyName>
+      <RefColNames>isbn</RefColNames>
+    </foreign-key>
+    <foreign-key id="126" parent="50" name="created_book_author_id_foreign_key">
+      <ObjectId>19182</ObjectId>
+      <Comment>已经创建的书籍的作者一定来源已经存在的作者</Comment>
+      <StateNumber>100666</StateNumber>
+      <ColNames>author_id</ColNames>
+      <RefTableId>18932</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>author</RefTableName>
+      <RefKeyName>author_pkey</RefKeyName>
+      <RefColNames>author_id</RefColNames>
+    </foreign-key>
+    <column id="127" parent="51" name="content_id">
+      <Position>1</Position>
+      <DataType>smallint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100525</StateNumber>
+      <TypeId>21</TypeId>
+    </column>
+    <column id="128" parent="51" name="content">
+      <Position>2</Position>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100525</StateNumber>
+      <TypeId>25</TypeId>
+    </column>
+    <column id="129" parent="51" name="update_time">
+      <Position>3</Position>
+      <DataType>time with time zone|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100525</StateNumber>
+      <TypeId>1266</TypeId>
+    </column>
+    <index id="130" parent="51" name="js_content_pkey">
+      <ObjectId>19120</ObjectId>
+      <StateNumber>100630</StateNumber>
+      <ColNames>content_id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationIds>0</CollationIds>
+      <ClassIds>1979</ClassIds>
+    </index>
+    <key id="131" parent="51" name="js_content_pkey">
+      <ObjectId>19121</ObjectId>
+      <StateNumber>100630</StateNumber>
+      <ColNames>content_id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>js_content_pkey</UnderlyingIndexName>
+    </key>
+    <column id="132" parent="52" name="isbn">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100527</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="133" parent="52" name="publisher_id">
+      <Position>2</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100527</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="134" parent="52" name="published_date">
+      <Position>3</Position>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100527</StateNumber>
+      <TypeId>1082</TypeId>
+    </column>
+    <index id="135" parent="52" name="published_book_pkey">
+      <ObjectId>19122</ObjectId>
+      <StateNumber>100631</StateNumber>
+      <ColNames>isbn
+publisher_id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationIds>0,0</CollationIds>
+      <ClassIds>3124,3124</ClassIds>
+    </index>
+    <index id="136" parent="52" name="fki_published_book_isbn_foreign_key">
+      <ObjectId>19159</ObjectId>
+      <StateNumber>100652</StateNumber>
+      <ColNames>isbn</ColNames>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationIds>0</CollationIds>
+      <ClassIds>3124</ClassIds>
+    </index>
+    <index id="137" parent="52" name="fki_published_book_publisher_id_foreign_key">
+      <ObjectId>19160</ObjectId>
+      <StateNumber>100653</StateNumber>
+      <ColNames>publisher_id</ColNames>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationIds>0</CollationIds>
+      <ClassIds>3124</ClassIds>
+    </index>
+    <key id="138" parent="52" name="published_book_pkey">
+      <ObjectId>19123</ObjectId>
+      <StateNumber>100631</StateNumber>
+      <ColNames>isbn
+publisher_id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>published_book_pkey</UnderlyingIndexName>
+    </key>
+    <foreign-key id="139" parent="52" name="published_book_isbn_foreign_key">
+      <ObjectId>19192</ObjectId>
+      <Comment>出版的书籍必定是来源于已经存在的书籍</Comment>
+      <StateNumber>100670</StateNumber>
+      <ColNames>isbn</ColNames>
+      <RefTableId>18940</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>book</RefTableName>
+      <RefKeyName>book_pkey</RefKeyName>
+      <RefColNames>isbn</RefColNames>
+    </foreign-key>
+    <foreign-key id="140" parent="52" name="published_book_publisher_id_fk">
+      <ObjectId>19197</ObjectId>
+      <StateNumber>100672</StateNumber>
+      <ColNames>publisher_id</ColNames>
+      <RefTableId>18996</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>publisher</RefTableName>
+      <RefKeyName>publisher_pkey</RefKeyName>
+      <RefColNames>publisher_id</RefColNames>
+    </foreign-key>
+    <column id="141" parent="53" name="publisher_id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100592</StateNumber>
+      <DefaultExpression>nextval(&apos;publisher_publisher_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="142" parent="53" name="publisher_name">
+      <Position>2</Position>
+      <DataType>varchar(60)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100530</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="143" parent="53" name="publisher_pkey">
+      <ObjectId>19124</ObjectId>
+      <StateNumber>100632</StateNumber>
+      <ColNames>publisher_id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationIds>0</CollationIds>
+      <ClassIds>3124</ClassIds>
+    </index>
+    <key id="144" parent="53" name="publisher_pkey">
+      <ObjectId>19125</ObjectId>
+      <StateNumber>100632</StateNumber>
+      <ColNames>publisher_id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>publisher_pkey</UnderlyingIndexName>
+    </key>
+    <column id="145" parent="54" name="store_id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100593</StateNumber>
+      <DefaultExpression>nextval(&apos;store_selling_store_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="146" parent="54" name="isbn">
+      <Position>2</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100536</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="147" parent="54" name="book_price">
+      <Position>3</Position>
+      <DataType>double precision|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100536</StateNumber>
+      <TypeId>701</TypeId>
+    </column>
+    <column id="148" parent="54" name="buying_url">
+      <Position>4</Position>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100536</StateNumber>
+      <TypeId>25</TypeId>
+    </column>
+    <index id="149" parent="54" name="store_selling_pkey">
+      <ObjectId>19126</ObjectId>
+      <StateNumber>100633</StateNumber>
+      <ColNames>store_id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationIds>0</CollationIds>
+      <ClassIds>3124</ClassIds>
+    </index>
+    <index id="150" parent="54" name="fki_s">
+      <ObjectId>19161</ObjectId>
+      <StateNumber>100654</StateNumber>
+      <ColNames>isbn</ColNames>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationIds>0</CollationIds>
+      <ClassIds>3124</ClassIds>
+    </index>
+    <key id="151" parent="54" name="store_selling_pkey">
+      <ObjectId>19127</ObjectId>
+      <StateNumber>100633</StateNumber>
+      <ColNames>store_id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>store_selling_pkey</UnderlyingIndexName>
+    </key>
+    <foreign-key id="152" parent="54" name="store_selling_store_id_foreign_key">
+      <ObjectId>19217</ObjectId>
+      <Comment>“store_selling”  的 “store_id” 源自 “book_store”表中的 &quot;store_id&quot;。用于保证所卖的书籍有一个明确的店铺</Comment>
+      <StateNumber>100677</StateNumber>
+      <ColNames>store_id</ColNames>
+      <RefTableId>18971</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>book_store</RefTableName>
+      <RefKeyName>book_store_pkey</RefKeyName>
+      <RefColNames>store_id</RefColNames>
+    </foreign-key>
+    <foreign-key id="153" parent="54" name="store_selling_book_isbn_foreign_key">
+      <ObjectId>19212</ObjectId>
+      <Comment>&quot;store_selling&quot; 的&quot;isbn&quot;列来源于 &quot;book&quot; 的&quot;isbn&quot;， 确保所卖的书籍确实存在</Comment>
+      <StateNumber>100675</StateNumber>
+      <ColNames>isbn</ColNames>
+      <RefTableId>18940</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>book</RefTableName>
+      <RefKeyName>book_pkey</RefKeyName>
+      <RefColNames>isbn</RefColNames>
+    </foreign-key>
+    <column id="154" parent="55" name="user_id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100541</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="155" parent="55" name="isbn">
+      <Position>2</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100541</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="156" parent="55" name="browse_time">
+      <Position>3</Position>
+      <DataType>time with time zone|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100541</StateNumber>
+      <TypeId>1266</TypeId>
+    </column>
+    <index id="157" parent="55" name="user_book_browse_pkey">
+      <ObjectId>19128</ObjectId>
+      <StateNumber>100634</StateNumber>
+      <ColNames>user_id
+isbn</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationIds>0,0</CollationIds>
+      <ClassIds>3124,3124</ClassIds>
+    </index>
+    <key id="158" parent="55" name="user_book_browse_pkey">
+      <ObjectId>19129</ObjectId>
+      <StateNumber>100634</StateNumber>
+      <ColNames>user_id
+isbn</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>user_book_browse_pkey</UnderlyingIndexName>
+    </key>
+    <foreign-key id="159" parent="55" name="ubb_uid_fky">
+      <ObjectId>19227</ObjectId>
+      <StateNumber>100680</StateNumber>
+      <ColNames>user_id</ColNames>
+      <RefTableId>19046</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>user_info</RefTableName>
+      <RefKeyName>user_info_pkey</RefKeyName>
+      <RefColNames>user_id</RefColNames>
+    </foreign-key>
+    <foreign-key id="160" parent="55" name="ubb_isbn_fky">
+      <ObjectId>19222</ObjectId>
+      <StateNumber>100679</StateNumber>
+      <ColNames>isbn</ColNames>
+      <RefTableId>18940</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>book</RefTableName>
+      <RefKeyName>book_pkey</RefKeyName>
+      <RefColNames>isbn</RefColNames>
+    </foreign-key>
+    <column id="161" parent="56" name="user_id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100769</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="162" parent="56" name="isbn">
+      <Position>2</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100769</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="163" parent="56" name="is_collection">
+      <Position>3</Position>
+      <DataType>boolean|0s</DataType>
+      <StateNumber>100769</StateNumber>
+      <DefaultExpression>false</DefaultExpression>
+      <TypeId>16</TypeId>
+    </column>
+    <column id="164" parent="56" name="collection_date">
+      <Position>4</Position>
+      <DataType>time with time zone|0s</DataType>
+      <StateNumber>100769</StateNumber>
+      <DefaultExpression>now()</DefaultExpression>
+      <TypeId>1266</TypeId>
+    </column>
+    <foreign-key id="165" parent="56" name="ubcollect_uid_fky">
+      <ObjectId>19368</ObjectId>
+      <StateNumber>100769</StateNumber>
+      <ColNames>user_id</ColNames>
+      <RefTableId>19046</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>user_info</RefTableName>
+      <RefKeyName>user_info_pkey</RefKeyName>
+      <RefColNames>user_id</RefColNames>
+    </foreign-key>
+    <foreign-key id="166" parent="56" name="ubcollect_isbn_fky">
+      <ObjectId>19373</ObjectId>
+      <StateNumber>100769</StateNumber>
+      <ColNames>isbn</ColNames>
+      <RefTableId>18940</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>book</RefTableName>
+      <RefKeyName>book_pkey</RefKeyName>
+      <RefColNames>isbn</RefColNames>
+    </foreign-key>
+    <column id="167" parent="57" name="user_id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100768</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="168" parent="57" name="isbn">
+      <Position>2</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100768</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="169" parent="57" name="comment_id">
+      <Position>3</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100768</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="170" parent="57" name="comment_content">
+      <Position>4</Position>
+      <DataType>text|0s</DataType>
+      <StateNumber>100768</StateNumber>
+      <DefaultExpression>&apos;&apos;::text</DefaultExpression>
+      <TypeId>25</TypeId>
+    </column>
+    <column id="171" parent="57" name="comment_date">
+      <Position>5</Position>
+      <DataType>time with time zone|0s</DataType>
+      <StateNumber>100768</StateNumber>
+      <DefaultExpression>now()</DefaultExpression>
+      <TypeId>1266</TypeId>
+    </column>
+    <index id="172" parent="57" name="user_book_comment_pkey">
+      <ObjectId>19351</ObjectId>
+      <StateNumber>100768</StateNumber>
+      <ColNames>user_id
+isbn
+comment_id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationIds>0,0,0</CollationIds>
+      <ClassIds>3124,3124,1978</ClassIds>
+    </index>
+    <key id="173" parent="57" name="user_book_comment_pkey">
+      <ObjectId>19352</ObjectId>
+      <StateNumber>100768</StateNumber>
+      <ColNames>user_id
+isbn
+comment_id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>user_book_comment_pkey</UnderlyingIndexName>
+    </key>
+    <foreign-key id="174" parent="57" name="ubc_uid_fky">
+      <ObjectId>19353</ObjectId>
+      <StateNumber>100768</StateNumber>
+      <ColNames>user_id</ColNames>
+      <RefTableId>19046</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>user_info</RefTableName>
+      <RefKeyName>user_info_pkey</RefKeyName>
+      <RefColNames>user_id</RefColNames>
+    </foreign-key>
+    <foreign-key id="175" parent="57" name="ubc_isbn_fky">
+      <ObjectId>19358</ObjectId>
+      <StateNumber>100768</StateNumber>
+      <ColNames>isbn</ColNames>
+      <RefTableId>18940</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>book</RefTableName>
+      <RefKeyName>book_pkey</RefKeyName>
+      <RefColNames>isbn</RefColNames>
+    </foreign-key>
+    <column id="176" parent="58" name="user_id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100594</StateNumber>
+      <DefaultExpression>nextval(&apos;user_book_mark_user_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="177" parent="58" name="isbn">
+      <Position>2</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100543</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="178" parent="58" name="score">
+      <Position>3</Position>
+      <DataType>smallint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100543</StateNumber>
+      <TypeId>21</TypeId>
+    </column>
+    <column id="179" parent="58" name="comment">
+      <Position>4</Position>
+      <DataType>text|0s</DataType>
+      <StateNumber>100543</StateNumber>
+      <TypeId>25</TypeId>
+    </column>
+    <column id="180" parent="58" name="mark_date">
+      <Position>5</Position>
+      <DataType>time with time zone|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100543</StateNumber>
+      <TypeId>1266</TypeId>
+    </column>
+    <index id="181" parent="58" name="user_book_mark_pkey">
+      <ObjectId>19130</ObjectId>
+      <StateNumber>100635</StateNumber>
+      <ColNames>user_id
+isbn</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationIds>0,0</CollationIds>
+      <ClassIds>3124,3124</ClassIds>
+    </index>
+    <index id="182" parent="58" name="fki_user_book_mark_user_id_foreign_key">
+      <ObjectId>19163</ObjectId>
+      <StateNumber>100656</StateNumber>
+      <ColNames>user_id</ColNames>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationIds>0</CollationIds>
+      <ClassIds>3124</ClassIds>
+    </index>
+    <index id="183" parent="58" name="fki_user_book_mark_isbn_foreign_key">
+      <ObjectId>19162</ObjectId>
+      <StateNumber>100655</StateNumber>
+      <ColNames>isbn</ColNames>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationIds>0</CollationIds>
+      <ClassIds>3124</ClassIds>
+    </index>
+    <key id="184" parent="58" name="user_book_mark_pkey">
+      <ObjectId>19131</ObjectId>
+      <StateNumber>100635</StateNumber>
+      <ColNames>user_id
+isbn</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>user_book_mark_pkey</UnderlyingIndexName>
+    </key>
+    <foreign-key id="185" parent="58" name="user_book_mark_user_id_foreign_key">
+      <ObjectId>19247</ObjectId>
+      <Comment>用户评分表的用户ID关联外键名；&#xd;&#xd;
+用户评分一定是用户参与的</Comment>
+      <StateNumber>100685</StateNumber>
+      <ColNames>user_id</ColNames>
+      <RefTableId>19046</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>user_info</RefTableName>
+      <RefKeyName>user_info_pkey</RefKeyName>
+      <RefColNames>user_id</RefColNames>
+    </foreign-key>
+    <foreign-key id="186" parent="58" name="user_book_mark_isbn_foreign_key">
+      <ObjectId>19242</ObjectId>
+      <Comment>用户打分的书籍的isbn， 用户打分的书籍必定是已经存在的</Comment>
+      <StateNumber>100683</StateNumber>
+      <ColNames>isbn</ColNames>
+      <RefTableId>18940</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>book</RefTableName>
+      <RefKeyName>book_pkey</RefKeyName>
+      <RefColNames>isbn</RefColNames>
+    </foreign-key>
+    <column id="187" parent="59" name="book_review_id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100595</StateNumber>
+      <DefaultExpression>nextval(&apos;user_book_review_book_review_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="188" parent="59" name="isbn">
+      <Position>2</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100549</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="189" parent="59" name="user_id">
+      <Position>3</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100549</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="190" parent="59" name="write_date">
+      <Position>4</Position>
+      <DataType>timestamp with time zone|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100549</StateNumber>
+      <TypeId>1184</TypeId>
+    </column>
+    <column id="191" parent="59" name="star_num">
+      <Position>5</Position>
+      <Comment>该书评的点赞量</Comment>
+      <DataType>integer|0s</DataType>
+      <StateNumber>100549</StateNumber>
+      <DefaultExpression>0</DefaultExpression>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="192" parent="59" name="comment_num">
+      <Position>6</Position>
+      <Comment>该书评的评论数</Comment>
+      <DataType>integer|0s</DataType>
+      <StateNumber>100549</StateNumber>
+      <DefaultExpression>0</DefaultExpression>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="193" parent="59" name="content">
+      <Position>7</Position>
+      <DataType>text|0s</DataType>
+      <StateNumber>100549</StateNumber>
+      <TypeId>25</TypeId>
+    </column>
+    <index id="194" parent="59" name="user_book_review_pkey">
+      <ObjectId>19134</ObjectId>
+      <StateNumber>100637</StateNumber>
+      <ColNames>book_review_id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationIds>0</CollationIds>
+      <ClassIds>3124</ClassIds>
+    </index>
+    <index id="195" parent="59" name="fki_user_book_review_isbn_foreign_key">
+      <ObjectId>19165</ObjectId>
+      <StateNumber>100658</StateNumber>
+      <ColNames>isbn</ColNames>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationIds>0</CollationIds>
+      <ClassIds>3124</ClassIds>
+    </index>
+    <index id="196" parent="59" name="fki_user_book_review_user_id_fky">
+      <ObjectId>19166</ObjectId>
+      <StateNumber>100659</StateNumber>
+      <ColNames>user_id</ColNames>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationIds>0</CollationIds>
+      <ClassIds>3124</ClassIds>
+    </index>
+    <key id="197" parent="59" name="user_book_review_pkey">
+      <ObjectId>19135</ObjectId>
+      <StateNumber>100637</StateNumber>
+      <ColNames>book_review_id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>user_book_review_pkey</UnderlyingIndexName>
+    </key>
+    <foreign-key id="198" parent="59" name="user_book_review_isbn_foreign_key">
+      <ObjectId>19267</ObjectId>
+      <Comment>用户编写书评时指定的书籍应当已经存在于book表中</Comment>
+      <StateNumber>100693</StateNumber>
+      <ColNames>isbn</ColNames>
+      <RefTableId>18940</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>book</RefTableName>
+      <RefKeyName>book_pkey</RefKeyName>
+      <RefColNames>isbn</RefColNames>
+    </foreign-key>
+    <foreign-key id="199" parent="59" name="user_book_review_user_id_fky">
+      <ObjectId>19272</ObjectId>
+      <Comment>用户编写的书评时用户的信息是已经存在于user_info表内的</Comment>
+      <StateNumber>100695</StateNumber>
+      <ColNames>user_id</ColNames>
+      <RefTableId>19046</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>user_info</RefTableName>
+      <RefKeyName>user_info_pkey</RefKeyName>
+      <RefColNames>user_id</RefColNames>
+    </foreign-key>
+    <column id="200" parent="60" name="user_id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100557</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="201" parent="60" name="book_review_id">
+      <Position>2</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100557</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="202" parent="60" name="comment_content">
+      <Position>3</Position>
+      <DataType>text|0s</DataType>
+      <StateNumber>100557</StateNumber>
+      <TypeId>25</TypeId>
+    </column>
+    <column id="203" parent="60" name="comment_date">
+      <Position>4</Position>
+      <DataType>timestamp with time zone|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100557</StateNumber>
+      <TypeId>1184</TypeId>
+    </column>
+    <index id="204" parent="60" name="user_book_review_comment_pkey">
+      <ObjectId>19132</ObjectId>
+      <StateNumber>100636</StateNumber>
+      <ColNames>user_id
+book_review_id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationIds>0,0</CollationIds>
+      <ClassIds>3124,3124</ClassIds>
+    </index>
+    <index id="205" parent="60" name="fki_user_book_review_book_review_id_fky">
+      <ObjectId>19164</ObjectId>
+      <StateNumber>100657</StateNumber>
+      <ColNames>book_review_id</ColNames>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationIds>0</CollationIds>
+      <ClassIds>3124</ClassIds>
+    </index>
+    <key id="206" parent="60" name="user_book_review_comment_pkey">
+      <ObjectId>19133</ObjectId>
+      <StateNumber>100636</StateNumber>
+      <ColNames>user_id
+book_review_id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>user_book_review_comment_pkey</UnderlyingIndexName>
+    </key>
+    <foreign-key id="207" parent="60" name="user_book_review_comment_user_id_fky">
+      <ObjectId>19262</ObjectId>
+      <Comment>用户评论书评是用户一定是已经存在的</Comment>
+      <StateNumber>100691</StateNumber>
+      <ColNames>user_id</ColNames>
+      <RefTableId>19046</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>user_info</RefTableName>
+      <RefKeyName>user_info_pkey</RefKeyName>
+      <RefColNames>user_id</RefColNames>
+    </foreign-key>
+    <foreign-key id="208" parent="60" name="user_book_review_book_review_id_fky">
+      <ObjectId>19257</ObjectId>
+      <Comment>用户评论书评时该书评一定是已经存在的</Comment>
+      <StateNumber>100689</StateNumber>
+      <ColNames>book_review_id</ColNames>
+      <RefTableId>19020</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>user_book_review</RefTableName>
+      <RefKeyName>user_book_review_pkey</RefKeyName>
+      <RefColNames>book_review_id</RefColNames>
+    </foreign-key>
+    <column id="209" parent="61" name="user_id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100560</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="210" parent="61" name="book_review_id">
+      <Position>2</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100560</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="211" parent="61" name="star_date">
+      <Position>3</Position>
+      <DataType>timestamp with time zone|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100560</StateNumber>
+      <TypeId>1184</TypeId>
+    </column>
+    <column id="212" parent="61" name="star_flag">
+      <Position>4</Position>
+      <Comment>记录当前的用户的点赞状态</Comment>
+      <DataType>boolean|0s</DataType>
+      <StateNumber>100560</StateNumber>
+      <DefaultExpression>false</DefaultExpression>
+      <TypeId>16</TypeId>
+    </column>
+    <index id="213" parent="61" name="user_book_review_star_pkey">
+      <ObjectId>19136</ObjectId>
+      <StateNumber>100638</StateNumber>
+      <ColNames>user_id
+book_review_id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationIds>0,0</CollationIds>
+      <ClassIds>3124,3124</ClassIds>
+    </index>
+    <key id="214" parent="61" name="user_book_review_star_pkey">
+      <ObjectId>19137</ObjectId>
+      <StateNumber>100638</StateNumber>
+      <ColNames>user_id
+book_review_id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>user_book_review_star_pkey</UnderlyingIndexName>
+    </key>
+    <foreign-key id="215" parent="61" name="user_book_review_user_id_fky">
+      <ObjectId>19277</ObjectId>
+      <Comment>用户点赞时用户一定是已经存在的</Comment>
+      <StateNumber>100697</StateNumber>
+      <ColNames>user_id</ColNames>
+      <RefTableId>19046</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>user_info</RefTableName>
+      <RefKeyName>user_info_pkey</RefKeyName>
+      <RefColNames>user_id</RefColNames>
+    </foreign-key>
+    <foreign-key id="216" parent="61" name="user_book_review_book_review_id_fky">
+      <ObjectId>19252</ObjectId>
+      <Comment>用户点赞时书评一定是已经存在的</Comment>
+      <StateNumber>100687</StateNumber>
+      <ColNames>book_review_id</ColNames>
+      <RefTableId>19020</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>user_book_review</RefTableName>
+      <RefKeyName>user_book_review_pkey</RefKeyName>
+      <RefColNames>book_review_id</RefColNames>
+    </foreign-key>
+    <column id="217" parent="62" name="user_id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100767</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="218" parent="62" name="isbn">
+      <Position>2</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100767</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="219" parent="62" name="is_star">
+      <Position>3</Position>
+      <DataType>boolean|0s</DataType>
+      <StateNumber>100767</StateNumber>
+      <DefaultExpression>false</DefaultExpression>
+      <TypeId>16</TypeId>
+    </column>
+    <column id="220" parent="62" name="star_date">
+      <Position>4</Position>
+      <DataType>time with time zone|0s</DataType>
+      <StateNumber>100767</StateNumber>
+      <DefaultExpression>now()</DefaultExpression>
+      <TypeId>1266</TypeId>
+    </column>
+    <index id="221" parent="62" name="user_book_star_pkey">
+      <ObjectId>19331</ObjectId>
+      <StateNumber>100767</StateNumber>
+      <ColNames>user_id
+isbn</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationIds>0,0</CollationIds>
+      <ClassIds>3124,3124</ClassIds>
+    </index>
+    <key id="222" parent="62" name="user_book_star_pkey">
+      <ObjectId>19332</ObjectId>
+      <StateNumber>100767</StateNumber>
+      <ColNames>user_id
+isbn</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>user_book_star_pkey</UnderlyingIndexName>
+    </key>
+    <foreign-key id="223" parent="62" name="ubs_uid_fky">
+      <ObjectId>19333</ObjectId>
+      <StateNumber>100767</StateNumber>
+      <ColNames>user_id</ColNames>
+      <RefTableId>19046</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>user_info</RefTableName>
+      <RefKeyName>user_info_pkey</RefKeyName>
+      <RefColNames>user_id</RefColNames>
+    </foreign-key>
+    <foreign-key id="224" parent="62" name="ubs_isbn_fky">
+      <ObjectId>19338</ObjectId>
+      <StateNumber>100767</StateNumber>
+      <ColNames>isbn</ColNames>
+      <RefTableId>18940</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>book</RefTableName>
+      <RefKeyName>book_pkey</RefKeyName>
+      <RefColNames>isbn</RefColNames>
+    </foreign-key>
+    <column id="225" parent="63" name="feature_id">
+      <Position>1</Position>
+      <DataType>smallint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100564</StateNumber>
+      <TypeId>21</TypeId>
+    </column>
+    <column id="226" parent="63" name="feature_name">
+      <Position>2</Position>
+      <DataType>varchar(10)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100564</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="227" parent="63" name="user_feature_pkey">
+      <ObjectId>19140</ObjectId>
+      <StateNumber>100640</StateNumber>
+      <ColNames>feature_id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationIds>0</CollationIds>
+      <ClassIds>1979</ClassIds>
+    </index>
+    <key id="228" parent="63" name="user_feature_pkey">
+      <ObjectId>19141</ObjectId>
+      <StateNumber>100640</StateNumber>
+      <ColNames>feature_id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>user_feature_pkey</UnderlyingIndexName>
+    </key>
+    <column id="229" parent="64" name="user_id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100567</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="230" parent="64" name="feature_id">
+      <Position>2</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100567</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <index id="231" parent="64" name="user_feature_holding_pkey">
+      <ObjectId>19138</ObjectId>
+      <StateNumber>100639</StateNumber>
+      <ColNames>user_id
+feature_id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationIds>0,0</CollationIds>
+      <ClassIds>3124,3124</ClassIds>
+    </index>
+    <key id="232" parent="64" name="user_feature_holding_pkey">
+      <ObjectId>19139</ObjectId>
+      <StateNumber>100639</StateNumber>
+      <ColNames>user_id
+feature_id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>user_feature_holding_pkey</UnderlyingIndexName>
+    </key>
+    <foreign-key id="233" parent="64" name="user_feature_user_id_fky">
+      <ObjectId>19287</ObjectId>
+      <Comment>用户所属类型的用户ID， 用户应当是已经存在的</Comment>
+      <StateNumber>100701</StateNumber>
+      <ColNames>user_id</ColNames>
+      <RefTableId>19046</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>user_info</RefTableName>
+      <RefKeyName>user_info_pkey</RefKeyName>
+      <RefColNames>user_id</RefColNames>
+    </foreign-key>
+    <foreign-key id="234" parent="64" name="user_feature_feature_id_fky">
+      <ObjectId>19282</ObjectId>
+      <Comment>用户所属类型的类型ID， 应当已经存在</Comment>
+      <StateNumber>100699</StateNumber>
+      <ColNames>feature_id</ColNames>
+      <RefTableId>19040</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>user_feature</RefTableName>
+      <RefKeyName>user_feature_pkey</RefKeyName>
+      <RefColNames>feature_id</RefColNames>
+    </foreign-key>
+    <column id="235" parent="65" name="user_id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100596</StateNumber>
+      <DefaultExpression>nextval(&apos;user_info_user_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="236" parent="65" name="user_phone">
+      <Position>2</Position>
+      <DataType>varchar(16)|0s</DataType>
+      <StateNumber>100570</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="237" parent="65" name="user_email">
+      <Position>3</Position>
+      <DataType>varchar(256)|0s</DataType>
+      <StateNumber>100570</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="238" parent="65" name="user_name">
+      <Position>4</Position>
+      <DataType>varchar(30)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100570</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="239" parent="65" name="user_sex">
+      <Position>5</Position>
+      <DataType>varchar(4)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100570</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="240" parent="65" name="head_image">
+      <Position>6</Position>
+      <DataType>text|0s</DataType>
+      <StateNumber>100570</StateNumber>
+      <TypeId>25</TypeId>
+    </column>
+    <column id="241" parent="65" name="user_password">
+      <Position>7</Position>
+      <DataType>char(128)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100570</StateNumber>
+      <TypeId>1042</TypeId>
+    </column>
+    <index id="242" parent="65" name="user_info_pkey">
+      <ObjectId>19142</ObjectId>
+      <StateNumber>100641</StateNumber>
+      <ColNames>user_id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationIds>0</CollationIds>
+      <ClassIds>3124</ClassIds>
+    </index>
+    <key id="243" parent="65" name="user_info_pkey">
+      <ObjectId>19143</ObjectId>
+      <StateNumber>100641</StateNumber>
+      <ColNames>user_id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>user_info_pkey</UnderlyingIndexName>
+    </key>
+    <column id="244" parent="66" name="user_id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100576</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="245" parent="66" name="share_id">
+      <Position>2</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100576</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="246" parent="66" name="share_head">
+      <Position>3</Position>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100576</StateNumber>
+      <TypeId>25</TypeId>
+    </column>
+    <column id="247" parent="66" name="star_num">
+      <Position>4</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100576</StateNumber>
+      <DefaultExpression>0</DefaultExpression>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="248" parent="66" name="comment_num">
+      <Position>5</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100576</StateNumber>
+      <DefaultExpression>0</DefaultExpression>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="249" parent="66" name="share_date">
+      <Position>6</Position>
+      <DataType>timestamp with time zone|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100576</StateNumber>
+      <TypeId>1184</TypeId>
+    </column>
+    <column id="250" parent="66" name="share_content">
+      <Position>7</Position>
+      <DataType>text|0s</DataType>
+      <StateNumber>100576</StateNumber>
+      <DefaultExpression>&apos;&apos;::text</DefaultExpression>
+      <TypeId>25</TypeId>
+    </column>
+    <column id="251" parent="66" name="collections_num">
+      <Position>8</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>100576</StateNumber>
+      <DefaultExpression>0</DefaultExpression>
+      <TypeId>23</TypeId>
+    </column>
+    <index id="252" parent="66" name="user_share_pkey">
+      <ObjectId>19150</ObjectId>
+      <StateNumber>100645</StateNumber>
+      <ColNames>share_id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationIds>0</CollationIds>
+      <ClassIds>3124</ClassIds>
+    </index>
+    <key id="253" parent="66" name="user_share_pkey">
+      <ObjectId>19151</ObjectId>
+      <StateNumber>100645</StateNumber>
+      <ColNames>share_id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>user_share_pkey</UnderlyingIndexName>
+    </key>
+    <foreign-key id="254" parent="66" name="user_share_uid_fky">
+      <ObjectId>19312</ObjectId>
+      <StateNumber>100707</StateNumber>
+      <ColNames>user_id</ColNames>
+      <RefTableId>19046</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>user_info</RefTableName>
+      <RefKeyName>user_info_pkey</RefKeyName>
+      <RefColNames>user_id</RefColNames>
+    </foreign-key>
+    <column id="255" parent="67" name="user_id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100578</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="256" parent="67" name="share_id">
+      <Position>2</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100578</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="257" parent="67" name="browse_time">
+      <Position>3</Position>
+      <DataType>time with time zone|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100578</StateNumber>
+      <TypeId>1266</TypeId>
+    </column>
+    <index id="258" parent="67" name="user_share_browse_pkey">
+      <ObjectId>19144</ObjectId>
+      <StateNumber>100642</StateNumber>
+      <ColNames>user_id
+share_id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationIds>0,0</CollationIds>
+      <ClassIds>3124,3124</ClassIds>
+    </index>
+    <key id="259" parent="67" name="user_share_browse_pkey">
+      <ObjectId>19145</ObjectId>
+      <StateNumber>100642</StateNumber>
+      <ColNames>user_id
+share_id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>user_share_browse_pkey</UnderlyingIndexName>
+    </key>
+    <foreign-key id="260" parent="67" name="usb_uid_fky">
+      <ObjectId>19232</ObjectId>
+      <StateNumber>100681</StateNumber>
+      <ColNames>user_id</ColNames>
+      <RefTableId>19046</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>user_info</RefTableName>
+      <RefKeyName>user_info_pkey</RefKeyName>
+      <RefColNames>user_id</RefColNames>
+    </foreign-key>
+    <foreign-key id="261" parent="67" name="usd_sid_fky">
+      <ObjectId>19237</ObjectId>
+      <StateNumber>100682</StateNumber>
+      <ColNames>share_id</ColNames>
+      <RefTableId>19054</RefTableId>
+      <RefColPositions>2</RefColPositions>
+      <RefTableName>user_share</RefTableName>
+      <RefKeyName>user_share_pkey</RefKeyName>
+      <RefColNames>share_id</RefColNames>
+    </foreign-key>
+    <column id="262" parent="68" name="user_id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100580</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="263" parent="68" name="share_id">
+      <Position>2</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100580</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="264" parent="68" name="collection_flag">
+      <Position>3</Position>
+      <DataType>boolean|0s</DataType>
+      <StateNumber>100580</StateNumber>
+      <DefaultExpression>false</DefaultExpression>
+      <TypeId>16</TypeId>
+    </column>
+    <column id="265" parent="68" name="collection_date">
+      <Position>4</Position>
+      <DataType>timestamp with time zone|0s</DataType>
+      <StateNumber>100580</StateNumber>
+      <TypeId>1184</TypeId>
+    </column>
+    <index id="266" parent="68" name="user_share_collections_pkey">
+      <ObjectId>19146</ObjectId>
+      <StateNumber>100643</StateNumber>
+      <ColNames>user_id
+share_id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationIds>0,0</CollationIds>
+      <ClassIds>3124,3124</ClassIds>
+    </index>
+    <key id="267" parent="68" name="user_share_collections_pkey">
+      <ObjectId>19147</ObjectId>
+      <StateNumber>100643</StateNumber>
+      <ColNames>user_id
+share_id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>user_share_collections_pkey</UnderlyingIndexName>
+    </key>
+    <foreign-key id="268" parent="68" name="share_collection_uid_fky">
+      <ObjectId>19207</ObjectId>
+      <StateNumber>100674</StateNumber>
+      <ColNames>user_id</ColNames>
+      <RefTableId>19046</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>user_info</RefTableName>
+      <RefKeyName>user_info_pkey</RefKeyName>
+      <RefColNames>user_id</RefColNames>
+    </foreign-key>
+    <foreign-key id="269" parent="68" name="share_collection_shid_fky">
+      <ObjectId>19202</ObjectId>
+      <StateNumber>100673</StateNumber>
+      <ColNames>share_id</ColNames>
+      <RefTableId>19054</RefTableId>
+      <RefColPositions>2</RefColPositions>
+      <RefTableName>user_share</RefTableName>
+      <RefKeyName>user_share_pkey</RefKeyName>
+      <RefColNames>share_id</RefColNames>
+    </foreign-key>
+    <column id="270" parent="69" name="user_id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100582</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="271" parent="69" name="share_id">
+      <Position>2</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100582</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="272" parent="69" name="comment_id">
+      <Position>3</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100582</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="273" parent="69" name="comment_content">
+      <Position>4</Position>
+      <DataType>text|0s</DataType>
+      <StateNumber>100582</StateNumber>
+      <TypeId>25</TypeId>
+    </column>
+    <column id="274" parent="69" name="comment_date">
+      <Position>5</Position>
+      <DataType>timestamp with time zone|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100582</StateNumber>
+      <TypeId>1184</TypeId>
+    </column>
+    <index id="275" parent="69" name="user_share_comment_pkey">
+      <ObjectId>19148</ObjectId>
+      <StateNumber>100644</StateNumber>
+      <ColNames>user_id
+share_id
+comment_id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationIds>0,0,0</CollationIds>
+      <ClassIds>3124,3124,1978</ClassIds>
+    </index>
+    <key id="276" parent="69" name="user_share_comment_pkey">
+      <ObjectId>19149</ObjectId>
+      <StateNumber>100644</StateNumber>
+      <ColNames>user_id
+share_id
+comment_id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>user_share_comment_pkey</UnderlyingIndexName>
+    </key>
+    <foreign-key id="277" parent="69" name="user_share_comment_uid_fky">
+      <ObjectId>19292</ObjectId>
+      <StateNumber>100703</StateNumber>
+      <ColNames>user_id</ColNames>
+      <RefTableId>19046</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>user_info</RefTableName>
+      <RefKeyName>user_info_pkey</RefKeyName>
+      <RefColNames>user_id</RefColNames>
+    </foreign-key>
+    <foreign-key id="278" parent="69" name="user_share_share_id_fky">
+      <ObjectId>19297</ObjectId>
+      <StateNumber>100704</StateNumber>
+      <ColNames>share_id</ColNames>
+      <RefTableId>19054</RefTableId>
+      <RefColPositions>2</RefColPositions>
+      <RefTableName>user_share</RefTableName>
+      <RefKeyName>user_share_pkey</RefKeyName>
+      <RefColNames>share_id</RefColNames>
+    </foreign-key>
+    <column id="279" parent="70" name="user_id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100584</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="280" parent="70" name="share_id">
+      <Position>2</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100584</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="281" parent="70" name="star_flag">
+      <Position>3</Position>
+      <DataType>boolean|0s</DataType>
+      <StateNumber>100584</StateNumber>
+      <DefaultExpression>false</DefaultExpression>
+      <TypeId>16</TypeId>
+    </column>
+    <column id="282" parent="70" name="star_date">
+      <Position>4</Position>
+      <DataType>timestamp with time zone|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>100584</StateNumber>
+      <TypeId>1184</TypeId>
+    </column>
+    <index id="283" parent="70" name="user_share_star_pkey">
+      <ObjectId>19152</ObjectId>
+      <StateNumber>100646</StateNumber>
+      <ColNames>user_id
+share_id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationIds>0,0</CollationIds>
+      <ClassIds>3124,3124</ClassIds>
+    </index>
+    <key id="284" parent="70" name="user_share_star_pkey">
+      <ObjectId>19153</ObjectId>
+      <StateNumber>100646</StateNumber>
+      <ColNames>user_id
+share_id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>user_share_star_pkey</UnderlyingIndexName>
+    </key>
+    <foreign-key id="285" parent="70" name="user_share_star_uid_fky">
+      <ObjectId>19307</ObjectId>
+      <StateNumber>100706</StateNumber>
+      <ColNames>user_id</ColNames>
+      <RefTableId>19046</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>user_info</RefTableName>
+      <RefKeyName>user_info_pkey</RefKeyName>
+      <RefColNames>user_id</RefColNames>
+    </foreign-key>
+    <foreign-key id="286" parent="70" name="user_share_star_shid_fky">
+      <ObjectId>19302</ObjectId>
+      <StateNumber>100705</StateNumber>
+      <ColNames>share_id</ColNames>
+      <RefTableId>19054</RefTableId>
+      <RefColPositions>2</RefColPositions>
+      <RefTableName>user_share</RefTableName>
+      <RefKeyName>user_share_pkey</RefKeyName>
+      <RefColNames>share_id</RefColNames>
+    </foreign-key>
+    <argument id="287" parent="71" name="review_id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+    </argument>
+    <argument id="288" parent="71">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>void|0s</DataType>
+    </argument>
+    <argument id="289" parent="72" name="s_id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+    </argument>
+    <argument id="290" parent="72">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>void|0s</DataType>
+    </argument>
+  </database-model>
+</dataSource>

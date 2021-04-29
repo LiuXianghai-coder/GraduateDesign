@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.bookrecommend.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_book_detailFragment"
+            android:name="homeToLoginAction"
+            app:destination="@id/navigation_book_detail">
+            <argument
+                android:name="isbn"
+                app:argType="long"
+                app:nullable="false" />
+        </action>
+        <action
+            android:id="@+id/action_navigation_home_to_loginFragment"
+            app:destination="@id/loginFragment">
+            <argument
+                android:name="userInfo"
+                app:argType="com.example.bookrecommend.db.UserInfoEntity"
+                app:nullable="false" />
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_book_detail"
+        android:name="com.example.bookrecommend.ui.home.BookDetailFragment"
+        android:label="@string/book_detail_label"
+        tools:layout="@layout/fragment_book_detail" >
+        <action
+            android:id="@+id/action_navigation_book_detail_to_bookChapterFragment"
+            app:destination="@id/bookChapterFragment" >
+            <argument
+                android:name="isbn"
+                app:argType="long"
+                app:nullable="false" />
+        </action>
+        <action
+            android:id="@+id/action_navigation_book_detail_to_bookCommentFragment"
+            app:destination="@id/bookCommentFragment" >
+            <argument
+                android:name="isbn"
+                app:argType="long"
+                app:nullable="false" />
+        </action>
+        <action
+            android:id="@+id/action_navigation_book_detail_to_bookMarkFragment"
+            app:destination="@id/bookMarkFragment">
+            <argument
+                android:name="isbn"
+                app:argType="long"
+                app:nullable="false" />
+        </action>
+        <action
+            android:id="@+id/action_navigation_book_detail_to_bookReviewFragment"
+            app:destination="@id/bookReviewFragment" >
+            <argument
+                app:nullable="false"
+                app:argType="long"
+                android:name="isbn" />
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.example.bookrecommend.ui.dashboard.DashboardFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_dashboard">
+        <action
+            android:id="@+id/action_navigation_dashboard_to_navigation_create_share"
+            app:destination="@id/navigation_create_share" />
+        <action
+            android:id="@+id/action_navigation_dashboard_to_shareDetailFragment"
+            app:destination="@id/shareDetailFragment" >
+            <argument
+                app:nullable="false"
+                app:argType="long"
+                android:name="shareId" />
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_create_share"
+        android:name="com.example.bookrecommend.ui.dashboard.CreateShareFragment"
+        android:label="@string/create_share_label"
+        tools:layout="@layout/fragment_create_share">
+        <action
+            android:id="@+id/action_navigation_create_share_to_navigation_dashboard"
+            app:destination="@id/navigation_dashboard" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_setting"
+        android:name="com.example.bookrecommend.ui.setting.SettingFragment"
+        android:label="@string/setting_string"
+        tools:layout="@layout/fragment_setting" >
+        <action
+            android:id="@+id/action_navigation_setting_to_throughRecordFragment"
+            app:destination="@id/throughRecordFragment">
+
+            <argument
+                app:argType="long"
+                android:name="userId"
+                app:nullable="false" />
+        </action>
+        <action
+            android:id="@+id/action_navigation_setting_to_hasBeenCollectedFragment"
+            app:destination="@id/hasBeenCollectedFragment" >
+            <argument
+                app:argType="long"
+                android:name="userId"
+                app:nullable="false" />
+
+        </action>
+        <action
+            android:id="@+id/action_navigation_setting_to_hasBeenStarFragment"
+            app:destination="@id/hasBeenStarFragment">
+            <argument
+                app:argType="long"
+                android:name="userId"
+                app:nullable="false" />
+        </action>
+        <action
+            android:id="@+id/action_navigation_setting_to_hasBeenCommentedFragment"
+            app:destination="@id/hasBeenCommentedFragment">
+            <argument
+                app:argType="long"
+                android:name="userId"
+                app:nullable="false" />
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.bookrecommend.ui.login.LoginFragment"
+        android:label="@string/login_string"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_loginFragment_to_registerFragment"
+            app:destination="@id/registerFragment" >
+            <argument
+                android:name="userInfo"
+                app:argType="com.example.bookrecommend.db.UserInfoEntity"
+                app:nullable="false" />
+        </action>
+        <action
+            android:id="@+id/action_loginFragment_to_verifyCodeLoginFragment"
+            app:destination="@id/verifyCodeLoginFragment" >
+            <argument
+                android:name="userInfo"
+                app:argType="com.example.bookrecommend.db.UserInfoEntity"
+                app:nullable="false" />
+        </action>
+        <action
+            android:id="@+id/action_loginFragment_to_navigation_home"
+            app:destination="@id/navigation_home" >
+            <argument
+                android:name="userInfo"
+                app:argType="com.example.bookrecommend.db.UserInfoEntity"
+                app:nullable="false" />
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.example.bookrecommend.ui.login.RegisterFragment"
+        android:label="@string/register_string"
+        tools:layout="@layout/fragment_register">
+        <action
+            android:id="@+id/action_registerFragment_to_basicInfoRegisterFragment"
+            app:destination="@id/basicInfoRegisterFragment" >
+            <argument
+                android:name="userInfo"
+                app:argType="com.example.bookrecommend.db.UserInfoEntity"
+                app:nullable="false" />
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/basicInfoRegisterFragment"
+        android:name="com.example.bookrecommend.ui.login.BasicInfoRegisterFragment"
+        android:label="@string/basic_info_select"
+        tools:layout="@layout/fragment_basic_info_register">
+        <action
+            android:id="@+id/action_basicInfoRegisterFragment_to_registerFeatureFragment"
+            app:destination="@id/registerFeatureFragment" >
+            <argument
+                android:name="userInfo"
+                app:argType="com.example.bookrecommend.db.UserInfoEntity"
+                app:nullable="false" />
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/registerFeatureFragment"
+        android:name="com.example.bookrecommend.ui.login.RegisterFeatureFragment"
+        android:label="@string/user_feature_select_string"
+        tools:layout="@layout/fragment_register_feature">
+        <action
+            android:id="@+id/action_registerFeatureFragment_to_registerPasswordFragment"
+            app:destination="@id/registerPasswordFragment" >
+            <argument
+                android:name="userInfo"
+                app:argType="com.example.bookrecommend.db.UserInfoEntity"
+                app:nullable="false" />
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/registerPasswordFragment"
+        android:name="com.example.bookrecommend.ui.login.RegisterPasswordFragment"
+        android:label="@string/register_password_string"
+        tools:layout="@layout/fragment_register_password">
+        <action
+            android:id="@+id/action_registerPasswordFragment_to_loginFragment"
+            app:destination="@id/loginFragment" >
+            <argument
+                android:name="userInfo"
+                app:argType="com.example.bookrecommend.db.UserInfoEntity"
+                app:nullable="false" />
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/verifyCodeLoginFragment"
+        android:name="com.example.bookrecommend.ui.login.VerifyCodeLoginFragment"
+        android:label="@string/verify_code_login"
+        tools:layout="@layout/fragment_verify_code_loginFragment">
+        <action
+            android:id="@+id/action_verifyCodeLoginFragment_to_navigation_home"
+            app:destination="@id/navigation_home" >
+            <argument
+                android:name="userInfo"
+                app:argType="com.example.bookrecommend.db.UserInfoEntity"
+                app:nullable="false" />
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/bookChapterFragment"
+        android:name="com.example.bookrecommend.ui.home.BookChapterFragment"
+        android:label="图书章节信息"
+        tools:layout="@layout/fragment_book_chapter" />
+    <fragment
+        android:id="@+id/bookCommentFragment"
+        android:name="com.example.bookrecommend.ui.home.BookCommentFragment"
+        android:label="图书评论"
+        tools:layout="@layout/fragment_book_comment" >
+        <action
+            android:id="@+id/action_bookCommentFragment_to_navigation_book_detail"
+            app:destination="@id/navigation_book_detail" >
+            <argument
+                android:name="isbn"
+                app:argType="long"
+                app:nullable="false" />
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/bookMarkFragment"
+        android:name="com.example.bookrecommend.ui.home.BookMarkFragment"
+        android:label="图书打分"
+        tools:layout="@layout/fragment_book_mark" >
+        <action
+            android:id="@+id/action_bookMarkFragment_to_navigation_book_detail"
+            app:destination="@id/navigation_book_detail" >
+            <argument
+                android:name="isbn"
+                app:argType="long"
+                app:nullable="false" />
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/bookReviewFragment"
+        android:name="com.example.bookrecommend.ui.home.BookReviewFragment"
+        android:label="书评"
+        tools:layout="@layout/fragment_book_review" >
+        <action
+            android:id="@+id/action_bookReviewFragment_to_bookReviewDetailFragment"
+            app:destination="@id/bookReviewDetailFragment" >
+            <argument
+                app:argType="long"
+                android:name="reviewId"
+                app:nullable="false" />
+        </action>
+        <action
+            android:id="@+id/action_bookReviewFragment_to_navigation_book_detail"
+            app:destination="@id/navigation_book_detail" >
+            <argument
+                app:argType="long"
+                android:name="isbn"
+                app:nullable="false" />
+        </action>
+        <action
+            android:id="@+id/action_bookReviewFragment_to_createBookReviewFragment"
+            app:destination="@id/createBookReviewFragment">
+            <argument
+                android:name="isbn"
+                app:argType="long"
+                app:nullable="false" />
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/bookReviewDetailFragment"
+        android:name="com.example.bookrecommend.ui.home.BookReviewDetailFragment"
+        android:label="书评详情"
+        tools:layout="@layout/fragment_book_review_detail" />
+    <fragment
+        android:id="@+id/shareDetailFragment"
+        android:name="com.example.bookrecommend.ui.dashboard.ShareDetailFragment"
+        android:label="动态详情"
+        tools:layout="@layout/fragment_share_detail" />
+    <fragment
+        android:id="@+id/createBookReviewFragment"
+        android:name="com.example.bookrecommend.ui.home.CreateBookReviewFragment"
+        android:label="创建书评"
+        tools:layout="@layout/fragment_create_book_review" >
+        <action
+            android:id="@+id/action_createBookReviewFragment_to_bookReviewFragment"
+            app:destination="@id/bookReviewFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/throughRecordFragment"
+        android:name="com.example.bookrecommend.ui.setting.ThroughRecordFragment"
+        android:label="浏览记录" >
+        <action
+            android:id="@+id/action_throughRecordFragment_to_navigation_book_detail"
+            app:destination="@id/navigation_book_detail" >
+            <argument
+                app:argType="long"
+                app:nullable="false"
+                android:name="isbn" />
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/hasBeenCollectedFragment"
+        android:name="com.example.bookrecommend.ui.setting.HasBeenCollectedFragment"
+        android:label="已收藏的书籍"
+        tools:layout="@layout/fragment_has_been_collected" >
+        <action
+            android:id="@+id/action_hasBeenCollectedFragment_to_navigation_book_detail"
+            app:destination="@id/navigation_book_detail" >
+            <argument
+                app:argType="long"
+                app:nullable="false"
+                android:name="isbn" />
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/hasBeenCommentedFragment"
+        android:name="com.example.bookrecommend.ui.setting.HasBeenCommentedFragment"
+        android:label="已评论的书籍"
+        tools:layout="@layout/fragment_has_been_commented" >
+        <action
+            android:id="@+id/action_hasBeenCommentedFragment_to_navigation_book_detail"
+            app:destination="@id/navigation_book_detail" >
+            <argument
+                app:argType="long"
+                app:nullable="false"
+                android:name="isbn" />
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/hasBeenStarFragment"
+        android:name="com.example.bookrecommend.ui.setting.HasBeenStarFragment"
+        android:label="已经点赞的"
+        tools:layout="@layout/fragment_has_been_star" >
+        <action
+            android:id="@+id/action_hasBeenStarFragment_to_navigation_book_detail"
+            app:destination="@id/navigation_book_detail" >
+
+            <argument
+                app:argType="long"
+                app:nullable="false"
+                android:name="isbn" />
+
+        </action>
+    </fragment>
+</navigation>

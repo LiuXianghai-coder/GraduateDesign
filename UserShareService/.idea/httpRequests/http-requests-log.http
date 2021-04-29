@@ -1,0 +1,128 @@
+POST http://localhost:9040/shareContent/saveUserShareContent
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "userId" : 1900327840,   "shareContent" : " Hello World!<br><br>1 + 1 = 1, 2 + 2 &gt; 3; 4 * 4 &lt; 3;<br><br><img src=\"http://39.99.129.90:9050/file/JPEG_20210309_093136_8986407165612973472.jpg?userId=1900327840\" alt=\"Image\" width=\"320\"><br><br>I can swallow glass" }
+
+<> 2021-03-09T053646.200.json
+
+###
+
+POST http://localhost:9040/shareContent/saveUserShareContent
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "userId" : 1900327840,   "shareContent" : "Hello World!" }
+
+<> 2021-03-09T053548.200.json
+
+###
+
+POST http://localhost:9040/shareContent/saveUserShareContent
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "userId" : 1900327840,   "shareContent" : "Hello World!" }
+
+<> 2021-03-09T053503.200.json
+
+###
+
+POST http://localhost:9040/shareContent/saveShareContent
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "userId" : 1900327840,   "shareContent" : "Hello World!" }
+
+<> 2021-03-09T053451.400.json
+
+###
+
+POST http://localhost:9040/userShare/createShare?userId=123456
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+[ {   "contentId" : 1,   "contentType" : 1,   "fontSize" : 2,   "fontKind" : 1,   "content" : "Hello World" }, {   "contentId" : 2,   "contentType" : 2,   "fontSize" : 3,   "fontKind" : 2,   "content" : "Good Better" } ]
+
+<> 2021-02-24T111803.200.json
+
+###
+
+POST http://localhost:9040/userShare/createShare?userId=123456
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+[ {   "contentId" : 1,   "contentType" : 1,   "fontSize" : 2,   "fontKind" : 1,   "content" : "Hello World" }, {   "contentId" : 2,   "contentType" : 2,   "fontSize" : 3,   "fontKind" : 2,   "content" : "Good Better" } ]
+
+<> 2021-02-24T111513.500.json
+
+###
+
+POST http://localhost:9040/userShare/createShare?userId=123456
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+[ {   "contentId" : 1,   "contentType" : 1,   "fontSize" : 2,   "fontKind" : 1,   "content" : "Hello World" }, {   "contentId" : 2,   "contentType" : 2,   "fontSize" : 3,   "fontKind" : 2,   "content" : "Good Better" } ]
+
+<> 2021-02-24T104501.200.json
+
+###
+
+POST http://localhost:9040/userShare/createShare?userId=123456
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+[ {   "contentId" : 1,   "contentType" : 1,   "fontSize" : 2,   "fontKind" : 1,   "content" : "Hello World" }, {   "contentId" : 2,   "contentType" : 2,   "fontSize" : 3,   "fontKind" : 2,   "content" : "Good Better" } ]
+
+<> 2021-02-24T103816.200.json
+
+###
+
+POST http://localhost:9040/userShare/createShare?userId=123456
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+[ {   "contentId" : 1,   "contentType" : 1,   "fontSize" : 2,   "fontKind" : 1,   "content" : "Hello World" }, {   "contentId" : 2,   "contentType" : 2,   "fontSize" : 3,   "fontKind" : 2,   "content" : "Good Better" } ]
+
+<> 2021-02-24T103644.500.json
+
+###
+
+POST http://localhost:9040/createShare?userId=123456
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+[ {   "contentId" : 1,   "contentType" : 1,   "fontSize" : 2,   "fontKind" : 1,   "content" : "Hello World" }, {   "contentId" : 2,   "contentType" : 2,   "fontSize" : 3,   "fontKind" : 2,   "content" : "Good Better" } ]
+
+<> 2021-02-24T103631.404.json
+
+###
+
+POST http://localhost:9040/createShare?userId=123456
+Accept: */*
+Cache-Control: no-cache
+
+[ {   "contentId" : 1,   "contentType" : 1,   "fontSize" : 2,   "fontKind" : 1,   "content" : "Hello World" }, {   "contentId" : 2,   "contentType" : 2,   "fontSize" : 3,   "fontKind" : 2,   "content" : "Good Better" } ]
+
+<> 2021-02-24T103523.404.json
+
+###
+
+POST http://localhost:9050/createShare?userId=123456
+Accept: */*
+Cache-Control: no-cache
+
+[ {   "contentId" : 1,   "contentType" : 1,   "fontSize" : 2,   "fontKind" : 1,   "content" : "Hello World" }, {   "contentId" : 2,   "contentType" : 2,   "fontSize" : 3,   "fontKind" : 2,   "content" : "Good Better" } ]
+
+###
+

@@ -1,0 +1,10 @@
+server:
+  port: 9040
+
+spring:
+  datasource:
+    url: jdbc:postgresql://127.0.0.1:5432/recommend_system
+    username: postgres
+    password: 17358870357yi
+  jpa:
+    show-sql: false

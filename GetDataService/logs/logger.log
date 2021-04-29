@@ -1,0 +1,24 @@
+2021-02-14 09:51:52.180  INFO 168790 --- [main] o.g.service.ServiceApplicationTests      : Starting ServiceApplicationTests using Java 15 on liuxianghai-Inspiron-3568 with PID 168790 (started by liuxianghai in /home/liuxianghai/IdeaProjects/GeaduateDesign/GetDataService)
+2021-02-14 09:51:52.201  INFO 168790 --- [main] o.g.service.ServiceApplicationTests      : No active profile set, falling back to default profiles: default
+2021-02-14 09:51:53.222  INFO 168790 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-14 09:51:53.323  INFO 168790 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 92 ms. Found 9 JPA repository interfaces.
+2021-02-14 09:51:54.399  INFO 168790 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-02-14 09:51:54.717  INFO 168790 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-02-14 09:51:54.826  INFO 168790 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-14 09:51:54.915  INFO 168790 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-02-14 09:51:55.084  INFO 168790 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-14 09:51:55.304  INFO 168790 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-02-14 09:51:55.832  INFO 168790 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-14 09:51:55.841  INFO 168790 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-14 09:51:55.972  WARN 168790 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-14 09:51:57.107  INFO 168790 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 5050a9ac-68a1-496b-b291-5a3c0abf9eda
+
+2021-02-14 09:51:57.243  INFO 168790 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6e0dec27, org.springframework.security.web.context.SecurityContextPersistenceFilter@1e1d813a, org.springframework.security.web.header.HeaderWriterFilter@4fe9fb65, org.springframework.security.web.authentication.logout.LogoutFilter@53202b06, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3891db3a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@64b20d9c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3857c5d5, org.springframework.security.web.session.SessionManagementFilter@58a0f75b, org.springframework.security.web.access.ExceptionTranslationFilter@48f95f96, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@69ee0861]
+2021-02-14 09:51:57.529  INFO 168790 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-14 09:51:58.086  INFO 168790 --- [main] o.g.service.ServiceApplicationTests      : Started ServiceApplicationTests in 6.487 seconds (JVM running for 7.976)
+2021-02-14 09:51:58.323  INFO 168790 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-14 09:51:58.364  INFO 168790 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-02-14 09:51:58.367  INFO 168790 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-02-14 09:51:58.391  INFO 168790 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

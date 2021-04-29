@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="bookEntity"
+            type="com.example.bookrecommend.pojo.BookEntity" />
+
+        <variable
+            name="itemClick"
+            type="com.example.bookrecommend.item.BookItemClick" />
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:onClick="@{()-> itemClick.bookItemClick(bookEntity)}"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/recordBookImage"
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:contentDescription="@string/book_image_string"
+                app:srcCompat="@drawable/ic_app_icon" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/recordBookName"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2.3"
+                    android:text="@{bookEntity.bookName}"
+                    android:textAlignment="textStart" />
+
+                <TextView
+                    android:id="@+id/recordAuthors"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1.7"
+                    android:layout_marginEnd="8dp"
+                    android:text="@{bookEntity.authorsString}"
+                    android:textAlignment="viewEnd" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</layout>

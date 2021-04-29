@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c1896ac8-93b1-4a1b-90b2-61554bf68c4b" name="Default Changelist" comment="2021/03/27">
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usershare/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BookService" beforeDir="false" afterPath="$PROJECT_DIR$/../BookService" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ElasticSearchService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ElasticSearchService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ElasticSearchService/src/main/java/org/graduate/elastic_search_service/controller/BookSearchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ElasticSearchService/src/main/java/org/graduate/elastic_search_service/controller/BookSearchController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ElasticSearchService/target/classes/org/graduate/elastic_search_service/controller/BookSearchController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ElasticSearchService/target/classes/org/graduate/elastic_search_service/controller/BookSearchController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../usershare/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../usershare/src/main/resources/application.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="user_service" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1pxoVMJO503EPOufeTKTDnPaQI3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="JPA.DatabaseSchemaImportDialog" value="7c3e720d-26e0-4b57-b784-7886904e7d6b" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="E:/Android" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/org/graduate/user_service/entity" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="Docker" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/org/graduate/user_service/entity" />
+    </key>
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="org.graduate.user_service.entity" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.graduate.user_service.tools" />
+      <recent name="org.graduate.user_service.entity" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.UserServiceApplication">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RepoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="user_service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.graduate.user_service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.graduate.user_service" />
+      <option name="MAIN_CLASS_NAME" value="org.graduate.user_service.RepoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RepoTest.repoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="user_service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.graduate.user_service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.graduate.user_service" />
+      <option name="MAIN_CLASS_NAME" value="org.graduate.user_service.RepoTest" />
+      <option name="METHOD_NAME" value="repoTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="user_service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.graduate.user_service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.graduate.user_service" />
+      <option name="MAIN_CLASS_NAME" value="org.graduate.user_service.UserServiceApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="user_service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.graduate.user_service.UserServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RepoTest.repoTest" />
+        <item itemvalue="JUnit.RepoTest" />
+        <item itemvalue="JUnit.UserServiceApplicationTests.contextLoads" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.18237706" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:recommend_system@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:recommend_system@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@6bd89862" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c1896ac8-93b1-4a1b-90b2-61554bf68c4b" name="Default Changelist" comment="" />
+      <created>1616134124917</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616134124917</updated>
+      <workItem from="1616134126570" duration="25727000" />
+      <workItem from="1616466905219" duration="1232000" />
+      <workItem from="1616471639404" duration="29000" />
+      <workItem from="1616650201815" duration="869000" />
+      <workItem from="1616748467499" duration="337000" />
+      <workItem from="1616811488150" duration="3970000" />
+      <workItem from="1616817670899" duration="5545000" />
+      <workItem from="1616893971180" duration="883000" />
+      <workItem from="1616896912188" duration="12000" />
+      <workItem from="1617417868490" duration="776000" />
+      <workItem from="1617513802305" duration="3052000" />
+      <workItem from="1617780757635" duration="295000" />
+      <workItem from="1619229045217" duration="521000" />
+      <workItem from="1619231363681" duration="4772000" />
+      <workItem from="1619319798451" duration="258000" />
+      <workItem from="1619320377176" duration="11000" />
+      <workItem from="1619523814528" duration="1264000" />
+      <workItem from="1619596325386" duration="40000" />
+      <workItem from="1619596820227" duration="1790000" />
+      <workItem from="1619600098395" duration="165000" />
+      <workItem from="1619658619382" duration="202000" />
+      <workItem from="1619664345288" duration="3342000" />
+      <workItem from="1619670527626" duration="250000" />
+      <workItem from="1619672568343" duration="427000" />
+    </task>
+    <task id="LOCAL-00001" summary="2021/03/25">
+      <created>1616651080990</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1616651080990</updated>
+    </task>
+    <task id="LOCAL-00002" summary="2021/03/27">
+      <created>1616814450842</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1616814450842</updated>
+    </task>
+    <task id="LOCAL-00003" summary="2021/03/27">
+      <created>1619595738629</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1619595738629</updated>
+    </task>
+    <task id="LOCAL-00004" summary="2021/03/27">
+      <created>1619595847236</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1619595847236</updated>
+    </task>
+    <task id="LOCAL-00005" summary="2021/03/27">
+      <created>1619669869400</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1619669869400</updated>
+    </task>
+    <task id="LOCAL-00006" summary="2021/03/27">
+      <created>1619670718747</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1619670718747</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="2021/03/25" />
+    <MESSAGE value="2021/03/27" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021/03/27" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.hibernate.type.SerializationException" package="org.hibernate.type" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
