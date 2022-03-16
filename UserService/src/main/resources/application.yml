@@ -1,0 +1,33 @@
+server:
+  port: 9070
+
+spring:
+  redis:
+    host: 127.0.0.1
+    port: 6379
+  datasource:
+    username: postgres
+    password: 17358870357yi
+    url: jdbc:postgresql://39.99.129.90:5432/recommend_system
+  jpa:
+    show-sql: false
+#   改变代理对象的会话周期， 使得 JPA 的惰性加载对象可以在会话有效期内获取到对应的值
+    open-in-view: true
+#    配置发送邮件验证码的基本配置信息
+  mail:
+    host: smtp.163.com
+    port: 465
+    username: GuiHuaLinked@163.com
+    password: YIWTLTCMNIRCKFRJ
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+          ssl:
+            enable: true
+
+logging:
+  level:
+    root: info

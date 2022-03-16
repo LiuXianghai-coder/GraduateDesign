@@ -1,0 +1,64 @@
+server:
+  port: 8081
+
+spring:
+  datasource:
+    url: jdbc:postgresql://39.99.129.90:5432/recommend_system
+    username: postgres
+    password: 17358870357yi
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    show-sql: false
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    timeout: 60000
+
+myConfiguration:
+  defaultHttpProtocol: "http:"
+  httpPrefixRegex: "^http[s]?:"
+
+publisher:
+  pageSize: 20
+
+getdata:
+  platformList:
+    - platform:
+      platformid: 1
+      name: "京东"
+      basicUrl: https://www.jd.com
+      urls:
+        -
+          https://search.jd.com/Search?keyword=
+      keyWord: "出版社"
+      httpProtocol: "https"
+      bookList:
+        nextPageStrategy: Page
+        maxPageTags:
+          - priority: 1
+            selectName: "div@id=J_searchWrap"
+          - priority: 2
+            selectName: "div@id=J_container"
+          - priority: 3
+            selectName: "div@id=J_main"
+          - priority: 4
+            selectName: "div@id=J_topPage"
+          - priority: 5
+            selectName: "span@class=fp-text"
+          - priority: 6
+            selectName: "i"
+        tags:
+          - priority: 1
+            selectName: "div@class=w"
+          - priority: 2
+            selectName: "div@class=container"
+          - priority: 3
+            selectName: "div@class=g-main2"
+          - priority: 4
+            selectName: "div@class=goods-list-v2 gl-type-4 J-goods-list"
+          - priotity: 5
+            selectName: "ul@class=gl-warp clearfix"
+          - priority: 6
+            selectName: "div@class=p-img"
+          - priotity: 7
+            selectName: "a"

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>Error</title>
+</head>
+<body>
+<h1>加载出现异常，将会在 3s 后关闭</h1>
+<script type="text/javascript">
+    function sendData() {
+        let xhr = createXHR();
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState === 4) {
+                if (xhr.status === 200 && xhr.status < 300) {
+                    console.log("处理 DOM 内容成功")
+                } else {
+                    console.log("处理 DOM 内容失败, 状态码：" + xhr.status);
+                }
+            }
+        };
+        let obj = document.getElementsByTagName("body");
+        let elementList = Array.from(obj);
+        let stringObj = String();
+        let i;
+        for (i = 0; i < elementList.length; ++i) {
+            stringObj += elementList[i].outerHTML;
+        }
+
+        let transferData = {};
+        transferData["dom"] = stringObj;
+
+        let host = "127.0.0.1";
+        let url = "https:" === document.location.protocol ? "https://" + host + ":8082/parseData/genDom"
+            : "http://" + host + ":8083/parseData/genDom";
+
+        xhr.open("post", url, false);
+        xhr.setRequestHeader("Content-Type", "application/json");
+        xhr.setRequestHeader("Access-Control-Allow-Origin", "*");
+        xhr.send(JSON.stringify(transferData));
+
+        window.close();
+    }
+
+    function createXHR() {
+        if (typeof XMLHttpRequest != "undefined") {
+            return new XMLHttpRequest();
+        } else if (typeof ActiveXObject != "undefined") {
+            let versions = ["MSXML2.XMLHttp.6.0", "MSXML2.XMLHttp.3.0", "MSXML2.XMLHttp"];
+            let i, len;
+
+            for (i = 0, len = versions.length; i < len; ++i) {
+                try {
+                    new ActiveXObject(versions[i]);
+                    arguments.callee.activeXString = versions[i];
+                    break;
+                } catch (ex) {
+                    console.log("The " + versions[i] + "can't use Ajax");
+                }
+            }
+
+            return new ActiveXObject(arguments.callee.activeXString);
+        } else {
+            throw new Error("这个浏览器没救了， 赶紧换一个吧。");
+        }
+    }
+</script>
+</body>
+</html>

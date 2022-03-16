@@ -1,0 +1,118 @@
+{
+  "properties": [
+    {
+      "name": "getdata.platformList",
+      "type": "java.util.List<org.graduate.service.entity.Platform>",
+      "description": "当前URL所属平台"
+    },
+    {
+      "name": "getdata.platformList.platform",
+      "type": "org.graduate.service.entity.Platform",
+      "description": "当前平台查找的URL."
+    },
+    {
+      "name": "getdata.platformList.platform.urls",
+      "type": "java.util.List<java.lang.String>",
+      "description": "当前平台查找的URL."
+    },
+    {
+      "name": "getdata.platformList.platform.name",
+      "type": "java.lang.String",
+      "description": "当前平台的名称"
+    },
+    {
+      "name": "getdata.platformList.platform.keyWord",
+      "type": "java.lang.String",
+      "description": "第一次搜索的关键字"
+    },
+    {
+      "name": "getdata.platformList.platform.tags",
+      "type": "java.util.List<org.graduate.service.entity.Tag>",
+      "description": "第一次搜索的关键字"
+    },
+    {
+      "name": "getdata.platformList.platform.tags.tag",
+      "type": "org.graduate.service.entity.Tag",
+      "description": "第一次搜索时的元素选取顺序"
+    },
+    {
+      "name": "getdata.platformList.platform.tags.tag.priority",
+      "type": "java.lang.Integer",
+      "description": "选取元素的优先级"
+    },
+    {
+      "name": "getdata.platformList.platform.tags.tag.selectName",
+      "type": "java.lang.String",
+      "description": "选取元素的选择名称， 类型为 {tag}.{{attrName}={attrValue1}\\s{attrValue2}....}"
+    },
+    {
+      "name": "myData.path",
+      "type": "java.lang.String",
+      "description": "设置交换文件的目录"
+    },
+    {
+      "name": "myData.elementsFileName",
+      "type": "java.lang.String",
+      "description": "抓取数据时临时存储数据的文件名"
+    },
+    {
+      "name": "myData.charsetName",
+      "type": "java.lang.String",
+      "description": "字符的编码规则"
+    },
+    {
+      "name": "publisher.pageSize",
+      "type": "java.lang.Integer",
+      "description": "每次分页的数目大小"
+    },
+    {
+      "name": "myData.tempFileName",
+      "type": "java.lang.String",
+      "description": "临时存储信息的文件"
+    },
+    {
+      "name": "myData.bufferSize",
+      "type": "java.lang.Integer",
+      "description": "缓冲区的大小"
+    },
+    {
+      "name": "myConfiguration.defaultHttpProtocol",
+      "type": "java.lang.String",
+      "description": "默认的完善链接的使用的协议"
+    },
+    {
+      "name": "myConfiguration.httpPrefixRegex",
+      "type": "java.lang.String",
+      "description": "匹配链接的正则表达式"
+    },
+    {
+      "name": "myConfiguration.hrefRegex",
+      "type": "java.lang.String",
+      "description": "检测链接是否正常的正则表达式"
+    },
+    {
+      "name": "myConfiguration.browser",
+      "type": "java.lang.String",
+      "description": "使用的浏览器的应用程序名称"
+    },
+    {
+      "name": "myData.scriptFileName",
+      "type": "java.lang.String",
+      "description": "控制浏览器加载数据的基本 JS 脚本文件"
+    },
+    {
+      "name": "myConfiguration.trustableRemoteAddr",
+      "type": "java.lang.String",
+      "description": "值得信赖的 IP 地址， 这是为了避免恶意访问"
+    },
+    {
+      "name": "myData.htmlFileName",
+      "type": "java.lang.String",
+      "description": "运行在浏览器内的 html 文件"
+    },
+    {
+      "name": "myConfiguration.securityHttpProtocol",
+      "type": "java.lang.String",
+      "description": "https"
+    }
+  ] }

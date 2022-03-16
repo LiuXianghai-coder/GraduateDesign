@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="20"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                tools:ignore="UselessLeaf" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3.5"
+                android:orientation="horizontal"
+                android:weightSum="10"
+                android:baselineAligned="false">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="8dp"
+                    android:layout_weight="3"
+                    tools:ignore="NestedWeights">
+
+                    <ImageView
+                        android:id="@+id/userHeadImage"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:contentDescription="@string/head_image_string" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="7"
+                    android:layout_marginEnd="8dp"
+                    android:orientation="vertical"
+                    android:weightSum="10"
+                    tools:ignore="UselessLeaf">
+
+                    <TextView
+                        android:id="@+id/settingUserName"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:gravity="center_vertical"
+                        android:theme="@style/settingTextStyle"
+                        android:layout_weight="4.5"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="5.5"
+                        android:weightSum="10"
+                        android:orientation="horizontal"
+                        tools:ignore="Suspicious0dp">
+
+                        <TextView
+                            android:id="@+id/settingUserIdHint"
+                            android:layout_width="0dp"
+                            android:layout_weight="3.5"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:text="@string/login_account_string"
+                            android:theme="@style/settingTextStyle"
+                            tools:ignore="NestedWeights" />
+
+                        <TextView
+                            android:id="@+id/settingUserAccount"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="6.5"
+                            android:gravity="center_vertical"
+                            android:theme="@style/settingTextStyle" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/settingThroughRecord"
+                android:layout_marginTop="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:weightSum="10"
+                android:layout_weight="2.5">
+
+                <ImageView
+                    android:src="@drawable/note"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    tools:ignore="NestedWeights"
+                    android:contentDescription="@string/through_note_string" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="6"
+                    android:theme="@style/settingUnitTextStyle"
+                    android:text="@string/through_note_string"
+                    android:gravity="center_vertical"
+                    android:layout_marginStart="16dp"
+                    android:layout_height="match_parent" />
+
+                <ImageView
+                    android:src="@drawable/next"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:layout_margin="16dp"
+                    android:contentDescription="@string/next_string" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/settingStarRecord"
+                android:layout_marginTop="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2.5" >
+
+                <ImageView
+                    android:src="@drawable/good"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    tools:ignore="NestedWeights"
+                    android:contentDescription="@string/through_note_string" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="6"
+                    android:theme="@style/settingUnitTextStyle"
+                    android:text="@string/has_stared_string"
+                    android:gravity="center_vertical"
+                    android:layout_marginStart="16dp"
+                    android:layout_height="match_parent" />
+
+                <ImageView
+                    android:src="@drawable/next"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:layout_margin="16dp"
+                    android:contentDescription="@string/next_string" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/settingCommented"
+                android:layout_marginTop="16dp"
+                android:layout_weight="2.5"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" >
+
+                <ImageView
+                    android:src="@drawable/comment"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    tools:ignore="NestedWeights"
+                    android:contentDescription="@string/through_note_string" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="6"
+                    android:theme="@style/settingUnitTextStyle"
+                    android:text="@string/has_commented_string"
+                    android:gravity="center_vertical"
+                    android:layout_marginStart="16dp"
+                    android:layout_height="match_parent" />
+
+                <ImageView
+                    android:src="@drawable/next"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:layout_margin="16dp"
+                    android:contentDescription="@string/next_string" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/settingCollected"
+                android:layout_marginTop="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2.5">
+
+                <ImageView
+                    android:src="@drawable/collection"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    tools:ignore="NestedWeights"
+                    android:contentDescription="@string/through_note_string" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="6"
+                    android:theme="@style/settingUnitTextStyle"
+                    android:text="@string/has_collected_string"
+                    android:gravity="center_vertical"
+                    android:layout_marginStart="16dp"
+                    android:layout_height="match_parent" />
+
+                <ImageView
+                    android:src="@drawable/next"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:layout_margin="16dp"
+                    android:contentDescription="@string/next_string" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+</layout>

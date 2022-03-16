@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.home.BookMarkFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:orientation="vertical"
+            android:weightSum="10"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:orientation="horizontal"
+                android:weightSum="10"
+                tools:ignore="UselessLeaf,UselessParent">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:gravity="center"
+                    android:text="@string/your_mark_score_string"
+                    android:textAlignment="center"
+                    android:theme="@style/bookMarkTextStyle"
+                    tools:ignore="NestedWeights" />
+
+                <ImageView
+                    android:id="@+id/oneScoreImage"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="4dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_no_mark_star"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/twoScoreImage"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="4dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_no_mark_star"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/threeScoreImage"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="4dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_no_mark_star"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/fourScoreImage"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="4dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_no_mark_star"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/fiveScoreImage"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="4dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_no_mark_star"
+                    tools:ignore="ContentDescription" />
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/markContentText"
+                style="@style/Widget.AppCompat.EditText"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="7"
+                android:autofillHints="说点什么吧"
+                android:inputType="text"
+                android:maxLines="@integer/text_min_line"
+                android:scrollbars="vertical"
+                tools:ignore="LabelFor" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/addBookMarkButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ok_string"
+            android:theme="@style/bookMarkTextStyle"
+            style="@style/Widget.AppCompat.Button.Colored"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

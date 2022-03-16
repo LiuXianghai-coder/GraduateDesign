@@ -1,0 +1,36 @@
+server:
+  ssl:
+    key-store: classpath:httpsservice.p12
+    key-store-type: pkcs12
+    key-store-password: 123456
+  port: 8082
+
+spring:
+  kafka:
+    bootstrap-servers:
+      - 127.0.0.1:9092
+    #    生产者的键和值的序列化对象
+    producer:
+      key-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+    #    消费者的键和值的反序列化对象
+    consumer:
+      key-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
+      value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
+      group-id: test-consumer-group
+    template:
+      default-topic: graduate
+
+    listener:
+        ack-mode: manual_immediate
+
+myData:
+  path: /var/tmp/
+  htmlFileName: "data.html"
+
+myConfiguration:
+  fileProtocolPrefix: "file://"
+  fileProtocolRegex: "^file://.+"
+  trustableRemoteAddr:
+    - 127.0.0.1
+    - 192.168.0.104

@@ -1,0 +1,13 @@
+{
+  "properties": [
+    {
+      "name": "myConfiguration.bookIndexName",
+      "type": "java.lang.String",
+      "description": "书籍弹性搜索容器对应的索引名称"
+    },
+    {
+      "name": "myConfiguration.authorIndexName",
+      "type": "java.lang.String",
+      "description": "作者对应的弹性搜索容器的索引名称"
+    }
+  ] }

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ShapeAppearance.App.SmallComponent" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">0dp</item>
+    </style>
+
+    <style name="Widget.App.ExtendedFloatingActionButton" parent="Widget.MaterialComponents.ExtendedFloatingActionButton.Icon">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.FloatingActionButton</item>
+    </style>
+
+    <style name="ThemeOverlay.App.FloatingActionButton" parent="">
+        <item name="colorSecondary">@color/black</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorOnSurface">@color/black</item>
+    </style>
+
+    <style name="LoginTextHintStyle">
+        <item name="fontFamily">@font/wei_ruan_ya_hei_1</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+    <style name="LoginEditTextStyle">
+        <item name="fontFamily">@font/wei_ruan_ya_hei_1</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="LoginButtonStyle">
+        <item name="colorAccent">@color/design_default_color_surface</item>
+        <item name="android:textSize">32sp</item>
+    </style>
+
+    <style name="LoginButtonColorLess" parent="Widget.AppCompat.Button.Borderless.Colored">
+        <item name="backgroundColor">@color/white</item>
+        <item name="android:textColor">@color/purple_700</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="RegisterTextStyle">
+        <item name="fontFamily">@font/jet_brains_mono_regular</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="settingTextStyle">
+        <item name="fontFamily">@font/wei_ruan_ya_hei_1</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="settingUnitTextStyle">
+        <item name="fontFamily">@font/kaiw5_gb5_2</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="backgroundColor">@color/white</item>
+    </style>
+
+    <style name="bookDetailTextStyle">
+        <item name="fontFamily">@font/wei_ruan_ya_hei_1</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="bookDetailScoreTextStyle">
+        <item name="fontFamily">@font/wei_ruan_ya_hei_1</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="bookChapterDefaultTextStyle">
+        <item name="fontFamily">@font/wei_ruan_ya_hei_1</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="bookChapterOneKindTextStyle">
+        <item name="fontFamily">@font/wei_ruan_ya_hei_1</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="bookChapterTwoKindTextStyle">
+        <item name="fontFamily">@font/wei_ruan_ya_hei_1</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="bookChapterThreeKindTextStyle">
+        <item name="fontFamily">@font/wei_ruan_ya_hei_1</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="bookCommentTextStyle">
+        <item name="fontFamily">@font/wei_ruan_ya_hei_1</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="bookMarkTextStyle">
+        <item name="fontFamily">@font/wei_ruan_ya_hei_1</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="bookReviewItemTextStyle">
+        <item name="fontFamily">@font/wei_ruan_ya_hei_1</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

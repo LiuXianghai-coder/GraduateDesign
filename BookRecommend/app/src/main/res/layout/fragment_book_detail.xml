@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.home.BookDetailFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:weightSum="10"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/bookDetailHeadImage"
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/ic_app_icon"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="ContentDescription" />
+
+                <LinearLayout
+                    android:layout_weight="7"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:weightSum="3"
+                    android:layout_marginStart="8dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/bookDetailName"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center"
+                        android:text="@string/book_name_string"
+                        android:textAlignment="textStart"
+                        android:theme="@style/bookDetailTextStyle"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/bookDetailHeadImage"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:ignore="NestedWeights,RtlCompat" />
+
+                    <TextView
+                        android:id="@+id/bookDetailAuthorName"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center"
+                        android:text="@string/author_name_string"
+                        android:textAlignment="textStart"
+                        android:theme="@style/bookDetailTextStyle"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/bookDetailHeadImage"
+                        app:layout_constraintTop_toBottomOf="@+id/bookDetailName"
+                        tools:ignore="RtlCompat" />
+
+                    <TextView
+                        android:id="@+id/bookDetailPublisherInfo"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_gravity="center |center_vertical"
+                        android:text="@string/publisher_info_string"
+                        android:theme="@style/bookDetailTextStyle"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/bookDetailHeadImage"
+                        app:layout_constraintTop_toBottomOf="@+id/bookDetailAuthorName" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/bookScoreLayout"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                android:orientation="horizontal"
+                android:weightSum="10"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/linearLayout1"
+                tools:ignore="UselessLeaf">
+
+                <TextView
+                    android:id="@+id/bookDetailScore"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:text="@string/score_string"
+                    android:textAlignment="center" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="7"
+                    android:orientation="vertical"
+                    android:weightSum="10">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_weight="2"
+                        android:orientation="horizontal"
+                        android:weightSum="10"
+                        tools:ignore="NestedWeights">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="3"
+                            android:gravity="center"
+                            android:text="@string/five_score_string"
+                            android:textAlignment="center"
+                            android:theme="@style/bookDetailScoreTextStyle" />
+
+                        <TextView
+                            android:id="@+id/fiveScoreText"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="7"
+                            android:gravity="center"
+                            android:textAlignment="center" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_weight="2"
+                        android:orientation="horizontal"
+                        android:weightSum="10"
+                        tools:ignore="NestedWeights">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="3"
+                            android:gravity="center"
+                            android:text="@string/four_score_string"
+                            android:textAlignment="center"
+                            android:theme="@style/bookDetailScoreTextStyle" />
+
+                        <TextView
+                            android:id="@+id/fourScoreText"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="7"
+                            android:gravity="center"
+                            android:textAlignment="center" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_weight="2"
+                        android:orientation="horizontal"
+                        android:weightSum="10"
+                        tools:ignore="NestedWeights">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="3"
+                            android:gravity="center"
+                            android:text="@string/three_score_string"
+                            android:textAlignment="center"
+                            android:theme="@style/bookDetailScoreTextStyle" />
+
+                        <TextView
+                            android:id="@+id/threeScoreText"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="7"
+                            android:gravity="center"
+                            android:textAlignment="center" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_weight="2"
+                        android:orientation="horizontal"
+                        android:weightSum="10"
+                        tools:ignore="NestedWeights">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="3"
+                            android:gravity="center"
+                            android:text="@string/two_score_string"
+                            android:textAlignment="center"
+                            android:theme="@style/bookDetailScoreTextStyle" />
+
+                        <TextView
+                            android:id="@+id/twoScoreText"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="7"
+                            android:gravity="center"
+                            android:textAlignment="center" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_weight="2"
+                        android:orientation="horizontal"
+                        android:weightSum="10"
+                        tools:ignore="NestedWeights">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="3"
+                            android:gravity="center"
+                            android:text="@string/one_score_string"
+                            android:textAlignment="center"
+                            android:theme="@style/bookDetailScoreTextStyle" />
+
+                        <TextView
+                            android:id="@+id/oneScoreText"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="7"
+                            android:gravity="center"
+                            android:textAlignment="center" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/bookDetailIntro"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:text="@string/book_intro_string"
+                android:maxLines="@integer/text_max_line"
+                android:scrollbars="vertical"
+                android:gravity="top"
+                android:theme="@style/bookDetailTextStyle"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                android:scrollbarAlwaysDrawVerticalTrack="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/bookScoreLayout"/>
+
+            <LinearLayout
+                android:id="@+id/bookDetailChapters"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                android:orientation="vertical"
+                app:layout_constraintTop_toBottomOf="@id/bookDetailIntro"
+                tools:ignore="UselessLeaf">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:gravity="top"
+                    android:text="@string/chapter_info"
+                    android:textAlignment="center"
+                    android:theme="@style/bookDetailTextStyle"
+                    tools:ignore="RtlCompat" />
+
+                <TextView
+                    android:id="@+id/bookDetailChapterOne"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:theme="@style/bookDetailTextStyle"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:id="@+id/bookDetailChapterTwo"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:theme="@style/bookDetailTextStyle"
+                    tools:ignore="HardcodedText" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/bookDetailAuthorIntro"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:maxLines="@integer/text_max_line"
+                android:gravity="top"
+                android:scrollbars="vertical"
+                android:text="@string/author_intro_string"
+                android:theme="@style/bookDetailTextStyle"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/bookDetailChapters"/>
+
+            <TextView
+                android:id="@+id/bookDetailReviews"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:textAlignment="textEnd"
+                android:gravity="center |end"
+                android:text="@string/refer_vook_review"
+                android:theme="@style/bookDetailTextStyle"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/bookDetailAuthorIntro"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                android:orientation="horizontal"
+                android:weightSum="10"
+                app:layout_constraintTop_toBottomOf="@+id/bookDetailReviews"
+                tools:ignore="UselessLeaf">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.2" />
+
+                <ImageButton
+                    android:id="@+id/bookDetailStar"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:src="@drawable/ic_good"
+                    tools:ignore="ContentDescription" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+
+                <ImageButton
+                    android:id="@+id/bookDetailComment"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:src="@drawable/ic_comment"
+                    tools:ignore="ContentDescription" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <ImageButton
+                    android:id="@+id/bookDetailCollection"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:src="@drawable/ic_collection"
+                    tools:ignore="ContentDescription" />
+
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</layout>

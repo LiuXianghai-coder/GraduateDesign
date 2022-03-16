@@ -1,0 +1,15 @@
+server:
+  port: 9030
+
+myConfiguration:
+  #  书籍信息索引名称
+  bookIndexName: "book"
+  #  书籍信息索引名称
+  authorIndexName: "author"
+
+
+spring:
+  datasource:
+    url: jdbc:postgresql://39.99.129.90:5432/recommend_system
+    username: postgres
+    password: 17358870357yi

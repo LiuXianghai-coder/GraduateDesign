@@ -1,0 +1,71 @@
+server:
+  port: 8083
+
+spring:
+  datasource:
+    url: jdbc:postgresql://127.0.0.1:5432/recommend_system
+    username: postgres
+    password: 17358870357yi
+    driver-class-name: org.postgresql.Driver
+  kafka:
+    bootstrap-servers:
+      - 127.0.0.1:9092
+    #    生产者的键和值的序列化对象
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+      #     配置生产者的 Json 序列化的可信赖包
+      properties:
+        spring:
+          json:
+            trusted:
+              packages: "org.graduate.service.Entity"
+
+    #    消费者的键和值的反序列化对象
+    consumer:
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      group-id: test-consumer-group
+      #     配置消费者的 Json 反序列化的可信赖包
+      properties:
+        isolation:
+          level: read_committed
+        spring:
+          json:
+            trusted:
+              packages: org.graduate.parsedata.Entity
+      enable-auto-commit: false
+      auto-offset-reset: earliest
+
+    #      默认的主题名称
+    template:
+      default-topic: graduate
+
+    listener:
+      ack-mode: manual_immediate
+
+# 数据文件的配置信息
+myData:
+  path: /var/tmp/
+  #  写入文件的缓冲区大小
+  bufferSize: 4096
+  elementsFileName: "elements"
+  # 处理过程中的 html 文件名
+  htmlFileName: data.html
+  #  存储第一次请求得到的DOM内容， 以及经过浏览器解析得到的 Dom 内容
+  pageFileName: src/main/resources/templates/data.html
+
+myConfiguration:
+  securityHttpProtocol: "https"
+  defaultHttpProtocol: "http:"
+  httpPrefixRegex: "^http[s]?:"
+  hrefRegex: "^http[s]?://[^.]+.[^.]+.[^/]+.+"
+  fileProtocolPrefix: "file://"
+  fileProtocolRegex: "^file://.+"
+  #  匹配那些没有协议前缀的 URL
+  urlRegex: "//[^.]+.[^.]+.[a-z|A-Z]+"
+  #  note: 确保设置了对应的浏览器程序的环境变量
+  browser: "google-chrome"
+  trustableRemoteAddr:
+    - 127.0.0.1
+    - 192.168.0.104
